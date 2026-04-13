@@ -9,7 +9,7 @@ src = "."
 build-dir = "book"
 
 [output.html]
-default-theme = "rust"
+default-theme = "navy"
 preferred-dark-theme = "navy"
 no-section-label = false
 site-url = "/"
