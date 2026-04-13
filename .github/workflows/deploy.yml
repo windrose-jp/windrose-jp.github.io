@@ -1,0 +1,154 @@
+name: Deploy mdBook to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate changelog
+        run: |
+          python3 << 'PYEOF'
+          import re, subprocess
+
+          # SUMMARY.mdからファイル名→ページ名マッピングを構築
+          page_map = {}
+          with open('SUMMARY.md', 'r') as f:
+              for line in f:
+                  m = re.search(r'\[(.+?)\]\((.+?)\)', line)
+                  if m:
+                      name, path = m.group(1), m.group(2)
+                      page_map[path] = name
+
+          # [wiki]プレフィックス付きコミット一覧を取得
+          log = subprocess.run(
+              ['git', 'log', '--pretty=format:%H|%ad|%s', '--date=short', '-100'],
+              capture_output=True, text=True
+          ).stdout.strip().split('\n')
+
+          # 自動生成エントリを収集
+          auto_entries = []  # (date_str, top_line, full_line)
+          for entry in log:
+              if not entry:
+                  continue
+              sha, date, msg = entry.split('|', 2)
+              if not msg.startswith('[wiki] '):
+                  continue
+              msg = msg.replace('[wiki] ', '', 1)
+              # メッセージ先頭の日付 (YYYY-MM-DD ) を除去
+              msg = re.sub(r'^\d{4}-\d{2}-\d{2}\s+', '', msg)
+
+              # このコミットで変更された.mdファイルを取得
+              diff = subprocess.run(
+                  ['git', 'diff-tree', '--no-commit-id', '-r', '--name-only', sha],
+                  capture_output=True, text=True
+              ).stdout.strip().split('\n')
+              md_files = [f for f in diff if f.endswith('.md') and f not in ('README.md', 'SUMMARY.md', 'changelog.md')]
+
+              # ページ名リンクに変換
+              links = []
+              for f in md_files:
+                  name = page_map.get(f, None)
+                  if name:
+                      html = f.replace('.md', '.html').replace('README.html', 'index.html')
+                      links.append(f'[{name}]({html})')
+
+              line = f'- {date}: {msg}'
+              full_line = line
+              if links:
+                  full_line += ' (' + '、'.join(links) + ')'
+
+              auto_entries.append((date, line, full_line))
+
+          # 手動分エントリを収集（FULL_CHANGELOG_END以降の箇条書き行）
+          with open('changelog.md', 'r') as f:
+              cl_content = f.read()
+          manual_section = re.split(r'<!-- FULL_CHANGELOG_END -->', cl_content)[-1]
+          manual_entries = []
+          for line in manual_section.split('\n'):
+              m = re.match(r'^- (\d{4}-\d{2}-\d{2}): (.+)', line)
+              if m:
+                  manual_entries.append((m.group(1), line, line))
+
+          # 自動分と手動分を日付降順でマージ（自動分優先で重複除去）
+          auto_dates = {e[0] for e in auto_entries}
+          merged = auto_entries + [e for e in manual_entries if e[0] not in auto_dates]
+          merged.sort(key=lambda x: x[0], reverse=True)
+
+          top_text = '\n'.join(e[1] for e in merged[:10])
+          full_text = '\n'.join(e[2] for e in merged)
+
+          for fname, tag_start, tag_end, text in [
+              ('README.md', 'CHANGELOG_START', 'CHANGELOG_END', top_text),
+              ('changelog.md', 'FULL_CHANGELOG_START', 'FULL_CHANGELOG_END', full_text),
+          ]:
+              with open(fname, 'r') as f:
+                  content = f.read()
+              content = re.sub(
+                  rf'<!-- {tag_start} -->.*?<!-- {tag_end} -->',
+                  f'<!-- {tag_start} -->\n' + text + f'\n<!-- {tag_end} -->',
+                  content, flags=re.DOTALL)
+              with open(fname, 'w') as f:
+                  f.write(content)
+          PYEOF
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: "latest"
+
+      - name: Build
+        run: mdbook build
+
+      - name: Generate sitemap.xml
+        run: |
+          SITE_URL="https://windrose-jp.github.io"
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > book/sitemap.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> book/sitemap.xml
+          find book -name '*.html' ! -name 'print.html' ! -name '404.html' ! -name 'toc.html' | sort | while read f; do
+            path="${f#book/}"
+            echo "  <url><loc>${SITE_URL}/${path}</loc></url>" >> book/sitemap.xml
+          done
+          echo '</urlset>' >> book/sitemap.xml
+
+      - name: Add redirect to 404 page
+        run: |
+          sed -i 's|</head>|<meta http-equiv="refresh" content="3;url=/"></head>|' book/404.html
+          sed -i 's|<main>|<main><div style="text-align:center;padding:2em;"><p>ページが見つかりませんでした。3秒後にトップページへ移動します。</p><p><a href="/">トップページへ</a></p></div>|' book/404.html
+
+      - name: Copy static files
+        run: |
+          cp robots.txt book/robots.txt
+          cp google*.html book/ 2>/dev/null || true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./book
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

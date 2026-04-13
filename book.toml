@@ -1,0 +1,21 @@
+[book]
+title = "Windrose 日本語攻略まとめ"
+description = "Windrose（ウィンドローズ）の日本語攻略まとめ"
+authors = ["windrose-jp"]
+language = "ja"
+src = "."
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+no-section-label = false
+site-url = "/"
+additional-css = ["theme/custom.css"]
+additional-js = ["theme/analytics.js", "theme/kofi.js"]
+
+[output.html.fold]
+enable = true
+level = 0
