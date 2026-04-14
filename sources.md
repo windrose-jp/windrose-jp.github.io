@@ -15,6 +15,13 @@
 | 名前 | URL | 内容 |
 |------|-----|------|
 | ビギナーズガイド（Steam） | https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/ | 序盤攻略・システム解説 |
+| Windrose.tools | https://windrose.tools/ | 武器・アイテムデータベース（75種類の武器データあり） |
+| Windrose Wiki | https://windrosewiki.org/ | 英語コミュニティWiki |
+| TheGamesWiki Windrose | https://thegameswiki.com/wiki/Windrose | 英語攻略情報 |
+| Deltia's Gaming | https://deltiasgaming.com/category/windrose/ | 難易度解説・ビルドガイド |
+| BoostMatch | https://boostmatch.gg/windrose | 攻略ガイド・ビルド情報 |
+| MetaForge | https://metaforge.gg/windrose | 攻略情報・ビルドガイド |
+| InGameNews | https://www.ingamenews.com/ | 開発者インタビュー・ロードマップ情報 |
 
 ## 注意事項
 
