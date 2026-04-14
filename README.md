@@ -59,16 +59,12 @@
 
 ---
 
-## 更新履歴（[全履歴はこちら](changelog.md)）
+## 更新履歴
+
+[全履歴はこちら](changelog.md)
+
 <!-- CHANGELOG_START -->
 <!-- CHANGELOG_END -->
-
----
-
-## 主要情報源
-[Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/)
-[Steam コミュニティ](https://steamcommunity.com/app/3041230)
-[公式 X (Twitter)](https://x.com/WindroseCrew)
 
 ---
 
