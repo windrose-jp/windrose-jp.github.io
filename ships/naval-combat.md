@@ -2,6 +2,8 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/)
 
+![海戦](../images/ss1.jpg)
+
 ## 海戦の2段階
 
 Windroseの海戦は**砲撃フェーズ**と**乗り込みフェーズ**の2段階で構成されます。

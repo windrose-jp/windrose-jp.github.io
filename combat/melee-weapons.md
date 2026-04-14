@@ -2,6 +2,8 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/) / [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/)
 
+![近接戦闘](../images/ss7.jpg)
+
 ## 戦闘の基本
 
 - **ダメージを受けないことが最優先**。ブロックより回避を重視する

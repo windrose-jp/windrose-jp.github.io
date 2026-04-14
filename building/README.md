@@ -2,6 +2,8 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/)
 
+![建築パネル](../images/ss3.jpg)
+
 Windroseの建築システムでは、素材を使って自由に拠点を建設できます。簡易シェルターから豪邸・要塞まで、複数の建築スタイルが用意されています。
 
 ## 建築の基本

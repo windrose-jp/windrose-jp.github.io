@@ -2,6 +2,8 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/) / [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/)
 
+![キャラクタークリエイション](../images/ss6.jpg)
+
 Windroseにはクラスシステムはありません。代わりに**ステータス振り**・**タレント（Talent）ツリー**・**装備のロードアウト**の組み合わせでキャラクターをカスタマイズします。
 
 ## 各サブページ

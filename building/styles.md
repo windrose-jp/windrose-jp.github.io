@@ -2,6 +2,8 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/)
 
+![建築モード](../images/ss8.jpg)
+
 Windroseでは複数の建築スタイルが利用可能です。スタイルによって外観・使用素材・解放条件が異なります。
 
 ## 確認済みの建築スタイル
