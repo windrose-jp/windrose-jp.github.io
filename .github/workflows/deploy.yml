@@ -36,7 +36,7 @@ jobs:
                       name, path = m.group(1), m.group(2)
                       page_map[path] = name
 
-          # [wiki]プレフィックス付きコミット一覧を取得
+          # [攻略]プレフィックス付きコミット一覧を取得
           log = subprocess.run(
               ['git', 'log', '--pretty=format:%H|%ad|%s', '--date=short', '-100'],
               capture_output=True, text=True
@@ -48,9 +48,9 @@ jobs:
               if not entry:
                   continue
               sha, date, msg = entry.split('|', 2)
-              if not msg.startswith('[wiki] '):
+              if not msg.startswith('[攻略] '):
                   continue
-              msg = msg.replace('[wiki] ', '', 1)
+              msg = msg.replace('[攻略] ', '', 1)
               # メッセージ先頭の日付 (YYYY-MM-DD ) を除去
               msg = re.sub(r'^\d{4}-\d{2}-\d{2}\s+', '', msg)
 
