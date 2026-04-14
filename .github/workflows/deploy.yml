@@ -61,6 +61,10 @@ jobs:
               ).stdout.strip().split('\n')
               md_files = [f for f in diff if f.endswith('.md') and f not in ('README.md', 'SUMMARY.md', 'changelog.md')]
 
+              # コンテンツ変更を含まないコミット（設定・テーマ等）はスキップ
+              if not md_files:
+                  continue
+
               # ページ名リンクに変換
               links = []
               for f in md_files:
