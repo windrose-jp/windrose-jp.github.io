@@ -1,12 +1,20 @@
 # パッチノート
 
-> 情報源: [Steam ニュース](https://store.steampowered.com/news/app/3041230)
+> 情報源: [Steam ニュース](https://store.steampowered.com/news/app/3041230) / [Steam ニュースRSSフィード](https://store.steampowered.com/feeds/news/app/3041230/) / [SteamDB パッチノート](https://steamdb.info/app/3041230/patchnotes/)
 
 ## Early Access 初期バージョン
 
-### v1.0.0（2026年4月14日）— Early Access 開始
+### Hotfix 0.10.0.1.6（2026年4月14日）
 
-Windrose Early Access 初回リリース。
+Early Access開始当日のホットフィックス。
+
+- ローカライズの改善
+- Nitradoリンクの修正
+- サーバー情報表示セクションのテキストフィールドをデフォルトで非表示に
+
+### v0.10.0（2026年4月14日）— Early Access 開始
+
+Windrose Early Access 初回リリース。リリース日に合わせてスタジオ名が **Windrose Crew → Kraken Express** に改称（チームは同一）。
 
 **収録コンテンツ**:
 - 3つのバイオーム

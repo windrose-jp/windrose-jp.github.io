@@ -7,8 +7,9 @@
 | 項目 | 内容 |
 |------|------|
 | タイトル | Windrose（ウィンドローズ） |
-| 開発元 | Windrose Crew |
-| パブリッシャー | Windrose Crew / Pocketpair Publishing（日本） |
+| 開発元 | Kraken Express（旧: Windrose Crew、2026年4月14日改称） |
+| パブリッシャー | Kraken Express / Pocketpair Publishing（日本） |
+| サポーターバンドル | $39.99 USD（サウンドトラック付き） |
 | ジャンル | オープンワールドサバイバルクラフト / アクションRPG |
 | プラットフォーム | PC (Steam / Windows 10/11 64-bit) |
 | Early Access開始 | 2026年4月14日 |
