@@ -1,156 +1,154 @@
 # ビルド集
 
-> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch Talent Tree Guide](https://boostmatch.gg/blog/windrose/articles/windrose-talent-tree-guide-all-branches) / [Boostmatch Best Armor Sets](https://boostmatch.gg/blog/windrose/articles/windrose-best-armor-sets-builds-guide)
+> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch 防具ガイド](https://boostmatch.gg/blog/windrose/articles/windrose-best-armor-sets-builds-guide) / [Skycoach 武器Tierリスト](https://skycoach.gg/blog/windrose/articles/windrose-best-weapons-tier-list) / [Fandomwire 武器Tierリスト](https://fandomwire.com/windrose-weapons-tier-list/)
 
-## ビルドの基本方針
-
-Windroseのビルドは以下の3要素で決まります:
-
-1. **武器の種別とスケーリング（Strength / Agility / Precision）**
-2. **タレントブランチ（Fencer / Crusher / Marksman / Toughguy）**
-3. **防具セットボーナス（Flibustier / Pikeman / Marksman / Conquistador 等）**
-
-3要素を噛み合わせるほど火力・生存性が伸びます。以下は主要な4ビルド例です。
+Early Access 初期のビルド情報をまとめています。バランス調整により変動する場合があります。
 
 ---
 
-## 1. Fencer ブリードビルド（片手・出血特化）
+## ビルド共通の前提
 
-**コンセプト**: 千斬のレイピアで出血スタックを素早く5まで積み、DoTダメージで敵を削る。スタミナ効率が良く長期戦にも対応。
+どのビルドでも**まず取るべきタレント**:
+
+1. **Marathon Runner**（Toughguy T0）— ダッシュ・回避スタミナ削減。全ビルド最優先
+2. **Agile**（Fencer T0）— 回避反応・復帰を短縮
+
+食事バフは**常に2スロット埋めて**から遠征する。拠点の **Rested バフ**（Bonfire 近くで取得・デコレーション数で延長、最大30分）も出発前に確認する。
+
+---
+
+## ブリードビルド（出血特化 / Fencer系）
+
+序盤から中盤まで安定して機能する入門ビルド。**S Tier 評価**。
 
 ### 主要装備
-| 部位 | 装備 |
-|------|------|
-| 武器 | **千斬のレイピア（Rapier of a Thousand Cuts）** — 出血スタック最大5 |
-| 予備武器 | ピストル（開幕の距離詰めに一発） |
-| 防具 | **Flibustier Set 4pc**（片手+15%・攻撃スタミナ消費軽減） |
-| 混成 | **Tracker Set 2pc**（生存性） |
 
-### タレント優先順
-1. Agile（Fencer T0） — スタミナ機動力
-2. Marathon Runner（Toughguy T0） — 疾走効率
-3. Deep Cuts（Fencer T0） — 斬撃/出血強化
-4. Perfect Counter（Fencer T1） — パリィ反撃
-5. Evasive Fencer（Fencer T2） — 回避後ダメージ増幅
+| 枠 | 推奨 | 代替 |
+|----|------|------|
+| 武器 | **千斬のレイピア（Rapier of a Thousand Cuts）** | Dueling Saber |
+| 防具 | **フリビュスティエセット 4部位**（片手+15%・スタミナ軽減） | Flibustier 2 + Tracker 2 |
+
+### 推奨タレント順
+
+Marathon Runner → Agile → **Deep Cuts** → Quick Strikes → Perfect Counter → Evasive Fencer
 
 ### 戦術
-- レイピアで素早く刺突コンボを叩き込み **出血5スタックまで積む**
-- DoT中はスタミナ回復のためヒット＆ランに切り替え
-- パリィ成功 → Perfect Counter の反撃が主要ダメージソース
-- スタミナ消費の軽さで **長期戦・ボス戦に強い**
+
+1. レイピアで連続攻撃し、**出血（Bleed）を5スタックまで積む**
+2. スタックが溜まったら少し距離を取り、DoT（継続ダメージ）で削る
+3. 被弾直後に即反撃で **Rally（HP一部回収）** を狙う
+4. スタミナが赤になる前に離脱
+
+### 昇格後の追加パッシブ
+
+Rapier of a Thousand Cuts を Epic に昇格させると「**キル時に全ブリード状態を最近傍の敵に転移**」が解放される。雑魚の集団戦で特に強力。
 
 ---
 
-## 2. Crusher タンクDPSビルド（両手重武器）
+## 両手重武器ビルド（Crusher系）
 
-**コンセプト**: ハルバード・グレートソード・ボーンブレイカーで敵のポイズを削り、スタガー中に大ダメージ。HP+200の厚みで正面から殴り合う。
+高い単体火力とポイズ破壊でボスに強いビルド。
 
 ### 主要装備
-| 部位 | 装備 |
-|------|------|
-| 武器 | **ボーンブレイカー（Crude 300 / Grade A）** またはハルバード / グレートソード |
-| 予備武器 | マスケット（開幕・遠距離の削り用） |
-| 防具 | **Pikeman Set 4pc**（両手+15%・HP+200） |
-| 混成 | **Tracker Set 2pc** |
 
-### タレント優先順
-1. Marathon Runner（Toughguy T0）
-2. Bonecrusher（Crusher T0） — 打撃・ポイズ削り
-3. Retribution（Crusher T0） — 被弾カウンター
-4. Massive（Crusher T1） — 重撃の強化
-5. Berserk（Crusher T2） — 低HP火力
+| 枠 | 推奨 | 代替 |
+|----|------|------|
+| 武器 | **Bonebreaker**（打撃300・Grade A・Strength） | Executioner、Dueling Greatsword |
+| サブ武器 | Pistol / Musket（ポイズ破壊後の追い打ち） | — |
+| 防具 | **パイクマンセット 4部位**（両手+15%・HP+200） | Conquistador 4部位 |
+
+### 推奨タレント順
+
+Marathon Runner → **Bonecrusher** → Retribution → Massive → Perfected Form → Berserk
 
 ### 戦術
-- リーチと打撃ダメージで **敵のポイズバー** を削る
-- ポイズ破壊 → スタガー中に重攻撃を叩き込む
-- HP+200 の厚みで **コンキスタドール代替のタンク役** も可能
-- 集団戦ではハルバード、ボスにはボーンブレイカー／グレートソードで使い分け
+
+1. Heavy Attack でボスのポイズバリアを削る（Bonebreaker はポイズ削り最速クラス）
+2. ポイズ破壊後に全力で重攻撃を叩き込む
+3. HP が下がったら Berserk でダメージを伸ばす
+4. Pikeman 4部位の HP+200 で場持ちを確保
 
 ---
 
-## 3. Marksman 遠距離ビルド
+## 遠距離ビルド（Marksman系）
 
-**コンセプト**: ピストル・マスケット・ブランダーバスでの一撃離脱。弾薬効率とリロード速度が生命線。
+距離を保ちながら高火力を維持するビルド。弾薬管理が課題。
 
 ### 主要装備
-| 部位 | 装備 |
-|------|------|
-| 主武器 | **バッカニアの友（Buccaneer's Friend / Pierce 585）** — 遠距離最高火力 |
-| サブ | 信頼のマスケット／ドレイクの二連ピストル |
-| 至近用 | ブランダーバス — 至近距離でボス火力最強 |
-| 防具 | **Marksman Set 4pc**（遠距離+15%・スタミナ軽減） |
 
-### タレント優先順
-1. Marathon Runner（Toughguy T0）
-2. Deep Impact（Marksman T0） — 遠距離クリ
-3. Firearm Training（Marksman T1） — 銃器全般強化
-4. Quick Hand（Marksman T1） — リロード速度
-5. Muzzle Reach **or** Extended Reach（Marksman T2） — 好みの射程選択
-6. Sniper's Focus（Marksman T3） — 狙撃特化
+| 枠 | 推奨 | 代替 |
+|----|------|------|
+| メイン武器 | **Buccaneer's Friend**（Pierce 585・Grade A・Precision） | Reliable Musket |
+| 近接サブ | Saber / Rapier（弾切れ時） | — |
+| 防具 | **マークスマンセット 4部位**（遠距離+15%） | Marksman 2 + Tracker 2 |
+
+### 推奨タレント順
+
+Marathon Runner → **Planning Ahead** → Bull's Eye → Firearm Training → Extended Reach → Sniper's Focus
 
 ### 戦術
-- **開幕マスケットで最大火力を叩き込む**
-- リロード中はヒット＆ランで距離を維持
-- 至近距離に詰められたらブランダーバスで吹き飛ばす
-- **火薬は希少資源** なのでダンジョンボス戦に温存
+
+1. 安全な距離を保ちながらマスケットで狙撃
+2. 雑魚には**銃を使わず近接で処理**し弾薬を温存
+3. ダンジョンボスのポイズ破壊後に集中射撃
+4. Sniper's Focus で静止時の精度・ダメージを最大化
 
 ---
 
-## 4. Toughguy タンクビルド
+## タンクビルド（Toughguy系）
 
-**コンセプト**: Conquistador のBulwark効果で攻撃中によろけない状態を作り、敵の攻撃を受けながらでも確実にダメージを通す。Co-opでのタンク役に最適。
+生存力最優先。Co-op のタンク役に最適。
 
 ### 主要装備
-| 部位 | 装備 |
-|------|------|
-| 武器 | ハルバード or グレートソード（リーチ重視） |
-| 防具 | **Conquistador Set 4pc**（Bulwark: 攻撃中のよろけ無効） |
-| 混成 | **Tracker Set 2pc** |
 
-### タレント優先順
-1. Marathon Runner（Toughguy T0）
-2. Stitches and Rum（Toughguy T0） — 回復アイテム効率
-3. Just a Flesh Wound（Toughguy T1） — 被ダメ軽減
-4. Flawless Defence（Toughguy T1） — ガード強化
-5. Stout Frame（Toughguy T2） — 最大HP増加
-6. Too Angry to Die（Toughguy T2） — 致死耐性
+| 枠 | 推奨 | 代替 |
+|----|------|------|
+| 武器 | **Soul Eater**（ライフスティール・Ghost Captain ドロップ） | Executioner |
+| 防具 | **コンキスタドールセット 4部位**（Bulwark: よろけ無効） | Pikeman 4部位 |
+
+### 推奨タレント順
+
+Marathon Runner → **You Will Answer for This** → Stitches and Rum → Just a Flesh Wound → Flawless Defence → Too Angry to Die
 
 ### 戦術
-- **Bulwarkで攻撃モーションが中断されない** ため、敵の攻撃を貰いながらでも確実にダメージを通せる
-- 被ダメージはHP+Rested+食事バフで相殺
-- Co-opでは **タンク役としてボスのターゲットを引きつける**
+
+1. Conquistador 4部位の **Bulwark** で被弾時もよろけずに攻撃を継続
+2. Soul Eater のライフスティールで戦闘中にHPを自己回復
+3. Just a Flesh Wound で致命傷を一度だけ耐える
+4. Co-op ではボスの正面に立ちタンクに徹する
 
 ---
 
-## 食事バフ運用（全ビルド共通）
+## 集団戦ビルド（ハルバード / Crusher系）
 
-食事バフは **同時に2つ** 維持できる。拠点で両方補充してから出発するのが基本。
+複数の敵をまとめて処理する場面で輝くビルド。
 
-| 食事 | 効果 | 向いているビルド |
-|------|------|----------------|
-| **Gazpacho（ガスパチョ）** | +20 Agility / 30分 | Fencer / Crusher（両手Agility） |
-| **Coffee（コーヒー）** | +20 Endurance / 30分 | 全ビルド（スタミナ増） |
-| **Burrito（ブリトー）** | +10 Mastery / 30分 | 全ビルド |
-| **Hearty Egg Broth（濃厚卵のスープ）** | +10 Agility / 30分 | Fencer / Crusher |
-| **Banana Muffin（バナナマフィン）** | +10 Precision / 30分 | Marksman / Fencer（レイピア） |
-| **Spicy Chicken with Sweet Potato** | +10 Vitality / 30分 | Toughguy / 全ビルド |
+### 主要装備
 
-食事の詳細は[食事・ポーション](buffs.md)および[料理](../crafting/cooking.md)を参照。
+| 枠 | 推奨 |
+|----|------|
+| 武器 | **エクゼキューショナー（Executioner）** — キル時クリ率上昇。昇格後: キル時15%ダメ軽減 |
+| 防具 | パイクマンセット 4部位（両手+15%・HP+200） |
 
----
+### 戦術
 
-## Co-op での役割分担（4人）
-
-4人Co-opでは **4ブランチを1人ずつ担当** すると理想的な役割分担になります:
-
-| 役割 | 担当ビルド | 主な仕事 |
-|------|----------|--------|
-| 前衛DPS | Fencer | 出血スタック維持・パリィ役 |
-| 前衛スタガー | Crusher | ポイズ削り・重攻撃 |
-| 後衛火力 | Marksman | ボス戦の最大火力・安全地帯から攻撃 |
-| タンク | Toughguy | ボスのターゲット引きつけ・蘇生補助 |
+1. ハルバードのリーチで複数敵を巻き込んで攻撃
+2. キルするたびにクリ率が上昇 → 連鎖でダメージが雪だるま式に増大
+3. 昇格後パッシブ（キル時15%ダメ軽減）で戦闘継続力も強化
 
 ---
+
+## Co-op での役割分担
+
+4人 Co-op では各系統で役割を分担すると効率的:
+
+| プレイヤー | 系統 | 役割 |
+|-----------|------|------|
+| 1人目 | **Toughguy** | タンク（ボスの攻撃を引き付ける） |
+| 2人目 | **Crusher** | ポイズ削り役（Heavy Attack 連打） |
+| 3人目 | **Fencer** | DPS（ポイズ破壊後に集中攻撃） |
+| 4人目 | **Marksman** | 後衛サポート（安全地帯から砲撃） |
 
 → タレントの詳細は[タレント](talents.md)を参照
-→ 防具セット効果は[防具一覧](../equipment/armor.md)を参照
+→ 武器の詳細は[武器一覧](../equipment/weapons.md)を参照
+→ 防具の詳細は[防具一覧](../equipment/armor.md)を参照

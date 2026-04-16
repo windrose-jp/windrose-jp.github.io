@@ -1,146 +1,119 @@
 # タレント
 
-> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch Talent Tree Guide](https://boostmatch.gg/blog/windrose/articles/windrose-talent-tree-guide-all-branches) / [TheGamesWiki Talent System](https://thegameswiki.com/windrose/wiki/talent-system)
+> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch タレントガイド](https://boostmatch.gg/blog/windrose/articles/windrose-talent-tree-guide-all-branches) / コミュニティ調査（2026年4月時点）
 
 ## タレントシステムの概要
 
-レベルアップするとタレントポイントを獲得し、タレントツリーに投資してキャラクターを強化できます。
+レベルアップするとタレントポイントを獲得し、4つのタレントツリーに投資してキャラクターを強化します。
 
-- 経験値の主な入手源は **クエスト完了・POI発見**（雑魚狩りでは伸びない）
-- レベルアップで **ステータスポイント + タレントポイント** を取得
-- 所持タレントポイント上限 = キャラクターレベル - 1
-- **各タレントは最大3ランク** まで投資可能、ランクごとに効果が上昇
-- **4つのブランチ**（Fencer / Crusher / Marksman / Toughguy）が戦闘スタイルに対応
+- **所持可能ポイント上限 = キャラクターレベル − 1**
+- 各タレントは**最大3ランク**まで強化可能（強化するごとに効果が増加）
+- 上位 Tier の解放には**下位 Tier への投資が必要**
+- **経験値の主な入手源はクエスト完了とPOI発見**。雑魚狩りでは伸びにくい
 
-上位Tierを解放するには同ブランチ内で一定ポイントを先行投資する必要があります（T1=3pt、T2=6pt などの前提条件）。
+4系統: **Fencer**（片手近接）/ **Crusher**（両手重武器）/ **Marksman**（遠距離）/ **Toughguy**（防御・生存）
 
----
-
-## Fencer（フェンサー） — 片手近接特化
-
-出血・素早いコンボ・カウンター重視。レイピア・サーベル・カットラス系と相性が良い。
-
-### Tier 0
-| タレント | 効果の方向性 |
-|---------|------------|
-| Deep Cuts（深い斬撃） | 斬撃/出血ダメージ強化 |
-| **Agile（アジャイル）** | **ダッシュ・ジャンプのスタミナ消費削減**（序盤必須級） |
-| Surgical Cuts（精密斬撃） | クリティカル率系 |
-
-### Tier 1（前提: 3pt投資）
-| タレント | 効果の方向性 |
-|---------|------------|
-| Quick Strikes（クイックストライク） | 連続攻撃速度・コンボ関連 |
-| **Perfect Counter（パーフェクトカウンター）** | **パリィ成功時の反撃強化** |
-| Duelist（デュエリスト） | 1対1の戦闘強化 |
-
-### Tier 2（前提: 6pt投資）
-**選択ノード**:
-- **Disciplined Fencer（規律あるフェンサー）** — 防御的フェンサースタイル
-- **Evasive Fencer（回避型フェンサー）** — 回避後ダメージ増幅
-
-他のノード:
-- Executioner's Grace（処刑人の優雅さ） — 瀕死敵への追加効果
-- Deadly Finale（必殺の終幕） — コンボ終了時の一撃強化
+Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割分担が完成する。
 
 ---
 
-## Crusher（クラッシャー） — 両手重武器特化
+## 全系統共通の推奨タレント（最優先）
 
-打撃・ポイズ削り・スタガー重視。グレートソード・ハルバード・ボーンブレイカーと相性。
+### Marathon Runner（Toughguy Tier 0）
+**全ビルドで最優先に取るべきタレント。**
 
-### Tier 0
-| タレント | 効果の方向性 |
-|---------|------------|
-| Bonecrusher（ボーンクラッシャー） | 打撃ダメージ・ポイズ削り強化 |
-| Retribution（リトリビューション） | 被弾時の反撃ダメージ |
+ダッシュ・回避のスタミナ消費を削減する。Windroseはスタミナ管理が根幹なので、系統を問わず全キャラが恩恵を受ける。
 
-### Tier 1（前提: 3pt投資）
-| タレント | 効果の方向性 |
-|---------|------------|
-| Massive（マッシブ） | 重攻撃のダメージ・範囲 |
-| Perfected Form（完成された型） | 攻撃モーション安定性 |
-| Executioner's Aim（処刑人の照準） | 致命部位狙撃 |
-
-### Tier 2（前提: 6pt投資）
-- **Berserk（バーサーク）** — 低HP時の火力ブースト
-- Dominating Presence（威圧） — 敵の怯み誘発率
-- Momentum（モメンタム） — 連続ヒットでダメージ累積
+### Agile（Fencer Tier 0）
+回避の反応速度と復帰を短縮。Marathon Runner の次に優先度が高い序盤タレント。
 
 ---
 
-## Marksman（マークスマン） — 遠距離特化
+## Fencer系統（片手近接）
 
-銃器・弾薬効率・射程重視。ピストル・マスケット・ブランダーバス主軸のビルド向け。
+片手武器全般（サーベル・レイピア・カトラス・ピストル等）に対応。回避と連携した戦術が軸。
 
-### Tier 0
-| タレント | 効果の方向性 |
-|---------|------------|
-| Planning Ahead（計画性） | 弾薬・リロード関連 |
-| Deep Impact（深い衝撃） | 遠距離クリティカルダメージ |
-| Bull's Eye（ブルズアイ） | 射撃の命中精度 |
+| Tier | タレント名 | 効果（概要） |
+|------|-----------|------------|
+| **Tier 0** | **Deep Cuts** | 出血（Bleed）の継続ダメージ強化 |
+| **Tier 0** | **Agile** | 回避の反応・復帰を短縮。**序盤推奨** |
+| **Tier 0** | **Surgical Cuts** | クリティカルヒット強化 |
+| Tier 1（3pt要） | **Quick Strikes** | 連続攻撃時のダメージ増加 |
+| Tier 1 | **Perfect Counter** | パリィ成功時の反撃ダメージ増加 |
+| Tier 1 | **Duelist** | 1対1状況でのダメージボーナス |
+| Tier 2（6pt要） | **Disciplined Fencer** ★ | スタミナ効率重視の安定型 |
+| Tier 2 | **Evasive Fencer** ★ | 回避後の攻撃ダメージ増加（★いずれか選択） |
+| Tier 2 | **Executioner's Grace** | キル後の回復・強化 |
+| Tier 2 | **Deadly Finale** | コンボのフィニッシュ攻撃を強化 |
 
-### Tier 1（前提: 3pt投資）
-| タレント | 効果の方向性 |
-|---------|------------|
-| Firearm Training（火器訓練） | 銃器全般のダメージ |
-| Quick Hand（クイックハンド） | リロード速度 |
-
-### Tier 2（前提: 3pt投資） — 選択ノード
-- **Muzzle Reach（マズルリーチ）** — 近〜中距離重視
-- **Extended Reach（エクステンデッドリーチ）** — 長距離射撃重視
-
-### Tier 3（前提: 6pt投資）
-- Bulletstorm（ブレットストーム） — 連射系
-- Sniper's Focus（スナイパーの集中） — 狙撃特化
-- Deadly Hunter（デッドリーハンター） — 高火力単発
-- Overpenetration（オーバーペネトレーション） — 貫通・多段ヒット
+★ Disciplined / Evasive Fencer は**どちらか一方を選択**するノード。
 
 ---
 
-## Toughguy（タフガイ） — 防御・生存特化
+## Crusher系統（両手重武器）
 
-被ダメ軽減・HP回復・スタミナ持続重視。タンク役・ソロプレイヤー向け。
+グレートソード・ハルバード・クラブ等の両手重武器に対応。重攻撃とポイズ（よろけ）破壊を軸とした戦術。
 
-### Tier 0
-| タレント | 効果の方向性 |
-|---------|------------|
-| You Will Answer for This（必ず報いを） | 被弾時のカウンター |
-| **Marathon Runner（マラソンランナー）** | **疾走・回避のスタミナ消費削減（全ビルド最優先級）** |
-| Stitches and Rum（縫い合わせとラム酒） | HP回復アイテムの効率 |
-
-### Tier 1（前提: 3pt投資）
-| タレント | 効果の方向性 |
-|---------|------------|
-| Just a Flesh Wound（かすり傷） | 被ダメ軽減 |
-| Flawless Defence（完璧な防御） | ブロック・ガード強化 |
-| Outnumbered（多勢に無勢） | 複数敵に囲まれた時の強化 |
-
-### Tier 2（前提: 6pt投資）
-- Too Angry to Die（死ぬには怒りすぎ） — 致死ダメージ耐性
-- Stout Frame（頑丈な骨格） — 最大HP増加
+| Tier | タレント名 | 効果（概要） |
+|------|-----------|------------|
+| **Tier 0** | **Bonecrusher** | 重攻撃のポイズ削り量増加 |
+| **Tier 0** | **Retribution** | 被弾後の反撃ダメージ増加 |
+| Tier 1（3pt要） | **Massive** | 重攻撃のダメージ増加 |
+| Tier 1 | **Perfected Form** | 重攻撃のスタミナ効率化 |
+| Tier 1 | **Executioner's Aim** | 弱点・怯み時のダメージ増加 |
+| Tier 2（6pt要） | **Berserk** | HP低下時にダメージ上昇 |
+| Tier 2 | **Dominating Presence** | 近くの敵の戦意を削る効果 |
+| Tier 2 | **Momentum** | 連続重攻撃でダメージが積み重なる |
 
 ---
 
-## 推奨タレント（序盤）
+## Marksman系統（遠距離・銃器）
 
-**最優先の2つ** はどのビルドでも恩恵が大きい:
+ピストル・マスケット・ブランダーバス等の遠距離武器に対応。射程管理と銃撃のタイミングを重視。
 
-1. **Marathon Runner（Toughguy T0）** — スタミナが全ての本作で、疾走・回避コスト削減は全ビルドで価値が高い
-2. **Agile（Fencer T0）** — ダッシュ・ジャンプのスタミナ消費削減。Marathon Runnerと併用で機動力が倍増
+| Tier | タレント名 | 効果（概要） |
+|------|-----------|------------|
+| **Tier 0** | **Planning Ahead** | リロード速度の向上 |
+| **Tier 0** | **Deep Impact** | 貫通ショットのダメージ増加 |
+| **Tier 0** | **Bull's Eye** | クリティカルヒット率の増加 |
+| Tier 1（3pt要） | **Firearm Training** | 銃全般のダメージ増加 |
+| Tier 1 | **Quick Hand** | 武器持ち替え速度の向上 |
+| Tier 2（3pt要） | **Muzzle Reach** ★ | 至近距離での威力増加（ブランダーバス向き） |
+| Tier 2 | **Extended Reach** ★ | 長距離での威力増加（マスケット向き）（★いずれか選択） |
+| Tier 3（6pt要） | **Bulletstorm** | 速射時のダメージ増加 |
+| Tier 3 | **Sniper's Focus** | 静止状態でのダメージ・精度強化 |
+| Tier 3 | **Deadly Hunter** | 弱体化した敵への追加ダメージ |
+| Tier 3 | **Overpenetration** | 弾丸が敵を貫通する確率 |
 
-その後はビルド方針に合わせて同じブランチに集中投資し、T1→T2への条件（3pt→6pt）を満たしていきます。
-
-## Co-opでの役割分担
-
-4人Co-opでは **4ブランチを1人ずつ担当** すると役割分担が綺麗に整います:
-
-- Fencer: 前衛DPS（出血スタック維持）
-- Crusher: 前衛タンクDPS（ポイズ削り）
-- Marksman: 後衛火力（ボス戦の最大火力）
-- Toughguy: 盾役・ヒーラー的立ち回り
+★ Muzzle Reach / Extended Reach は**どちらか一方を選択**するノード。ブランダーバスならMuzzle、マスケットならExtendedを選ぶ。
 
 ---
 
-→ ビルド構成の実例は[ビルド集](builds.md)を参照
-→ ステータス振りは[ステータス](stats.md)を参照
+## Toughguy系統（防御・生存）
+
+生存力・被ダメージ軽減・戦闘継続能力に特化した系統。全ビルドとの親和性が高い。
+
+| Tier | タレント名 | 効果（概要） |
+|------|-----------|------------|
+| **Tier 0** | **You Will Answer for This** | ラリー（被弾後反撃でHP回復）の効果増加 |
+| **Tier 0** | **Marathon Runner** | **ダッシュ・回避スタミナ消費削減。全ビルド最優先** |
+| **Tier 0** | **Stitches and Rum** | 包帯・ポーションの回復量増加 |
+| Tier 1（3pt要） | **Just a Flesh Wound** | 致命傷を一度だけ耐える効果 |
+| Tier 1 | **Flawless Defence** | パリィ成功時の被ダメージ軽減 |
+| Tier 1 | **Outnumbered** | 複数の敵に囲まれた時のダメージ軽減 |
+| Tier 2（6pt要） | **Too Angry to Die** | HP極低下時の一時無敵・攻撃力強化 |
+| Tier 2 | **Stout Frame** | 最大HP増加 |
+
+---
+
+## ビルド別おすすめ初期タレント
+
+| ビルド | 最初に取るべきタレント |
+|--------|-------------------|
+| どのビルドでも共通 | **Marathon Runner** → **Agile** |
+| 片手近接（Fencer） | Marathon Runner → Agile → Deep Cuts |
+| 両手重武器（Crusher） | Marathon Runner → Bonecrusher → Retribution |
+| 遠距離（Marksman） | Marathon Runner → Planning Ahead → Bull's Eye |
+| タンク（Toughguy） | Marathon Runner → You Will Answer for This → Stitches and Rum |
+
+→ 各ビルドの装備構成は[ビルド集](builds.md)を参照

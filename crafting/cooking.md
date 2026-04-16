@@ -1,126 +1,147 @@
 # 料理
 
-> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch Food Guide](https://boostmatch.gg/blog/windrose/articles/windrose-complete-food-guide-all-items-buffs-recipes) / [Dexerto Windrose Wiki](https://www.dexerto.com/wikis/windrose/)
+> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch 料理ガイド](https://boostmatch.gg/blog/windrose/articles/windrose-complete-food-guide-all-items-buffs-recipes) / [Dexerto Windrose Wiki](https://www.dexerto.com/wikis/windrose/) / [Windrose.tools アイテムDB](https://windrose.tools/items)
 
 ## 料理システムの概要
 
-食材を使って料理を作成し、食事バフを得られます。
-
-- 同時に **2つの食事バフ** を装備可能
-- 料理台は **マップのどこにでも設置可能**（拠点外でも使える）
-- 調理施設は **3段階のフェーズ** で解放されていき、後段ほど強力なバフ食が作れる
+食材を調理して**食事バフ**を得られます。同時に**2つの食事バフ**を装備でき、生存性の向上に重要です。遠征前に拠点で両方を補充してから出発する習慣をつけると良いでしょう。
 
 ---
 
-## 調理施設の3フェーズ
+## 料理施設の進行（3フェーズ）
 
-### フェーズ1: First Fire（焚き火系）
+料理台はゲーム進行に合わせてアップグレードされ、作れるレシピが増えていきます。
 
-序盤の基本調理施設。簡単な肉・魚料理をクラフト可能。
-
-**作れる代表料理**:
-- Boiled Crab（ボイルドクラブ）
-- Skewered Meat（肉の串焼き）
-- Bacon and Eggs（ベーコンエッグ）
-- Bean Soup（豆のスープ）— Agility +5 / 15分
-- Dodo Broth（ドードーブロス）
-
-### フェーズ2: Millstone（石臼）
-
-中盤に解放される調理施設。粉物やスープ系の **30分持続バフ食** が解放される。
-
-**作れる代表料理**:
-- **Gazpacho（ガスパチョ）** — Agility +20 / 30分（最強Agilityバフ）
-- **Coffee（コーヒー）** — Endurance +20 / 30分（最強Enduranceバフ）
-- Burrito（ブリトー） — Mastery +10 / 30分
-- Chicha Morada（チチャモラーダ） — Endurance +10 / 30分
-- Banana Muffin（バナナマフィン） — Precision +10 / 30分
-- Beans with Mushrooms and Sweet Potato — Vitality +10 / 30分
-- Chowder（チャウダー） — Agility +10 / 30分
-- Crab Soup with Diced Tomatoes
-- Coconut Soup
-- Nut Pie（ナッツパイ） — Precision +5
-- Tortilla（トルティーヤ）
-
-### フェーズ3: Food Dryer（フードドライヤー）
-
-後半に解放される最上位調理施設。長時間・高倍率バフ食を作れる。
-
-**作れる代表料理**:
-- **Hearty Egg Broth（濃厚卵のスープ）** — Agility +10 / 30分
-- Spicy "Chicken" with Sweet Potato — Vitality +10 / 30分
-- Meat in Tangy Mushroom Sauce
-- Meat in Tomato-Wine Sauce
-- Seafood Platter
-- Pastechi
-- Tamale
-- Tangy Nut Roll
-- Swamp Pie
-- Crocodile Meat with Swamp Sauce
+| フェーズ | 施設名 | 解放条件 | 設置場所 |
+|---------|--------|---------|---------|
+| **Phase 1** | Cooking Fire（焚き火料理台） | 序盤から使用可 | **マップのどこにでも設置可能** |
+| **Phase 2** | Millstone（石臼） | Copper 解放後 | 拠点 |
+| **Phase 3** | Culinary Station / Food Dryer | 中盤以降 | 拠点 |
 
 ---
 
-## 主要レシピの素材
+## Phase 1: Cooking Fire で作れる料理
 
-| 料理 | 素材 | バフ |
-|------|------|------|
-| Seafood Skewer | Crab Meat×1 + Fish Fillet×4 + Tomato×2 | Strength +5 |
-| Spicy "Chicken" with Sweet Potato | Bird Meat×1 + Sweet Potato×4 + Cayenne Pepper×4 | Vitality +10 / 30分 |
-| Hearty Egg Broth | Bird Meat×2 + Dodo Egg×1 + Sweet Potato×4 | Agility +10 / 30分 |
-| Seasoned Crocodile Meat | Crocodile Tail×4 + Mysterious Spices×2 + Cocoplum×5 + Leek×5 | — |
-
----
-
-## 全料理一覧（39種）
-
-First Fire系、Millstone系、Food Dryer系それぞれを含めた実装済み料理リスト:
-
-Bacon and Eggs / Banana Muffin / Bean Soup / Beans with Mushrooms and Sweet Potato / Boiled Crab / Burrito / Chicha Morada / Chowder / Coconut Milk With Bananas / Coconut Soup / Coffee / Crab Soup with Diced Tomatoes / Crocodile Meat with Swamp Sauce / Dodo Broth / Fish and Tostones / Gazpacho / Hearty Egg Broth / Meat in Tangy Mushroom Sauce / Meat in Tomato-Wine Sauce / Meat Salad / Nut Pie / Pastechi / Refreshing Nut Drink / Refreshing Tomato Juice / Seafood Platter / Seafood Skewer / Seasoned Crocodile Meat / Skewered Crocodile Meat / Skewered Meat / Spicy "Chicken" with Sweet Potato / Spicy Breaded Kebab / Spicy Skewered Crab / Spicy Swamp Juice / Swamp Pie / Sweet Lime Juice / Taco / Tamale / Tangy Nut Roll / Tortilla
+| 料理名 | 主な素材 | バフ効果 |
+|--------|---------|---------|
+| Boiled Crab（茹でカニ） | Crab Meat | 情報収集中 |
+| Skewered Meat（肉の串焼き） | Bird/Boar Meat | 情報収集中 |
+| Bacon and Eggs（ベーコンエッグ） | Bird Meat・Dodo Egg | 情報収集中 |
+| Dodo Broth（ドードースープ） | Bird Meat（Dodo） | 情報収集中 |
 
 ---
 
-## 食材の入手
+## Phase 2: Millstone で作れる料理
 
-### 主要食材
+| 料理名 | 主な素材 | バフ効果 | 時間 |
+|--------|---------|---------|------|
+| **Bean Soup（豆スープ）** | Beans | Agility +5 | 15分 |
+| Crab Soup with Diced Tomatoes | Crab Meat・Tomato | 情報収集中 | — |
+| Coconut Soup（ヤシのスープ） | Coconut | 情報収集中 | — |
+| Nut Pie（ナッツパイ） | Nuts | Precision +5 | — |
+| Tortilla（トルティーヤ） | Beans 系 | 情報収集中 | — |
+
+---
+
+## Phase 3: Culinary Station / Food Dryer で作れる料理
+
+最も強力なバフを持つ上位料理。長時間の探索・ボス戦前に特に有効。
+
+| 料理名 | バフ効果 | 時間 | 素材（主要） |
+|--------|---------|------|------------|
+| **Gazpacho（ガスパチョ）** | **Agility +20** | **30分** | Tomato 系 |
+| **Coffee（コーヒー）** | **Endurance +20** | **30分** | Coffee Beans |
+| **Hearty Egg Broth（卵の出汁スープ）** | Agility +10 | 30分 | Bird Meat ×2・Dodo Egg ×1・Sweet Potato ×4 |
+| **Chowder（チャウダー）** | Agility +10 | 30分 | 情報収集中 |
+| **Chicha Morada** | Endurance +10 | 30分 | 情報収集中 |
+| **Banana Muffin（バナナマフィン）** | Precision +10 | 30分 | 情報収集中 |
+| **Burrito（ブリトー）** | Mastery +10 | 30分 | 情報収集中 |
+| Beans with Mushrooms and Sweet Potato | Vitality +10 | 30分 | Beans・Mushroom・Sweet Potato |
+| Spicy "Chicken" with Sweet Potato | Vitality +10 | 30分 | Bird Meat ×1・Sweet Potato ×4・Cayenne Pepper ×4 |
+| Coconut Milk with Bananas | 最大スタミナ増加 | — | Coconut・Banana |
+
+---
+
+## 全料理レシピ一覧（39種）
+
+| No. | 料理名（英語） | カナ表記 |
+|-----|-------------|---------|
+| 1 | Bacon and Eggs | ベーコンエッグ |
+| 2 | Banana Muffin | バナナマフィン |
+| 3 | Bean Soup | 豆スープ |
+| 4 | Beans with Mushrooms and Sweet Potato | きのこと豆のサツマイモ添え |
+| 5 | Boiled Crab | 茹でカニ |
+| 6 | Burrito | ブリトー |
+| 7 | Chicha Morada | チチャモラーダ |
+| 8 | Chowder | チャウダー |
+| 9 | Coconut Milk with Bananas | バナナのヤシミルク |
+| 10 | Coconut Soup | ヤシのスープ |
+| 11 | Coffee | コーヒー |
+| 12 | Crab Soup with Diced Tomatoes | カニとトマトのスープ |
+| 13 | Crocodile Meat with Swamp Sauce | ワニ肉の沼ソース添え |
+| 14 | Dodo Broth | ドードースープ |
+| 15 | Fish and Tostones | 魚とトストーネス |
+| 16 | Gazpacho | ガスパチョ |
+| 17 | Hearty Egg Broth | 卵の出汁スープ |
+| 18 | Meat in Tangy Mushroom Sauce | きのこのタンギーソース肉 |
+| 19 | Meat in Tomato-Wine Sauce | トマトワインソース肉 |
+| 20 | Meat Salad | 肉サラダ |
+| 21 | Nut Pie | ナッツパイ |
+| 22 | Pastechi | パステチ |
+| 23 | Refreshing Nut Drink | さわやかナッツドリンク |
+| 24 | Refreshing Tomato Juice | さわやかトマトジュース |
+| 25 | Seafood Platter | シーフードプラッター |
+| 26 | Seafood Skewer | シーフード串 |
+| 27 | Seasoned Crocodile Meat | 味付きワニ肉 |
+| 28 | Skewered Crocodile Meat | ワニ肉の串焼き |
+| 29 | Skewered Meat | 肉の串焼き |
+| 30 | Spicy "Chicken" with Sweet Potato | スパイシーチキンとサツマイモ |
+| 31 | Spicy Breaded Kebab | スパイシーパン粉ケバブ |
+| 32 | Spicy Skewered Crab | スパイシーカニ串 |
+| 33 | Spicy Swamp Juice | スパイシー沼ジュース |
+| 34 | Swamp Pie | 沼のパイ |
+| 35 | Sweet Lime Juice | スイートライムジュース |
+| 36 | Taco | タコ |
+| 37 | Tamale | タマーレ |
+| 38 | Tangy Nut Roll | タンギーナッツロール |
+| 39 | Tortilla | トルティーヤ |
+
+---
+
+## 素材レシピ例（具体的な素材数が判明しているもの）
+
+| 料理 | 素材 |
+|------|------|
+| Seafood Skewer | Crab Meat ×1・Fish Fillet ×4・Tomato ×2 |
+| Spicy "Chicken" with Sweet Potato | Bird Meat ×1・Sweet Potato ×4・Cayenne Pepper ×4 |
+| Hearty Egg Broth | Bird Meat ×2・Dodo Egg ×1・Sweet Potato ×4 |
+| Seasoned Crocodile Meat | Crocodile Tail ×4・Mysterious Spices ×2・Cocoplum ×5・Leek ×5 |
+
+---
+
+## 食材の主な入手方法
 
 | 食材 | 入手方法 |
 |------|---------|
-| ドードーの肉（Bird Meat） | Dodoを倒す |
-| ドードーの卵（Dodo Egg） | Dodoの巣から採取 |
-| イノシシの肉 | Boarを倒す |
-| カニの肉（Crab Meat） | 浜辺のカニを倒す |
-| 魚の切身（Fish Fillet） | 釣り・浜辺 |
-| クロコダイルの尾（Crocodile Tail） | Cursed Swampsのクロコダイル |
-| トマト（Tomato） | 栽培・野生採取 |
-| サツマイモ（Sweet Potato） | 栽培・野生採取 |
-| ココナッツ（Coconut） | ヤシの木を揺らす |
-| バナナ | 浜辺のバナナの木 |
-| 豆（Beans） | Cursed Swamps |
-| ブロメリア（Bromeliad） | Cursed Swamps |
-| 葉物（Leek） | 栽培 |
-| ケイエンペッパー（Cayenne Pepper） | 栽培・野生採取 |
-| 蜂蜜 | Foothills等 |
-| Mysterious Spices | 宝箱・商人 |
-
-### 飲料系
-
-| 飲料 | 効果の方向性 |
-|------|------------|
-| Coffee（コーヒー） | Endurance系 |
-| Chicha Morada | Endurance系 |
-| Refreshing Tomato Juice | リフレッシュ |
-| Sweet Lime Juice | リフレッシュ |
-| Spicy Swamp Juice | Cursed Swamps素材 |
+| Bird Meat / Dodo Egg | ドードー（Dodo）を倒す |
+| Boar Meat | イノシシ（Boar）を倒す |
+| Crab Meat | カニを倒す |
+| Crocodile Tail | ワニを倒す（Cursed Swamps） |
+| Coconut | ヤシの木を揺らす（**伐採しないこと**） |
+| Fish Fillet | 魚を倒す |
+| Coffee Beans | 諸島航行時の船倉から入手 |
 
 ---
 
-## 注意点
+## 料理バフの優先度
 
-**ヤシの木は切り倒さない**: ヤシの木から採れるヤシの実はヤシミルクの原料です。**切り倒すのではなく「揺らす」とCoconutが落ちる**。一度伐採すると復活に時間がかかるため、素材として継続的に利用するために伐採を避けましょう。
+ボス戦・長時間探索前の推奨バフ組み合わせ:
 
-**食材の保存**: 生肉は腐敗するため、確保したら早めに調理するか塩漬けなどの保存加工を行うと無駄なく運用できる。
+| 場面 | 推奨バフ1 | 推奨バフ2 |
+|------|----------|---------|
+| 近接ビルド | Gazpacho（AGI+20） | Hearty Egg Broth（AGI+10） |
+| 持久戦 | Coffee（END+20） | Chowder（AGI+10） |
+| 遠距離 | Banana Muffin（PRE+10） | Coffee（END+20） |
+| 汎用 | Spicy Chicken（VIT+10） | Bean Soup（AGI+5） |
 
----
-
-→ 施設の詳細は[クラフトステーション](stations.md)を参照
-→ 食事バフの運用は[食事・ポーション](../character/buffs.md)を参照
+→ バフの詳細は[食事・ポーション](../character/buffs.md)を参照

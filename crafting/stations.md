@@ -1,187 +1,138 @@
 # クラフトステーション
 
-> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [GPORTAL Wiki Beginner's Quickstart](https://www.g-portal.com/wiki/en/windrose-beginners-quickstart-guide/) / [Boostmatch Crafting Stations Progression](https://boostmatch.gg/blog/windrose/)
+> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch クラフト進行ガイド](https://boostmatch.gg/blog/windrose/articles/windrose-crafting-stations-progression) / [G-Portal Windrose Wiki](https://www.g-portal.com/wiki/en/windrose-beginners-quickstart-guide/)
 
-## クラフトステーションの進行フェーズ
+## クラフト進行の全体像
 
-クラフトステーションは **3段階のフェーズ** で解放されていきます。後段になるほど上位レシピが作れるようになります。
+Windrose のクラフトは「施設を建てる → 新しいレシピが解放される」という連鎖で進みます。
 
-| フェーズ | 解放物 | 主な役割 |
-|--------|--------|--------|
-| フェーズ1（序盤） | Workbench / First Fire / Campfire / Bonfire | 基本装備・最初の料理 |
-| フェーズ2（中盤） | Carpenter's Bench / Charcoal Kiln / Smelting Furnace / Millstone / Alchemy Table | 金属加工・高級料理・薬品 |
-| フェーズ3（後半） | Weaponsmith Station / Upgrading Station / Food Dryer / Shipwright's Workshop | 上位装備・戦闘艦建造 |
+**序盤の基本連鎖**:
+```
+Workbench → Stone Tools → Copper Ore 採掘
+→ Charcoal Kiln（木炭）→ Smelting Furnace（銅精錬）
+→ Copper Ingot → 上位装備・施設へ
+```
 
-**クラフトステーションはレベル1・2・3** にアップグレードでき、アタッチメントを付けることで上位レシピが解放されます。
-
-**重要な仕様**: **Workbench は近接チェスト内の素材を自動参照** してくれるため、素材をバッグに入れ直す必要がありません（UXが優れている）。
+**重要**: Workbench の近接チェスト内の素材は**自動参照**されます（クラフト時に手動で移動する必要なし）。
 
 ---
 
-## フェーズ1（序盤）
+## 施設一覧
 
 ### 作業台（Workbench）
-
-序盤に最初に建てるべき施設。
+序盤に最初に建てるべき施設。基本的なアイテムのほぼ全てをここでクラフトする。
 
 | 項目 | 内容 |
 |------|------|
-| 建造コスト | Wood×10 程度（情報収集中） |
 | 主な用途 | 道具・武器・包帯・袋などのクラフト |
-| クラフト例 | 石のつるはし、石の斧、包帯、裂けた帆布の袋、たいまつ |
-| 特徴 | 近接チェスト内の素材を自動参照 |
+| 主要クラフト品 | 石のつるはし / 石の斧 / 包帯 / 裂けた帆布の袋 / たいまつ |
+| アップグレード | Lv1→2→3 と段階的にアップグレード可。上位レシピが解放される |
 
-### 焚き火系（Campfire / Bonfire）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | パッシブHP回復 / Restedバフ付与 |
-| 特徴 | **ダメージを受けても回復がキャンセルされない** |
-
-### 初期料理施設（First Fire）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 基本料理（肉・魚の加熱） |
-| 作れる料理 | Boiled Crab / Skewered Meat / Bacon and Eggs / Bean Soup / Dodo Broth |
+**序盤の初期アイテム優先度**:
+1. Torn Sailcloth Bag（持ち物拡張）: Coarse Fabric ×2 + Rope ×1
+2. Stone Axe / Stone Pickaxe
+3. Bandage ×10
 
 ---
-
-## フェーズ2（中盤）
-
-### 木工台（Carpenter's Bench）
-
-| 項目 | 内容 |
-|------|------|
-| 建造コスト | Pinewood Logs×10 + Stone×5 |
-| 主な用途 | 木材加工・Pinewood Plank等の生成 |
 
 ### 炭焼き窯（Charcoal Kiln）
+木材から木炭（Charcoal）を製造する。多くのレシピで必要になる。
 
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 木材から木炭（Charcoal）を製造 |
-| 用途の先 | 製錬炉の燃料 / 錬金術の素材 |
+| 主な用途 | Charcoal（木炭）の製造 |
+|---------|----------------------|
+| 木炭の用途 | 製錬炉の燃料・各種クラフト素材 |
+
+---
 
 ### 製錬炉（Smelting Furnace）
+鉱石をインゴットに精錬する施設。
 
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 鉱石をインゴットに精錬 |
-| 精錬できる素材 | Copper Ore → Copper Ingot / Iron Ore → Iron Ingot / Tumbaga Ingot |
-| 燃料 | Charcoal（Charcoal Kilnで作成） |
+| 主な用途 | 鉱石の精錬 |
+|---------|----------|
+| 精錬できる素材 | Copper Ore → Copper Ingot |
+| Foothills 以降 | Iron Ore → Iron Ingot |
+| 燃料 | Charcoal |
 
-**重要**: Iron は Foothills のMineで採掘するもので、**Coastal Jungle では精錬施設があってもIron素材が入手できない**。
-
-### 石臼（Millstone）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 中級料理（30分バフ食） |
-| 作れる料理 | Gazpacho / Coffee / Burrito / Banana Muffin 他 |
-
-### 錬金テーブル（Alchemy Table）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | ポーション・エリクサー・薬品の調合 |
-| 解放素材 | **Misty Orchid（霧の蘭）** — 第2島で発見 |
-| 代表クラフト | Health Potion / Elixir系 |
-
-→ 詳細は[錬金術](alchemy.md)ページを参照
+**注意**: Iron（鉄）の精錬は **Foothills バイオームでのみ可能**。
 
 ---
 
-## フェーズ3（後半）
+### 武器鍛冶台（Weaponsmith Workshop）
+武器のクラフト・アップグレード・Ascension（Epic昇格）を行う。
 
-### 武器鍛冶台（Weaponsmith Station）
+| 主な用途 | 武器クラフト / Lv強化 / Epic昇格 |
+|---------|--------------------------------|
+| Ascension素材 | **Tumbaga Ingot**（Rare Lv8 → Epic に昇格） |
+| Tier 2 要件 | Anvil（鍛冶台） |
+| Tier 3 要件 | Anvil + Bellows（鞴） |
 
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 武器のアップグレード・作成 |
-| 主要素材 | Tumbaga Ingot（タンバガインゴット） |
+---
 
 ### アップグレードステーション（Upgrading Station）
+武器・防具・バッグのアップグレードを行う。
 
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 武器・防具・バッグの強化 |
-| 注意点 | アップグレードにレア素材を消費するため、**Rare以上のアイテムを強化する** のが効率的 |
-
-### 食物乾燥機（Food Dryer）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 上位バフ食（Agility+10 / Vitality+10 等） |
-| 代表料理 | Hearty Egg Broth / Spicy Chicken with Sweet Potato |
-
-### 造船所（Shipwright's Workshop）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 砲・船関連装備の製作 |
-| 代表クラフト | 12-Pounder Cannon（Copper Ingot×10 + Wood×10） |
+**注意**: Common/Uncommon を強化しても Epic になれない。**Rare 以上のアイテムへの投資を優先する**。
 
 ---
-
-## 補助施設
-
-### 料理台（Cooking Fire）
-
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 食事バフアイテムの調理 |
-| 特徴 | **拠点外・フィールド上にも設置可能** |
 
 ### 解体台（Dismantling Bench）
-
 不要なアイテムを素材に戻す施設。
 
-| 項目 | 内容 |
-|------|------|
-| 主な用途 | 不要品の素材化 |
-| 注意点 | 基本コストは返却されるが、**アップグレードに使った素材は回収不可** |
-
-### ストレージ樽（Storage Barrel）
-
-| 項目 | 内容 |
-|------|------|
-| 建造コスト | Wood×10 + Nails×5 |
-| スロット数 | 28 |
-| 特徴 | Bonfire近傍なら **遠隔アクセス可能** |
-
-### ベッド（Bed）
-
-- 設置するとComfort値が上がり、Restedバフの持続時間が延びる
-- スポーン地点の設定にも使う
-
-### ファストトラベルベル（Fast Travel Bell）
-
-| 項目 | 内容 |
-|------|------|
-| 解放条件 | Copper精錬後 |
-| 最大設置数 | **10箇所** |
-| 特徴 | 船上マップからも帰還可能 |
+| 返却率 | **基本コストのみ100%返却** |
+|-------|--------------------------|
+| 注意点 | **強化に使った素材は戻らない** |
 
 ---
 
-## 進行順の推奨
+### 造船台（Shipwright's Workshop）
+船の部品（大砲等）を製造する施設。
 
-以下の順で施設を整えると効率的:
-
-1. **Workbench** → 基本道具
-2. **Campfire / Bonfire** → 回復・Restedバフ
-3. **First Fire** → 基本料理
-4. **Storage Barrel** → 素材管理
-5. **Carpenter's Bench** → 木材加工
-6. **Charcoal Kiln + Smelting Furnace** → 金属加工
-7. **Alchemy Table**（Misty Orchid入手後）→ ポーション
-8. **Millstone** → 中級料理
-9. **Weaponsmith Station + Upgrading Station** → 装備強化
-10. **Shipwright's Workshop + Wharf** → 戦闘艦
-11. **Food Dryer** → 上位料理
+| 主な用途 | 大砲・船部品の製造 |
+|---------|-----------------|
+| 主要クラフト品 | **12-Pounder Cannon**（Copper Ingot ×10・Wood ×10） |
+| 解放クエスト | Seafarer（シーファラー） |
 
 ---
 
-→ 料理の詳細は[料理](cooking.md)を参照
-→ 錬金術の詳細は[錬金術](alchemy.md)を参照
+### 桟橋（Wharf）
+船の建造・修理・カスタマイズを行う施設。
+
+| 建設素材 | Wood ×10・Coarse Fabric ×10 |
+|---------|----------------------------|
+| 設置条件 | **水際（海岸線）に設置必須** |
+| 主な用途 | 船の建造 / 修理 / カスタマイズ |
+
+---
+
+### 料理台（Cooking Fire）
+食事バフアイテムをクラフトする施設。
+
+| 特徴 | **マップのどこにでも設置可能** |
+|------|------------------------------|
+| 上位施設 | Millstone（Phase 2）/ Culinary Station / Food Dryer（Phase 3） |
+
+→ 詳細は[料理](cooking.md)を参照
+
+---
+
+### 錬金テーブル（Alchemy Table）
+ポーション・エリクサーを調合する施設。
+
+| 解放素材 | **Misty Orchid（霧の蘭）** — Foothills で入手 |
+|---------|---------------------------------------------|
+
+→ 詳細は[錬金術](alchemy.md)を参照
+
+---
+
+## 序盤の施設建設優先順位
+
+| 優先 | 施設 | 理由 |
+|------|------|------|
+| 1 | **Workbench** | 全てのクラフトの起点 |
+| 2 | **Charcoal Kiln** | 製錬炉の燃料確保 |
+| 3 | **Smelting Furnace** | 銅インゴット製造 |
+| 4 | **Upgrading Station** | 装備強化 |
+| 5 | **Weaponsmith Workshop** | 武器クラフト・Epic昇格 |
+| 6 | **Wharf** | 船の建造（Seafarer クエスト） |
+| 7 | **Alchemy Table** | ポーション自作（Misty Orchid 入手後） |
