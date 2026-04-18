@@ -25,6 +25,43 @@
         border-radius: 10px;
         box-shadow: 0 12px 50px rgba(0, 0, 0, 0.45);
         border: 1px solid var(--sidebar-bg, #888);
+
+        /* Pagefind UI の色を mdBook テーマに合わせる */
+        --pagefind-ui-primary: var(--links, #5cb1ff);
+        --pagefind-ui-text: var(--fg, #e6e6e6);
+        --pagefind-ui-background: var(--bg, #161923);
+        --pagefind-ui-border: var(--sidebar-bg, #3a3f4e);
+        --pagefind-ui-tag: var(--sidebar-bg, #3a3f4e);
+        --pagefind-ui-border-width: 1px;
+        --pagefind-ui-border-radius: 6px;
+        --pagefind-ui-font: inherit;
+      }
+      #pagefind-box .pagefind-ui__search-input {
+        color: var(--fg, #e6e6e6) !important;
+        background: var(--bg, #161923) !important;
+        border-color: var(--sidebar-bg, #3a3f4e) !important;
+      }
+      #pagefind-box .pagefind-ui__search-input::placeholder {
+        color: var(--fg, #888) !important;
+        opacity: 0.55;
+      }
+      #pagefind-box .pagefind-ui__search-clear {
+        background: transparent !important;
+        color: var(--fg, #e6e6e6) !important;
+      }
+      #pagefind-box .pagefind-ui__result-title a {
+        color: var(--links, #5cb1ff) !important;
+      }
+      #pagefind-box .pagefind-ui__result-excerpt,
+      #pagefind-box .pagefind-ui__message,
+      #pagefind-box .pagefind-ui__result-link {
+        color: var(--fg, #e6e6e6) !important;
+      }
+      #pagefind-box mark {
+        background: var(--links, #5cb1ff) !important;
+        color: var(--bg, #161923) !important;
+        padding: 0 2px;
+        border-radius: 2px;
       }
       #pagefind-close {
         float: right;
