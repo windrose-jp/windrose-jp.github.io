@@ -14,6 +14,19 @@
 
 > ⚠️ **重要**: **焚き火（Bonfire）の半径内では鉱石がリスポーンしない**。採掘拠点と生活拠点は分離して運用すること。詳細は [リスポーン仕様](../exploration/respawn.md) を参照。
 
+## Tumbaga Ingot（昇格素材 / クラフト不可）
+
+**Epic 武器昇格（Ascension）専用の希少素材**。クラフトできず、固定入手のみ。
+
+| 入手方法 | 内容 |
+|---------|------|
+| **Ancient Ruins（古代遺跡）** | Rope ×1 でラペル降下 |
+| **Blackbeard's Treasure Map** | 掘削で **Tumbaga Ingot ×3 + Epic アイテム ×1** |
+| Abandoned Buccaneer Warehouse | スターティングアイランドの隠し倉庫 |
+| 上位エリア・ダンジョンの宝箱 | 探索で入手 |
+
+詳細な Ascension 運用は [ユニーク装備](../equipment/uniques.md) を参照。
+
 ---
 
 ## 銅（Copper）

@@ -53,15 +53,61 @@ Wharf（桟橋）で建造する本格的な海戦用の船。破壊された場
 
 ---
 
-## 船のバリエーション
+## 船のバリエーションと性能差
 
-各船種には**外観バリエーション**が3種類存在します。性能差はなく、見た目・フレーバーの違いです。
+各船種には**3つのバリエーション**があり、**性能に明確な違いがある**（外観のみではない）。
 
-| バリエーション | 概要 |
-|-------------|------|
-| **Stock（標準）** | デフォルト外観 |
-| **Brethren（海賊同盟）** | 海賊団風の外観 |
-| **Blackbeard（黒ひげ）** | 黒ひげ仕様の外観 |
+> 情報源: [Neonlightsmedia All Ships Best Variants](https://www.neonlightsmedia.com/blog/windrose-all-ships-best-variants)
+
+### 船種別スペック表
+
+| 船 | バリエーション | HP | 速度 | 大砲 |
+|----|--------------|-----|------|------|
+| **Ketch** | Stock | 50,000 | 19 kn | 3x 12-pdr |
+| Ketch | Brethren | 65,000 | 17 kn | 3x 12-pdr |
+| Ketch | Blackbeard | 35,000 | 21 kn | 3x 12/24-pdr |
+| **Brigantine** | Stock | 70,000 | 20 kn | 6x 12-pdr |
+| Brigantine | Brethren | 90,000 | 18 kn | 6x 12-pdr |
+| Brigantine | Blackbeard | 50,000 | 22 kn | 6x 12/24-pdr |
+| **Frigate** | Stock | 160,000 | 18 kn | 12x 24-pdr |
+| Frigate | Brethren | 200,000 | 16 kn | 12x 24-pdr |
+| Frigate | Blackbeard | 110,000 | 20 kn | 12x 24/36-pdr |
+
+### バリエーションの性格
+
+| バリエーション | 性格 | 向き |
+|--------------|------|------|
+| **Stock（標準）** | バランス型 | 汎用 |
+| **Brethren（海賊同盟）** | **HP +30%、速度 -2kn** | 耐久重視・正面戦 |
+| **Blackbeard（黒ひげ）** | **HP -30%、速度 +2kn、上位砲装備可** | 火力・機動重視、一撃離脱 |
+
+### 設計図の解放
+
+| 船 | 解放条件 |
+|----|---------|
+| Ketch | Seafarer クエストで自動取得 |
+| **Brigantine** | **Brethren of the Coast 評判 Lv2** → Tortuga で設計図購入 |
+| **Frigate** | **Brethren of the Coast 評判 Lv4** → Tortuga で設計図購入 |
+
+Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検証）。
+
+## 大砲の種類
+
+| 大砲 | 装備可能な船 |
+|------|-------------|
+| **12-Pounder** | 全船種の Stock / Brethren（通常ルート） |
+| **24-Pounder** | **Blackbeard Brigantine 以上 / Frigate 全バリエ** |
+| **36-Pounder** | **Blackbeard Frigate 限定** |
+| Perfectly Ordered 12-Pounder | 特殊（4秒以内連続ヒットで22秒間リロード+30%） |
+
+> Carronade / Long Cannon は開発予告（未実装）
+
+### 砲弾種類
+
+| 弾種 | 切替キー | 用途 |
+|------|--------|------|
+| 通常弾（Cannonball） | **1** | 船体ダメージ |
+| 鎖弾（Chain Shot） | **2** | マスト・帆を破壊して敵船を減速 |
 
 合計で45種類以上の船関連アイテム（帆・部品・大砲など）が実装されています。
 
@@ -88,11 +134,28 @@ Wharf（桟橋）で建造する本格的な海戦用の船。破壊された場
 
 ---
 
-## 船の修理
+## 船の修理コスト
 
-- **Wood ×20** で修理可能
-- 緊急用に木材20本は常に船に積んでおくことを推奨
-- Wharf 付近で修理操作を行う
+> 情報源: [allthings.how Ship Repair](https://allthings.how/windrose-ship-repair-every-method-and-material-you-need/)
+
+修理方法は複数あり、場所・状況で素材コストが大きく変わる：
+
+| 方法 | 素材 | 備考 |
+|------|------|------|
+| **Wharf 修理** | **Wood のみ**（格安） | 港に戻れる時は最優先 |
+| **現地修理** | Wood ×100 / Nails ×20 / Coarse Fabric ×20 / Rope ×10 | 遠征中用 |
+| **Repair Kit**（航行中） | Wood ×10 | HoT（継続回復）。航海中の緊急修理 |
+| **完全沈没時リスポーン** | Wood ×20 | **Wharf 必須** |
+
+緊急用に Wood を常に船に積んでおくのが推奨。
+
+## 予備船を片道ファストトラベル点として使う裏技
+
+**Fast Travel Bell は最大10個**という上限があるが、**船を特定ポイントに放置すれば Bell 枠を消費せずに片道ファストトラベル点として機能する**。
+
+- 探索したい遠方の島に予備船を係留
+- 本拠点から K キーで船を呼び寄せられない距離でも、そこまで到達できる
+- ただし「どこからでも召喚」機能とは干渉するので運用は要検討
 
 ---
 
