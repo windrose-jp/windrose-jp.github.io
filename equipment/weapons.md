@@ -32,7 +32,7 @@ Windroseの武器は以下の要素で区別されます:
 - **レアリティ**: Common → Uncommon → Rare → Epic（上がるほど強力かつ希少）
 - Epic昇格でグレードが+1される仕組み（Rare B → Epic A など）
 
-Early Access時点で **75種類以上** の武器が実装されています（近接41 / 遠距離19 / 弾薬7 / ツール8）。
+Early Access時点で **77種類** の武器が実装されています（近接43 / 遠距離19 / 弾薬7 / ツール8）。
 
 ---
 
@@ -156,4 +156,4 @@ Early Access時点で **75種類以上** の武器が実装されています（
 数値はプレイヤーコミュニティが収集したもので、パッチで変動する可能性があります。また Early Access 初期段階では **一部武器のパワー値が正確でない** ことも報告されています。実戦での体感と併せて参照してください。
 
 → ユニーク武器については[ユニーク装備](uniques.md)を参照
-→ 全武器データは [Windrose.tools](https://windrose.tools/items/weapons) を参照（75種類の詳細データあり）
+→ 全武器データは [Windrose.tools](https://windrose.tools/items/weapons) を参照（77種類の詳細データあり）
