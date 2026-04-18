@@ -64,6 +64,7 @@
   * [バイオーム](exploration/biomes.md)
   * [島ガイド](exploration/islands.md)
   * [ダンジョン・POI](exploration/dungeons.md)
+  * [リスポーン仕様](exploration/respawn.md)
 
 ## ストーリー・クエスト
 
