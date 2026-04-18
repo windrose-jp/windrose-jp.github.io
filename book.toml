@@ -14,7 +14,7 @@ preferred-dark-theme = "navy"
 no-section-label = false
 site-url = "/"
 additional-css = ["theme/custom.css"]
-additional-js = ["theme/analytics.js", "theme/kofi.js"]
+additional-js = ["theme/analytics.js", "theme/kofi.js", "theme/pagefind.js"]
 
 [output.html.fold]
 enable = true
