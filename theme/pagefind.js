@@ -43,7 +43,9 @@
         color: var(--links, #0074d9) !important;
       }
       /* mdBook 標準検索 UI を隠す */
-      #searchbar-outer, #searchresults-outer { display: none !important; }
+      #searchbar-outer, #searchresults-outer,
+      #mdbook-searchbar-outer, #mdbook-searchresults-outer,
+      #mdbook-search-wrapper { display: none !important; }
     `;
     document.head.appendChild(style);
   }
@@ -80,8 +82,8 @@
       }
     });
 
-    // mdBook 検索ボタンを乗っ取る
-    const btn = document.getElementById("search-toggle");
+    // mdBook 検索ボタンを乗っ取る（新旧ID両対応）
+    const btn = document.getElementById("mdbook-search-toggle") || document.getElementById("search-toggle");
     if (btn) {
       const clone = btn.cloneNode(true);
       btn.parentNode.replaceChild(clone, btn);
