@@ -21,6 +21,17 @@
 - Plague Halberd（疫病のハルバード）の不具合を修正
 - Dragonbreath Blunderbuss（竜息散弾銃）の不具合を修正
 - Grenadier 敵AIの挙動を改善
+- **Boar Whistle（イノシシの笛）**が入手できないバグを修正
+- オブジェクト運搬中のアニメーション不具合を修正
+- Thomas Richards 敵AIの目標切り替え不具合を修正
+
+> 情報源: [Steam ニュースRSSフィード](https://store.steampowered.com/feeds/news/app/3041230/)
+
+---
+
+### Steam クラウドセーブ問題に関するお知らせ（2026年4月17日）
+
+クラウドセーブに複数のパターンで問題が発生していることを確認。開発チームが調査中。パッチではなく状況報告として別途投稿されたもの。
 
 > 情報源: [Steam ニュースRSSフィード](https://store.steampowered.com/feeds/news/app/3041230/)
 
