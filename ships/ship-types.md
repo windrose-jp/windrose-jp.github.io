@@ -17,7 +17,11 @@ Windroseの船は**スタータ艇**と**戦闘艦**に大別されます。
 
 ### ケッチ（Ketch）— スターター
 
-Doctor Galen のクエスト完了で入手できる最初の船。
+**クエスト「I Need a Bigger Boat」** クリアで入手。Doctor Galen から依頼される。
+
+**取得条件:**
+- **クルー7名を救出**する
+- 修理素材を集める: Wood ×100・Nails ×20・Rope ×10・Coarse Fabric ×20
 
 | 項目 | 内容 |
 |------|------|
@@ -83,22 +87,22 @@ Wharf（桟橋）で建造する本格的な海戦用の船。破壊された場
 
 ### 設計図の解放
 
-| 船 | 解放条件 |
-|----|---------|
-| Ketch | Seafarer クエストで自動取得 |
-| **Brigantine** | **Brethren of the Coast 評判 Lv2** → Tortuga で設計図購入 |
-| **Frigate** | **Brethren of the Coast 評判 Lv4** → Tortuga で設計図購入 |
+| 船 | 解放条件 | 価格 |
+|----|---------|------|
+| Ketch | "I Need a Bigger Boat" クエストで取得 | — |
+| **Brigantine** | **Brethren of the Coast 評判 Lv2** → Tortuga で設計図購入 | 1,000 Piastre |
+| **Frigate** | **Brethren of the Coast 評判 Lv4** → Tortuga で設計図購入 | **3,000 Piastre** |
 
 Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検証）。
 
 ## 大砲の種類
 
-| 大砲 | 装備可能な船 |
-|------|-------------|
-| **12-Pounder** | 全船種の Stock / Brethren（通常ルート） |
-| **24-Pounder** | **Blackbeard Brigantine 以上 / Frigate 全バリエ** |
-| **36-Pounder** | **Blackbeard Frigate 限定** |
-| Perfectly Ordered 12-Pounder | 特殊（4秒以内連続ヒットで22秒間リロード+30%） |
+| 大砲 | 装備可能な船 | ダメージ | リロード |
+|------|-------------|---------|---------|
+| **12-Pounder** | 全船種の Stock / Brethren（通常ルート） | — | — |
+| **24-Pounder** | **Blackbeard Brigantine 以上 / Frigate 全バリエ** | — | — |
+| **36-Pounder** | **Blackbeard Frigate 限定** | **2,500** | **約15秒** |
+| Perfectly Ordered 12-Pounder | 特殊 | 特殊（4秒以内連続ヒットで22秒間リロード+30%） | — |
 
 > Carronade / Long Cannon は開発予告（未実装）
 
@@ -148,6 +152,14 @@ Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検
 | **完全沈没時リスポーン** | Wood ×20 | **Wharf 必須** |
 
 緊急用に Wood を常に船に積んでおくのが推奨。
+
+### 沈没時の仕様
+
+| 項目 | 仕様 |
+|------|------|
+| **Cargo Hold（船倉）の荷物** | **保持される** |
+| **個人インベントリ** | **消失する**（死亡扱い） |
+| 対処 | 沈み始めたらすぐ K キーでスタータ Ketch を呼んで脱出する |
 
 ## 予備船を片道ファストトラベル点として使う裏技
 
