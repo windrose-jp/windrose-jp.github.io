@@ -17,9 +17,9 @@
 
 | バイオーム | ギアレベル | 解放条件 |
 |-----------|-----------|---------|
-| Coastal Jungle（沿岸ジャングル） | Lv 1〜5 | スタート |
-| Foothills（丘陵地帯） | Lv 6〜10 | Coastal ボス撃破 |
-| Cursed Swamps（呪われた沼地） | Lv 11〜15 | Foothills ボス撃破 |
+| 海岸のジャングル（Coastal Jungle） | Lv 1〜5 | スタート |
+| 山麓（Foothills） | Lv 6〜10 | Coastal ボス撃破 |
+| 呪われた沼地（Cursed Swamps） | Lv 11〜15 | Foothills ボス撃破 |
 
 次のボスはゲーム内の**Discoveryタブ**で前ボス撃破後に解放される。
 
@@ -108,7 +108,7 @@ Co-op では役割分担でポイズ破壊が格段に速くなる。
 
 | 項目 | 内容 |
 |------|------|
-| バイオーム | Foothills（丘陵地帯） |
+| バイオーム | 山麓（Foothills） |
 | 推奨キャラLv | **9〜10** |
 | 推奨ギアレベル | Lv 6〜10（Rare装備推奨） |
 | アリーナ到達条件 | **Temple Keys** を北側の死んだ海賊から入手 |
@@ -163,7 +163,7 @@ Cursed Swamps の最終ボス（2026年4月 Early Access 時点）。
 
 | 項目 | 内容 |
 |------|------|
-| バイオーム | Cursed Swamps（呪われた沼地） |
+| バイオーム | 呪われた沼地（Cursed Swamps） |
 | 推奨ギアレベル | **Lv 11〜15** |
 | エリアの特徴 | **毒・疾病ハザード**（ピンクに光るキノコ/森に触れると Plague 感染） |
 | 周辺の敵 | **Plague Thrall / Plague Crocodile** |

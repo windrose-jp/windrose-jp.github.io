@@ -14,7 +14,7 @@ Windroseには**約30個の手作り生成島**が存在します。各島には
 
 **入手できるもの**:
 - 埋蔵金（赤い布の木の近くを掘る）
-  - マイナーネックレスオブバイタリティ（Minor Necklace of Vitality）: VIT +4
+  - 小さな生命力のネックレス（Minor Necklace of Vitality）: 生命力（VIT）+4
   - ランプ（Lamp）
 - タンバガインゴット（Tumbaga Ingot）の採集スポット
 

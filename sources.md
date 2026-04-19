@@ -17,6 +17,10 @@
 | 名前 | URL | 内容 |
 |------|-----|------|
 | ビギナーズガイド（Steam） | https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/ | 序盤攻略・システム解説 |
+| GAMERS Wiki (jpngamerswiki.com) | https://jpngamerswiki.com/windrose/ | **日本語公式訳の主要参照**（固有名詞対訳の一次ソース） |
+| Pocketpair Publishing 公式 | https://www.pocketpair.jp/publishing/windrose/ | 国内パブリッシャー公式ページ（固有名詞公式訳） |
+| gamerch Windrose攻略 | https://gamerch.com/ | 日本語攻略（固有名詞参照用） |
+| konachangame Windrose | https://konachangame.com/ | 日本語攻略（固有名詞参照用） |
 | Windrose.tools | https://windrose.tools/ | 武器・アイテムデータベース（75種類の武器データあり） |
 | Windrose Wiki（windrosewiki.org） | https://windrosewiki.org/ | 英語コミュニティWiki（2026年時点で稼働中）。武器・装備・戦闘・FAQ等 |
 | Dexerto Windrose Wiki | https://www.dexerto.com/wikis/windrose/ | 武器70種以上・防具セット・レシピ40種以上・素材30種以上 |
