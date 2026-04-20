@@ -125,7 +125,7 @@ jobs:
 
       - name: Generate sitemap.xml
         run: |
-          SITE_URL="https://windrose-jp.github.io"
+          SITE_URL="https://windrose.gameguidejp.com"
           echo '<?xml version="1.0" encoding="UTF-8"?>' > book/sitemap.xml
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> book/sitemap.xml
           find book -name '*.html' ! -name 'print.html' ! -name '404.html' ! -name 'toc.html' | sort | while read f; do

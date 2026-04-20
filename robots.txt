@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://windrose-jp.github.io/sitemap.xml
+Sitemap: https://windrose.gameguidejp.com/sitemap.xml

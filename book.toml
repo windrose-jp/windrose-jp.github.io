@@ -13,6 +13,7 @@ default-theme = "navy"
 preferred-dark-theme = "navy"
 no-section-label = false
 site-url = "/"
+# 独自ドメイン: https://windrose.gameguidejp.com/
 additional-css = ["theme/custom.css"]
 additional-js = ["theme/analytics.js", "theme/kofi.js", "theme/pagefind.js"]
 
