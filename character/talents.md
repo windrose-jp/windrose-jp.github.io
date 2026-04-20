@@ -1,6 +1,6 @@
 # タレント
 
-> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch タレントガイド](https://boostmatch.gg/blog/windrose/articles/windrose-talent-tree-guide-all-branches) / コミュニティ調査（2026年4月時点）
+> 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch タレントガイド](https://boostmatch.gg/blog/windrose/articles/windrose-talent-tree-guide-all-branches) / [FextraLife Wiki](https://windrose.wiki.fextralife.com/Talents) / コミュニティ調査（2026年4月時点）
 
 ## タレントシステムの概要
 
@@ -22,10 +22,10 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 ### Marathon Runner（Toughguy Tier 0）
 **全ビルドで最優先に取るべきタレント。**
 
-ダッシュ・回避のスタミナ消費を削減する。Windroseはスタミナ管理が根幹なので、系統を問わず全キャラが恩恵を受ける。
+最大スタミナを+20増加する。Windroseはスタミナ管理が根幹なので、系統を問わず全キャラが恩恵を受ける。
 
 ### Agile（Fencer Tier 0）
-回避の反応速度と復帰を短縮。Marathon Runner の次に優先度が高い序盤タレント。
+ダッシュ・ジャンプのスタミナ消費を-15%削減。Marathon Runner の次に優先度が高い序盤タレント。
 
 ---
 
@@ -33,18 +33,18 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 
 片手武器全般（サーベル・レイピア・カトラス・ピストル等）に対応。回避と連携した戦術が軸。
 
-| Tier | タレント名 | 効果（概要） |
-|------|-----------|------------|
-| **Tier 0** | **Deep Cuts** | 出血（Bleed）の継続ダメージ強化 |
-| **Tier 0** | **Agile** | 回避の反応・復帰を短縮。**序盤推奨** |
-| **Tier 0** | **Surgical Cuts** | クリティカルヒット強化 |
-| Tier 1（3pt要） | **Quick Strikes** | 連続攻撃時のダメージ増加 |
-| Tier 1 | **Perfect Counter** | パリィ成功時の反撃ダメージ増加 |
-| Tier 1 | **Duelist** | 1対1状況でのダメージボーナス |
-| Tier 2（6pt要） | **Disciplined Fencer** ★ | スタミナ効率重視の安定型 |
-| Tier 2 | **Evasive Fencer** ★ | 回避後の攻撃ダメージ増加（★いずれか選択） |
-| Tier 2 | **Executioner's Grace** | キル後の回復・強化 |
-| Tier 2 | **Deadly Finale** | コンボのフィニッシュ攻撃を強化 |
+| Tier | タレント名 | 効果 |
+|------|-----------|------|
+| **Tier 0** | **Deep Cuts** | 斬撃ダメージ+3% |
+| **Tier 0** | **Agile** | ダッシュ・ジャンプのスタミナ消費-15%。**序盤推奨** |
+| **Tier 0** | **Surgical Cuts** | 片手近接クリティカル率+3% |
+| Tier 1（3pt要） | **Quick Strikes** | 片手武器ダメージ+4% |
+| Tier 1 | **Perfect Counter** | パーフェクトブロック後12秒間クリティカル率+5% |
+| Tier 1 | **Duelist** | 10m以内に敵が1体のみの時ダメージ+6% |
+| Tier 2（6pt要） | **Disciplined Fencer** ★ | パーフェクトブロックでパッシブリロード進行+15%回復 |
+| Tier 2 | **Evasive Fencer** ★ | パーフェクトダッシュでパッシブリロード進行+25%回復（★いずれか選択） |
+| Tier 2 | **Executioner's Grace** | キル後20秒間、毎ティックHP+10回復 |
+| Tier 2 | **Deadly Finale** | 連続ヒットごとにダメージ+3%、5ヒットでキャップ |
 
 ★ Disciplined / Evasive Fencer は**どちらか一方を選択**するノード。
 
@@ -54,16 +54,16 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 
 グレートソード・ハルバード・クラブ等の両手重武器に対応。重攻撃とポイズ（よろけ）破壊を軸とした戦術。
 
-| Tier | タレント名 | 効果（概要） |
-|------|-----------|------------|
-| **Tier 0** | **Bonecrusher** | 重攻撃のポイズ削り量増加 |
-| **Tier 0** | **Retribution** | 被弾後の反撃ダメージ増加 |
-| Tier 1（3pt要） | **Massive** | 重攻撃のダメージ増加 |
-| Tier 1 | **Perfected Form** | 重攻撃のスタミナ効率化 |
-| Tier 1 | **Executioner's Aim** | 弱点・怯み時のダメージ増加 |
-| Tier 2（6pt要） | **Berserk** | HP低下時にダメージ上昇 |
-| Tier 2 | **Dominating Presence** | 近くの敵の戦意を削る効果 |
-| Tier 2 | **Momentum** | 連続重攻撃でダメージが積み重なる |
+| Tier | タレント名 | 効果 |
+|------|-----------|------|
+| **Tier 0** | **Bonecrusher** | 猛撃ダメージ+3% |
+| **Tier 0** | **Retribution** | 攻撃による一時HP→実HPへの変換効率+40% |
+| Tier 1（3pt要） | **Massive** | 両手武器ダメージ+5% |
+| Tier 1 | **Perfected Form** | 両手武器攻撃のスタミナ消費-10% |
+| Tier 1 | **Executioner's Aim** | 両手近接クリティカル率+4% |
+| Tier 2（6pt要） | **Berserk** | HP15%失うごとにダメージ+3%スタック |
+| Tier 2 | **Dominating Presence** | 8m以内で敵死亡時60秒間近接ダメージ+6% |
+| Tier 2 | **Momentum** | 2体以上同時ヒットでダメージ+5%、最大3スタック |
 
 ---
 
@@ -71,19 +71,19 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 
 ピストル・マスケット・ブランダーバス等の遠距離武器に対応。射程管理と銃撃のタイミングを重視。
 
-| Tier | タレント名 | 効果（概要） |
-|------|-----------|------------|
-| **Tier 0** | **Planning Ahead** | リロード速度の向上 |
-| **Tier 0** | **Deep Impact** | 貫通ショットのダメージ増加 |
-| **Tier 0** | **Bull's Eye** | クリティカルヒット率の増加 |
-| Tier 1（3pt要） | **Firearm Training** | 銃全般のダメージ増加 |
-| Tier 1 | **Quick Hand** | 武器持ち替え速度の向上 |
-| Tier 2（3pt要） | **Muzzle Reach** ★ | 至近距離での威力増加（ブランダーバス向き） |
-| Tier 2 | **Extended Reach** ★ | 長距離での威力増加（マスケット向き）（★いずれか選択） |
-| Tier 3（6pt要） | **Bulletstorm** | 速射時のダメージ増加 |
-| Tier 3 | **Sniper's Focus** | 静止状態でのダメージ・精度強化 |
-| Tier 3 | **Deadly Hunter** | 弱体化した敵への追加ダメージ |
-| Tier 3 | **Overpenetration** | 弾丸が敵を貫通する確率 |
+| Tier | タレント名 | 効果 |
+|------|-----------|------|
+| **Tier 0** | **Planning Ahead** | パッシブリロード速度+5% |
+| **Tier 0** | **Deep Impact** | 刺突ダメージ+3% |
+| **Tier 0** | **Bull's Eye** | クリティカル部位ヒット時ダメージ+5% |
+| Tier 1（3pt要） | **Firearm Training** | 遠距離ダメージ+5% |
+| Tier 1 | **Quick Hand** | アクティブリロード速度+10% |
+| Tier 2（3pt要） | **Muzzle Reach** ★ | 10m以内でダメージ+4%（ブランダーバス向き） |
+| Tier 2 | **Extended Reach** ★ | 10mごとにダメージ+1%（マスケット向き）（★いずれか選択） |
+| Tier 3（6pt要） | **Bulletstorm** | ミスなし連続ヒットでダメージ+5%スタック |
+| Tier 3 | **Sniper's Focus** | エイム中2秒ごとにダメージ+3%、最大4スタック |
+| Tier 3 | **Deadly Hunter** | 敵キル時15%の確率で即座にリロード |
+| Tier 3 | **Overpenetration** | 弾丸が敵を貫通（貫通後ダメージ-50%） |
 
 ★ Muzzle Reach / Extended Reach は**どちらか一方を選択**するノード。ブランダーバスならMuzzle、マスケットならExtendedを選ぶ。
 
@@ -93,16 +93,16 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 
 生存力・被ダメージ軽減・戦闘継続能力に特化した系統。全ビルドとの親和性が高い。
 
-| Tier | タレント名 | 効果（概要） |
-|------|-----------|------------|
-| **Tier 0** | **You Will Answer for This** | ラリー（被弾後反撃でHP回復）の効果増加 |
-| **Tier 0** | **Marathon Runner** | **ダッシュ・回避スタミナ消費削減。全ビルド最優先** |
-| **Tier 0** | **Stitches and Rum** | 包帯・ポーションの回復量増加 |
-| Tier 1（3pt要） | **Just a Flesh Wound** | 致命傷を一度だけ耐える効果 |
-| Tier 1 | **Flawless Defence** | パリィ成功時の被ダメージ軽減 |
-| Tier 1 | **Outnumbered** | 複数の敵に囲まれた時のダメージ軽減 |
-| Tier 2（6pt要） | **Too Angry to Die** | HP極低下時の一時無敵・攻撃力強化 |
-| Tier 2 | **Stout Frame** | 最大HP増加 |
+| Tier | タレント名 | 効果 |
+|------|-----------|------|
+| **Tier 0** | **You Will Answer for This** | 被ダメージ時の一時HP獲得量+25% |
+| **Tier 0** | **Marathon Runner** | **最大スタミナ+20。全ビルド最優先** |
+| **Tier 0** | **Stitches and Rum** | 回復アイテムの回復効果+10% |
+| Tier 1（3pt要） | **Just a Flesh Wound** | 近接ダメージ耐性+6% |
+| Tier 1 | **Flawless Defence** | ブロックのポイズ消費-15% |
+| Tier 1 | **Outnumbered** | 近くに敵2体以上の時近接ダメージ+4% |
+| Tier 2（6pt要） | **Too Angry to Die** | 致死ダメージ時にHP30%即時回復（クールダウン16分） |
+| Tier 2 | **Stout Frame** | 最大HP+120 |
 
 ---
 
