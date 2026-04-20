@@ -80,36 +80,18 @@ jobs:
 
               auto_entries.append((date, line, full_line))
 
-          # 手動分エントリを収集（FULL_CHANGELOG_END以降の箇条書き行）
-          with open('changelog.md', 'r') as f:
-              cl_content = f.read()
-          manual_section = re.split(r'<!-- FULL_CHANGELOG_END -->', cl_content)[-1]
-          manual_entries = []
-          for line in manual_section.split('\n'):
-              m = re.match(r'^- (\d{4}-\d{2}-\d{2}): (.+)', line)
-              if m:
-                  manual_entries.append((m.group(1), line, line))
+          # 日付降順でソート、README.mdの最新10件を更新
+          auto_entries.sort(key=lambda x: x[0], reverse=True)
+          top_text = '\n'.join(e[1] for e in auto_entries[:10])
 
-          # 自動分と手動分を日付降順でマージ（自動分優先で重複除去）
-          auto_dates = {e[0] for e in auto_entries}
-          merged = auto_entries + [e for e in manual_entries if e[0] not in auto_dates]
-          merged.sort(key=lambda x: x[0], reverse=True)
-
-          top_text = '\n'.join(e[1] for e in merged[:10])
-          full_text = '\n'.join(e[2] for e in merged)
-
-          for fname, tag_start, tag_end, text in [
-              ('README.md', 'CHANGELOG_START', 'CHANGELOG_END', top_text),
-              ('changelog.md', 'FULL_CHANGELOG_START', 'FULL_CHANGELOG_END', full_text),
-          ]:
-              with open(fname, 'r') as f:
-                  content = f.read()
-              content = re.sub(
-                  rf'<!-- {tag_start} -->.*?<!-- {tag_end} -->',
-                  f'<!-- {tag_start} -->\n' + text + f'\n<!-- {tag_end} -->',
-                  content, flags=re.DOTALL)
-              with open(fname, 'w') as f:
-                  f.write(content)
+          with open('README.md', 'r') as f:
+              content = f.read()
+          content = re.sub(
+              r'<!-- CHANGELOG_START -->.*?<!-- CHANGELOG_END -->',
+              '<!-- CHANGELOG_START -->\n' + top_text + '\n<!-- CHANGELOG_END -->',
+              content, flags=re.DOTALL)
+          with open('README.md', 'w') as f:
+              f.write(content)
           PYEOF
 
       - name: Setup mdBook

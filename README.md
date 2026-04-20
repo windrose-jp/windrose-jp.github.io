@@ -62,8 +62,6 @@
 
 ## 更新履歴
 
-[全履歴はこちら](changelog.md)
-
 <!-- CHANGELOG_START -->
 <!-- CHANGELOG_END -->
 

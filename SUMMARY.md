@@ -83,4 +83,3 @@
 * [マルチプレイ](multiplayer.md)
 * [パッチノート](patch-notes.md)
 * [情報源一覧](sources.md)
-* [更新履歴](changelog.md)
