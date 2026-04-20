@@ -5,7 +5,6 @@
 ## 基本情報
 
 * [ゲーム概要](game-overview.md)
-* [用語集](glossary.md)
 * [初心者Tips](tips.md)
 
 ## 戦闘
