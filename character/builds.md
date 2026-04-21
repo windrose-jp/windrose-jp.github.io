@@ -66,7 +66,7 @@ Marathon Runner → **Bonecrusher** → Retribution → Massive → Perfected Fo
 1. Heavy Attack でボスのポイズバリアを削る（Bonebreaker はポイズ削り最速クラス）
 2. ポイズ破壊後に全力で重攻撃を叩き込む
 3. HP が下がったら Berserk でダメージを伸ばす
-4. Pikeman 4部位の HP+200 で場持ちを確保
+4. Pikeman 2部位の HP+160 で場持ちを確保（4部位で両手ダメージ+15%も発動）
 
 ---
 

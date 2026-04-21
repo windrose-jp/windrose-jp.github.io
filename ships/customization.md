@@ -41,6 +41,18 @@ Wharf（桟橋）の **Customization タブ** から外観を変更できる。
 
 Hull Bracing のアップグレード素材は **Copper + Nails**（沿岸の難破船から回収）。
 
+### 大砲の Epic 派生3種
+
+各口径（12/24/36-Pounder）にはそれぞれ3つの Epic バリアントがある。
+
+| バリアント | パッシブ効果 |
+|-----------|-----------|
+| **Devastating** | リロード速度 +15% |
+| **Perfectly Ordered** | 照準速度 +30% |
+| **Tempered** | 弱点（Weak Spot）ヒット時ダメージ +20% |
+
+単砲構成なら **Perfectly Ordered**（照準速度重視）が汎用性高め。複数砲を使い回す構成なら **Devastating** も有効。
+
 ### 設計図の入手先
 
 高性能な大砲・装備の設計図は Tortuga の派閥ベンダーから購入する。

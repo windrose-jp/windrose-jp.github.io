@@ -22,7 +22,13 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 ### Marathon Runner（Toughguy Tier 0）
 **全ビルドで最優先に取るべきタレント。**
 
-最大スタミナを+20増加する。Windroseはスタミナ管理が根幹なので、系統を問わず全キャラが恩恵を受ける。
+最大スタミナを増加する。Windroseはスタミナ管理が根幹なので、系統を問わず全キャラが恩恵を受ける。
+
+| ランク | 効果 |
+|--------|------|
+| Rank 1 | 最大スタミナ +20 |
+| Rank 2 | 最大スタミナ +35 |
+| Rank 3 | 最大スタミナ +50 |
 
 ### Agile（Fencer Tier 0）
 ダッシュ・ジャンプのスタミナ消費を-15%削減。Marathon Runner の次に優先度が高い序盤タレント。
@@ -96,13 +102,13 @@ Co-op 4人プレイでは1人ずつ異なる系統を担当することで役割
 | Tier | タレント名 | 効果 |
 |------|-----------|------|
 | **Tier 0** | **You Will Answer for This** | 被ダメージ時の一時HP獲得量+25% |
-| **Tier 0** | **Marathon Runner** | **最大スタミナ+20。全ビルド最優先** |
+| **Tier 0** | **Marathon Runner** | **最大スタミナ +20/+35/+50（Rank 1/2/3）。全ビルド最優先** |
 | **Tier 0** | **Stitches and Rum** | 回復アイテムの回復効果+10% |
-| Tier 1（3pt要） | **Just a Flesh Wound** | 近接ダメージ耐性+6% |
+| Tier 1（3pt要） | **Just a Flesh Wound** | 近接ダメージ耐性 +6%/+9%/+12%（Rank 1/2/3） |
 | Tier 1 | **Flawless Defence** | ブロックのポイズ消費-15% |
 | Tier 1 | **Outnumbered** | 近くに敵2体以上の時近接ダメージ+4% |
 | Tier 2（6pt要） | **Too Angry to Die** | 致死ダメージ時にHP30%即時回復（クールダウン16分） |
-| Tier 2 | **Stout Frame** | 最大HP+120 |
+| Tier 2 | **Stout Frame** | 最大HP +120/+180/+240（Rank 1/2/3） |
 
 ---
 
