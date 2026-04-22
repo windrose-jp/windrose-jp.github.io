@@ -19,4 +19,4 @@ additional-js = ["theme/analytics.js", "theme/kofi.js", "theme/pagefind.js", "th
 
 [output.html.fold]
 enable = true
-level = 0
+level = 99

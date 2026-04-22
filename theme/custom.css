@@ -43,6 +43,9 @@
     text-decoration: underline;
 }
 
+/* ページ内見出しをサイドバーに表示しない */
+.on-this-page { display: none !important; }
+
 /* サイトフッター */
 #site-footer {
     margin-top: 4em;
