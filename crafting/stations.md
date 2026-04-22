@@ -109,7 +109,9 @@ Workbench → Stone Tools → Copper Ore 採掘
 
 | 特徴 | **マップのどこにでも設置可能** |
 |------|------------------------------|
-| 上位施設 | Millstone（Phase 2）/ Culinary Station / Food Dryer（Phase 3） |
+| 上位施設 | Millstone（Phase 2、※現在無効化中）/ Culinary Station / Food Dryer（Phase 3） |
+
+> ⚠️ **Millstone は現在ゲーム内で無効化されている**（Early Access 2026年4月時点）。将来のアップデートで実装予定。
 
 → 詳細は[料理](cooking.md)を参照
 

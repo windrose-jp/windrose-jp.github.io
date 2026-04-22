@@ -157,9 +157,11 @@ Co-op では役割分担でポイズ破壊が格段に速くなる。
 
 ## Cursed Swamps のボス
 
-### Tainted Priestess（汚染された女祭司）
+### Tainted Priestess / High Priestess（汚染された女祭司）
 
 Cursed Swamps の最終ボス（2026年4月 Early Access 時点）。
+
+> ⚠️ **名称揺れ注意**: 英語ソースによって「**Tainted Priestess**」（FextraLife等）と「**High Priestess**」（dropreference.com等）の2つの表記が混在している。ゲーム内での正式名称は要確認。
 
 | 項目 | 内容 |
 |------|------|
