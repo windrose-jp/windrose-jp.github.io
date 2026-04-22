@@ -5,11 +5,11 @@
 ## 基本情報
 
 * [ゲーム概要](game-overview.md)
+* [よくある質問（FAQ）](faq.md)
 * [初心者Tips](tips.md)
 * [ゲームが教えてくれない仕様](hidden-mechanics.md)
 * [取り逃し注意集](missable.md)
 * [キーバインド完全版](keybindings.md)
-* [よくある質問（FAQ）](faq.md)
 
 ## 戦闘
 

@@ -21,8 +21,8 @@
 
 ### 基本情報
 - [ゲーム概要](game-overview.md)
-- [初心者Tips](tips.md)
 - [よくある質問（FAQ）](faq.md)
+- [初心者Tips](tips.md)
 
 ### 戦闘
 - [戦闘概要](combat/index.html) — [基本アクション](combat/basic-actions.md) / [近接武器](combat/melee-weapons.md) / [遠距離武器](combat/ranged-weapons.md) / [体幹・スタミナ](combat/poise-stamina.md)
