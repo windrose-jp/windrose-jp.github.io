@@ -6,6 +6,9 @@
 
 * [ゲーム概要](game-overview.md)
 * [初心者Tips](tips.md)
+* [ゲームが教えてくれない仕様](hidden-mechanics.md)
+* [取り逃し注意集](missable.md)
+* [キーバインド完全版](keybindings.md)
 
 ## 戦闘
 
@@ -13,7 +16,7 @@
   * [基本アクション](combat/basic-actions.md)
   * [近接武器](combat/melee-weapons.md)
   * [遠距離武器](combat/ranged-weapons.md)
-  * [ポイズ・スタミナ](combat/poise-stamina.md)
+  * [体幹・スタミナ](combat/poise-stamina.md)
 
 ## キャラクター
 
@@ -22,6 +25,7 @@
   * [タレント](character/talents.md)
   * [ビルド集](character/builds.md)
   * [食事・ポーション](character/buffs.md)
+  * [バフ最適コンボ集](character/buff-combos.md)
 
 ## 装備
 
@@ -49,6 +53,7 @@
   * [クラフトステーション](crafting/stations.md)
   * [料理](crafting/cooking.md)
   * [錬金術](crafting/alchemy.md)
+  * [エンチャント](crafting/enchanting.md)
 
 ## 素材・資源
 
@@ -64,12 +69,16 @@
   * [島ガイド](exploration/islands.md)
   * [ダンジョン・POI](exploration/dungeons.md)
   * [リスポーン仕様](exploration/respawn.md)
+  * [天候・時間帯システム](exploration/weather.md)
+
+## 勢力・評判
+
+* [勢力・評判](factions.md)
 
 ## ストーリー・クエスト
 
 * [ストーリー概要](story/README.md)
   * [メインストーリー](story/main-story.md)
-  * [勢力・評判](story/factions.md)
   * [サイドクエスト](story/side-quests.md)
 
 ## 敵・ボス

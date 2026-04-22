@@ -31,7 +31,7 @@ Early Accessリリース後に順次追記します。
 | 3 | Tortuga 南東の洞窟 "Smugglers Waters" に侵入 |
 | 4 | Marita と会話 → 隣の buyer NPC が解放 |
 
-**報酬**: Ancient Items を高値（1〜5 Guinea）で換金可能、死蔵アイテムの整理。詳細は [勢力・評判 — 密輸業者](factions.md#smugglers-of-port-royalポートロイヤルの密輸業者--事実上のブラックマーケット) を参照。
+**報酬**: Ancient Items を高値（1〜5 Guinea）で換金可能、死蔵アイテムの整理。詳細は [勢力・評判 — 密輸業者](../factions.md#smugglers-of-port-royalポートロイヤルの密輸業者--事実上のブラックマーケット) を参照。
 
 ### Fifteen Men on a Dead Man's Chest（決闘セイバー入手）
 

@@ -122,8 +122,23 @@ Workbench → Stone Tools → Copper Ore 採掘
 
 | 解放素材 | **Misty Orchid（霧の蘭）** — Foothills で入手 |
 |---------|---------------------------------------------|
+| Lv2 解放 | Stove and Pot（Stone ×5 / Clay ×5 / Copper Pot ×1）を隣接設置 |
 
-→ 詳細は[錬金術](alchemy.md)を参照
+→ 詳細・レシピは[錬金術](alchemy.md)を参照
+
+---
+
+### エンチャントテーブル（Enchanting Table）
+
+Arborum 素材を使って装備に魔法特性を付与する**終盤の最上位クラフト施設**。
+
+| 解放条件 | Swamp / Foothills の Ruins で **Ancient Scraps** を入手 |
+|---------|------------------------------------------------------|
+| 建築素材 | Mire Metal Ingot ×3 / Hewn Stone ×10 / Plant Fiber ×10 / Essence Arborum ×2 |
+| 前提施設 | **Large Smelting Furnace**（屋外設置専用） |
+| 配置要件 | **屋根必須** + **Bonfire 暖気範囲内** |
+
+→ 詳細は[エンチャント](enchanting.md)を参照
 
 ---
 

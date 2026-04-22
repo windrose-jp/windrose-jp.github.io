@@ -7,6 +7,9 @@
 
 ---
 
+- 2026-04-22: [攻略] 「エンチャント」ページ新規追加（解放条件・Arborum素材ライン・Ascendとの違い）。錬金術ページを大幅拡充（Elixir全種レシピ数値・Grog全種・Homeward Journey・Alchemy Table Lv2解放）。stations.mdにEnchanting Table追記・Alchemy Table Lv2追記。factions.mdにInsignia換算表・Rank閾値・評判減少不可明記・NPCワーカーシナジー表・People of Tortugaバイヤー注意・派閥優先度を追加
+- 2026-04-22: [攻略] 「天候・時間帯システム」「バフ最適コンボ集」の2ページを新規追加（天候5段階・Kraken出現条件・夜飛ばし・Simple Bed/ランタン仕様、目的別バフコンボ/Elixir全種/Grog全種/Homeward Journey）。respawn.mdにリセットサイクル具体時間（Ore 6h / 植物 2h / Mob 2h / Camp日次）・Shrine青祠再戦・Bosunリスポーン追記。naval-combat.mdにHull3種比較表・沈没時Cargo保護を追加。building/README.mdにComfort種類数仕様・屋根必須一覧・アドオン一括強化を追加
+- 2026-04-22: [攻略] 「ゲームが教えてくれない仕様」「取り逃し注意集」「キーバインド完全版」の3ページを新規追加（武器別Parry適性・Poise Shield数・Cargo沈没保護・Comfort種類数仕様・Galen/John Doe Evict罠・初期島ユニーク・Ancient Fire Sanctuary・Ascend Station解放条件など）
 - 2026-04-22: [攻略] Weevil Ship（Lv7 Drowned無限スポーン仕様と攻略法）をislands.mdに追加／Drowned・Sowsをcommon-enemies.mdに追加／Tainted Priestess名称揺れ（High Priestess）をbosses.mdに注記／Pearlsを弾薬候補として weapons.md に追記（要確認）／Millstone 現在無効化中を stations.md に注記
 - 2026-04-21: [攻略] ゲーム概要の販売数（50万本→100万本）・同時接続数（113K→220K超）・配信プラットフォーム（Epic/Stove追加）を更新／防具セット全種の2P/4Pボーナスを実数値に更新（Conquistador 2P=DR+15%・Pikeman 2P=HP+160/4P=2H+15%・Privateer 2P=Crit+10%/4P=CritDmg+10%per敵・Tracker 2P=回復+35%/4P=DR+15%・Flibustier 2P=スタミナ-20%・Marksman 2P=移動スタミナ-30%）／Naval Tactics全5種に更新（Ambush・No Quarter・Stretch The Supply を追加）／大砲Epic派生3種（Devastating・Perfectly Ordered・Tempered）の効果を追加／Drake's Double-Barreled Pistolの脆弱性デバフ効果を追記／タレントのランク2/3値を追記（Marathon Runner・Just a Flesh Wound・Stout Frame）
 - 2026-04-20: [攻略] タレント全38個の効果を正確な数値に更新（FextraLife検証）／Marathon Runnerの効果を「スタミナ消費削減」から「最大スタミナ+20」に訂正

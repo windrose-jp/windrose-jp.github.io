@@ -24,7 +24,7 @@
 - [初心者Tips](tips.md)
 
 ### 戦闘
-- [戦闘概要](combat/index.html) — [基本アクション](combat/basic-actions.md) / [近接武器](combat/melee-weapons.md) / [遠距離武器](combat/ranged-weapons.md) / [ポイズ・スタミナ](combat/poise-stamina.md)
+- [戦闘概要](combat/index.html) — [基本アクション](combat/basic-actions.md) / [近接武器](combat/melee-weapons.md) / [遠距離武器](combat/ranged-weapons.md) / [体幹・スタミナ](combat/poise-stamina.md)
 
 ### キャラクター
 - [キャラクター概要](character/index.html) — [ステータス](character/stats.md) / [タレント](character/talents.md) / [ビルド集](character/builds.md) / [食事・ポーション](character/buffs.md)
@@ -47,8 +47,11 @@
 ### 探索・ワールド
 - [探索概要](exploration/index.html) — [バイオーム](exploration/biomes.md) / [島ガイド](exploration/islands.md) / [ダンジョン・POI](exploration/dungeons.md)
 
+### 勢力・評判
+- [勢力・評判](factions.md) — Insignia換算 / Rank閾値 / 各派閥ベンダー / NPCワーカー
+
 ### ストーリー・クエスト
-- [ストーリー概要](story/index.html) — [メインストーリー](story/main-story.md) / [勢力・評判](story/factions.md) / [サイドクエスト](story/side-quests.md)
+- [ストーリー概要](story/index.html) — [メインストーリー](story/main-story.md) / [サイドクエスト](story/side-quests.md)
 
 ### 敵・ボス
 - [敵概要](enemies/index.html) — [一般エネミー](enemies/common-enemies.md) / [ボス攻略](enemies/bosses.md)
