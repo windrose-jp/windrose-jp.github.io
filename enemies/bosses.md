@@ -6,11 +6,11 @@
 
 | ボス | バイオーム | 推奨Lv | 種別 |
 |------|-----------|--------|------|
-| [Bosun（ボースン）](#the-bosunフィールドミニボス) | Coastal Jungle | Lv3〜 | フィールドミニボス |
+| [Bosun（ボースン）](#the-bosunボースン-フィールドミニボス) | Coastal Jungle | Lv3〜 | フィールドミニボス |
 | [Thomas Richards（トーマス・リチャーズ）](#トーマスリチャーズthomas-richards) | Coastal Jungle | Lv5 | メインボス |
 | [Israel Hands（イスラエル・ハンズ）](#イスラエルハンズisrael-hands) | Foothills | Lv9〜10 | メインボス |
 | [High Priestess（ハイプリーステス）](#high-priestessハイプリーステス) | Cursed Swamps | Lv11〜15 | メインボス |
-| [Ghost Captain（ゴーストキャプテン）](#ghost-captainゴーストキャプテンオプションボス) | Temple Dungeon | Lv10〜12 | オプション |
+| [Ghost Captain（ゴーストキャプテン）](#ghost-captainゴーストキャプテン-オプションボス) | Temple Dungeon | Lv10〜12 | オプション |
 | [Kraken Vanguard](#kraken-vanguard世界ボス) | 海上 | Lv15〜 | 世界ボス |
 
 ---
