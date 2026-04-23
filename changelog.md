@@ -7,6 +7,7 @@
 
 ---
 
+- 2026-04-23: [攻略] Patch 0.10.0.3.104 にサーバー優先度最適化・Windowsユーザー名エンコード修正・HDR修正・草描画距離増加・防具クリッピング修正・Plague Witch羽毛バグ修正・クラッシュ防止を追記／bosses.md に The Bosun フィールドミニボスを追加（出現場所・フェーズ・Tumbaga Ingot農場）／factions.md に NPC ワーカーが歩き回るのは正常動作である旨を明記
 - 2026-04-22: [攻略] 「エンチャント」ページ新規追加（解放条件・Arborum素材ライン・Ascendとの違い）。錬金術ページを大幅拡充（Elixir全種レシピ数値・Grog全種・Homeward Journey・Alchemy Table Lv2解放）。stations.mdにEnchanting Table追記・Alchemy Table Lv2追記。factions.mdにInsignia換算表・Rank閾値・評判減少不可明記・NPCワーカーシナジー表・People of Tortugaバイヤー注意・派閥優先度を追加
 - 2026-04-22: [攻略] 「天候・時間帯システム」「バフ最適コンボ集」の2ページを新規追加（天候5段階・Kraken出現条件・夜飛ばし・Simple Bed/ランタン仕様、目的別バフコンボ/Elixir全種/Grog全種/Homeward Journey）。respawn.mdにリセットサイクル具体時間（Ore 6h / 植物 2h / Mob 2h / Camp日次）・Shrine青祠再戦・Bosunリスポーン追記。naval-combat.mdにHull3種比較表・沈没時Cargo保護を追加。building/README.mdにComfort種類数仕様・屋根必須一覧・アドオン一括強化を追加
 - 2026-04-22: [攻略] 「ゲームが教えてくれない仕様」「取り逃し注意集」「キーバインド完全版」の3ページを新規追加（武器別Parry適性・Poise Shield数・Cargo沈没保護・Comfort種類数仕様・Galen/John Doe Evict罠・初期島ユニーク・Ancient Fire Sanctuary・Ascend Station解放条件など）
