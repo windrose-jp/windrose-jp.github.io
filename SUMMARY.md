@@ -36,6 +36,7 @@
   * [武器Tierリスト](equipment/weapon-tier.md)
   * [防具一覧](equipment/armor.md)
   * [ユニーク装備](equipment/uniques.md)
+  * [装備強化・Ascension](equipment/ascension.md)
 
 ## 船・海戦
 
