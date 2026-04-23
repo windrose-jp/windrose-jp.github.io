@@ -24,6 +24,7 @@
 * [キャラクター概要](character/README.md)
   * [ステータス](character/stats.md)
   * [タレント](character/talents.md)
+  * [ビルド最適化ガイド](character/build-guide.md)
   * [ビルド集](character/builds.md)
   * [食事・ポーション](character/buffs.md)
   * [バフ最適コンボ集](character/buff-combos.md)
