@@ -32,6 +32,7 @@
 
 * [装備概要](equipment/README.md)
   * [武器一覧](equipment/weapons.md)
+  * [武器Tierリスト](equipment/weapon-tier.md)
   * [防具一覧](equipment/armor.md)
   * [ユニーク装備](equipment/uniques.md)
 
