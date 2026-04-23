@@ -2,6 +2,19 @@
 
 > 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/) / [Boostmatch ボス攻略ガイド](https://boostmatch.gg/blog/windrose/articles/how-to-beat-thomas-richards-windrose-boss-guide) / [allthings.how Windrose ガイド](https://allthings.how/)
 
+## ボス一覧（クリックで各攻略へ）
+
+| ボス | バイオーム | 推奨Lv | 種別 |
+|------|-----------|--------|------|
+| [Bosun（ボースン）](#the-bosunフィールドミニボス) | Coastal Jungle | Lv3〜 | フィールドミニボス |
+| [Thomas Richards（トーマス・リチャーズ）](#トーマスリチャーズthomas-richards) | Coastal Jungle | Lv5 | メインボス |
+| [Israel Hands（イスラエル・ハンズ）](#イスラエルハンズisrael-hands) | Foothills | Lv9〜10 | メインボス |
+| [High Priestess（ハイプリーステス）](#high-priestessハイプリーステス) | Cursed Swamps | Lv11〜15 | メインボス |
+| [Ghost Captain（ゴーストキャプテン）](#ghost-captainゴーストキャプテンオプションボス) | Temple Dungeon | Lv10〜12 | オプション |
+| [Kraken Vanguard](#kraken-vanguard世界ボス) | 海上 | Lv15〜 | 世界ボス |
+
+---
+
 ## ボス攻略の共通原則
 
 1. **Guard Shield（体幹ゲージ）を最初に破壊する** — 全ボス共通の前提。体幹を削り切らないとダメージがほとんど入らない
