@@ -126,6 +126,8 @@ Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検
 | 施設 | 素材 | 設置場所 |
 |------|------|---------|
 | **Wharf（桟橋）** | Wood ×10・Coarse Fabric ×10 | **水際（海岸線）** に設置 |
+
+**Wharf アンロック前提クエスト（3本）**: 「Rescuing The Crew」→「I Need A Bigger Boat」→「How My Sea Adventure Began」（12-Pounder 砲のクラフトが必要）
 | Shipwright's Workshop | 情報収集中 | 拠点 |
 
 ### 建造レシピ

@@ -23,7 +23,20 @@
 | **Ancient Ruins（古代遺跡）** | Rope ×1 でラペル降下 |
 | **Blackbeard's Treasure Map** | 掘削で **Tumbaga Ingot ×3 + Epic アイテム ×1** |
 | Abandoned Buccaneer Warehouse | スターティングアイランドの隠し倉庫 |
+| **Stargazer Tower**（3基） | Fate of the Prophets クエスト。3基合計で **×19** |
 | 上位エリア・ダンジョンの宝箱 | 探索で入手 |
+
+### 地域別の入手総数
+
+| バイオーム | 個数 |
+|-----------|------|
+| Coastal Jungle | 5 |
+| Foothills | 43 |
+| **Cursed Swamp** | **50** |
+
+### 最適ファーミング地
+
+**Cursed Swamp の汚染された古代寺院跡（Contaminated Ancient Temple Ruins）**。コンテナが再生成され各コンテナから1個ずつ継続入手できるため、周回効率が最も高い。
 
 詳細な Ascension 運用は [ユニーク装備](../equipment/uniques.md) を参照。
 

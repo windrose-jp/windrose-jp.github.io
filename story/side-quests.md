@@ -37,6 +37,21 @@ Early Accessリリース後に順次追記します。
 
 Coastal Jungle 東端の **Pirate Remains 難破船**で Decrepit Chest を開けて Lamp・Blurry Sketch・**Dueling Saber**（Epic）を同時入手するとクエストが発火。詳細は [ユニーク装備](../equipment/uniques.md) を参照。
 
+### Fate of the Prophets（Stargazer Tower）
+
+> 情報源: [RespawnFirst Stargazer Tower Puzzle](https://respawnfirst.com/stargazer-tower-puzzle-solution-in-windrose/)
+
+**場所**: Cursed Swamp バイオームの **Stargazer Tower**（3基）
+
+| 手順 | 内容 |
+|------|------|
+| 1 | Stargazer Tower に到達し階段を下る |
+| 2 | 鍵付きドア両側の石盤をカメラを上に向けて確認 |
+| 3 | 隠しパネルの星座パターンに合わせてダイアルを回転させる |
+| 4 | ドアが開いたら内部の Ancient Chest を回収（**Plague Thralls** に注意） |
+
+**報酬**: 3基すべてクリアで **Tumbaga Ingot 合計 ×19**。装備昇格素材の確保として Cursed Swamp 進出後の優先クエスト。
+
 ### Glorious Hunters（Buccaneer's Friend 解放）
 
 **Rogue Buccaneers** 派閥のクエストライン。最終報酬が Epic 遠距離武器 **Buccaneer's Friend**（刺突585, Precision Grade A）。同時に Rogue Buccaneers 評判 200 が必要。詳細調査中。

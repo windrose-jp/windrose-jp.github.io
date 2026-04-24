@@ -41,17 +41,20 @@ Wharf（桟橋）の **Customization タブ** から外観を変更できる。
 
 Hull Bracing のアップグレード素材は **Copper + Nails**（沿岸の難破船から回収）。
 
-### 大砲の Epic 派生3種
+### 大砲の Epic 派生
 
-各口径（12/24/36-Pounder）にはそれぞれ3つの Epic バリアントがある。
+各口径（12/24/36-Pounder）に複数の Epic バリアントがある。
 
-| バリアント | パッシブ効果 |
-|-----------|-----------|
-| **Devastating** | リロード速度 +15% |
+| バリアント | 効果 |
+|-----------|------|
+| **Hardened** | 装填後6秒待機でダメージ **+40%** |
+| **Devastating** | 砲弾の半数以上命中時に **Raked** デバフ付与（25秒間 +10% ダメージ、最大3スタック）|
 | **Perfectly Ordered** | 照準速度 +30% |
 | **Tempered** | 弱点（Weak Spot）ヒット時ダメージ +20% |
 
-単砲構成なら **Perfectly Ordered**（照準速度重視）が汎用性高め。複数砲を使い回す構成なら **Devastating** も有効。
+> **フリゲート推奨構成**: 36-pdr に Hardened（タイミング合わせで大ダメージ）、24-pdr に Devastating（Raked を重ねて継続バフ）。詳細は[海戦ガイド](naval-combat.md)を参照。
+
+単砲構成なら **Perfectly Ordered**（照準速度重視）が汎用性高め。
 
 ### 設計図の入手先
 
