@@ -99,6 +99,31 @@
 
 ---
 
+## Cursed Swamps 特殊素材
+
+> 情報源: [method.gg Cursed Swamp Resources](https://www.method.gg/windrose/cursed-swamp-resources-in-windrose-tarred-planks-and-fabric-quagmire-powder-and-more) / [nerdschalk.com Ingot Arborum](https://nerdschalk.com/windrose-how-to-unlock-enchanting-table-and-craft-ingot-arborum-in-cursed-swamp-locations/)
+
+エンチャントシステムに必要な素材。Large Smelting Furnace での精錬が必要。
+
+### Quagmire Powder（沼地の粉）
+
+| 項目 | 内容 |
+|------|------|
+| 入手方法 | **Cursed Swamps の Plague tribe 敵**（Plague Hunter / Plague Warrior / Plague Witch）からドロップ |
+| 用途 | Mire Metal Ingot の精錬素材 |
+
+### Mire Metal Ingot（ミレメタルインゴット）
+
+| 項目 | 内容 |
+|------|------|
+| 精錬施設 | **Large Smelting Furnace** |
+| レシピ | Ancient Scraps ×2 + Quagmire Powder ×1 |
+| 用途 | Enchanting Table の建築（×3）/ Ingot Arborum の生成素材 |
+
+エンチャント素材の詳細は [エンチャント](../crafting/enchanting.md) を参照。
+
+---
+
 ## 精錬の流れ
 
 1. **鉱石を採掘** — Pickaxeで鉱脈を叩く

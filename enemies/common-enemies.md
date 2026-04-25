@@ -37,6 +37,16 @@ Boar系統の別種として確認されている。
 
 ---
 
+### ソーンフィドラー（Thorn Fiddler）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Coastal Jungle**（夜間） |
+| 危険度 | 中 |
+| 特徴 | カニ系の変種。Drowned・Undeadと同じく夜間限定で出現 |
+
+---
+
 ## 人型の敵
 
 ### 溺死者（Drowned）
@@ -52,6 +62,14 @@ Weevil Ship クエストで遭遇する人型の水死体系の敵。
 
 **攻略のポイント**: Drowned は乗船中でなければ無限に湧き続ける。乗り込んだら退かず、乗船状態を維持することでスポーンを止められる。詳細は[島ガイド・Weevil Ship](../exploration/islands.md)を参照。
 
+### グレネーダー（Grenadier）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | Coastal Jungle 系エリア（海賊キャンプ等） |
+| 危険度 | 中 |
+| 特徴 | 爆発物を投擲する人型敵。Hotfix 0.10.0.2.54 でAI挙動が改善された |
+
 その他の人型敵（海賊・スケルトン等）については情報収集中。
 
 ## アンデッド・呪われた敵
@@ -65,7 +83,51 @@ Weevil Ship クエストで遭遇する人型の水死体系の敵。
 | 対処法 | タワー内は狭く密集しやすい。遠距離武器での先制推奨 |
 | 備考 | Fate of the Prophets クエスト中に複数出現。チェスト回収前に掃除する |
 
-> 同系統の Plague Witch（パッチ 0.10.0.2.54 で修正済みの不具合あり）も Cursed Swamp に生息。
+---
+
+## Cursed Swamps の敵
+
+### Plague Hunter（疫病の狩人）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 中〜高 |
+| ドロップ | **Quagmire Powder**（Mire Metal Ingot・エンチャント素材） |
+| 備考 | Plague Warrior / Plague Witch と同じく Plague tribe に属する |
+
+### Plague Warrior（疫病の戦士）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 中〜高 |
+| ドロップ | **Quagmire Powder** |
+
+### Plague Witch（疫病の魔女）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 高 |
+| ドロップ | **Tear of Sorrow**、**Mysterious Spice**（Discoveries 素材） |
+| 備考 | パッチ 0.10.0.3.104 で羽毛シミュレーションのバグが修正された |
+
+### Plague Crocodile（疫病のワニ）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 高 |
+| 備考 | High Priestess 周辺エリアに出現。ボスへの接近時に注意 |
+
+### Senkamati Corrupted
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 要調査 |
+| 備考 | 存在が確認されているが詳細不明【要検証】 |
 
 ## バイオーム別の敵一覧
 

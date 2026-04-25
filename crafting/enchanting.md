@@ -70,9 +70,25 @@ Enchanting に使う素材は専用の生産ラインが必要。
 
 Plague Wood は Swamp バイオームで伐採できる特殊な木材。
 
+### Quagmire Powder（沼地の粉）
+
+**Cursed Swamps の Plague tribe 敵**（Plague Hunter / Plague Warrior / Plague Witch）からドロップ。
+Mire Metal Ingot の精錬素材として消費される。
+
+### Mire Metal Ingot（ミレメタルインゴット）
+
+**Large Smelting Furnace** で以下の素材から精錬：
+
+| 素材 | 数量 |
+|------|------|
+| Ancient Scraps | ×2 |
+| Quagmire Powder | ×1 |
+
+Enchanting Table の建築素材（×3）と、Ingot Arborum 生成の中間素材として使用。
+
 ### Tainted Bile（汚染された胆汁）
 
-Swamp の敵（感染した動物など）からドロップ。Enchanting 素材として消費される。
+Cursed Swamps の **Plague 系敵**（感染した動物・Plague tribe）からドロップ。Ingot Arborum の生成素材として消費される。
 
 ### Ingot Arborum（アーボラムインゴット）
 
@@ -80,9 +96,9 @@ Enchanting Table で以下の素材から生成：
 
 | 素材 | 概要 |
 |------|------|
-| Mire Metal Ingot | Large Smelting Furnace で生成 |
+| Mire Metal Ingot | Large Smelting Furnace で生成（Ancient Scraps ×2 + Quagmire Powder ×1） |
 | Essence Arborum | Plague Wood を精錬 |
-| Tainted Bile | Swamp 敵からドロップ |
+| Tainted Bile | Cursed Swamps の Plague 系敵からドロップ |
 
 **Ingot Arborum を使って最高ティアの「Arborum 装備」をクラフト・強化できる**。
 

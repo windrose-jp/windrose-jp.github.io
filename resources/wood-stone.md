@@ -74,6 +74,17 @@
 | Canvas Cloth（キャンバス布） | Coarse Fabricから加工 | 船の帆 |
 | Hemp Rope（麻ロープ） | Plant Fiberから加工 | 船・バッグ・建築 |
 
+## Cursed Swamps 加工素材
+
+> 情報源: [method.gg Cursed Swamp Resources](https://www.method.gg/windrose/cursed-swamp-resources-in-windrose-tarred-planks-and-fabric-quagmire-powder-and-more)
+
+Cursed Swamps 到達後に解放される上位加工素材。
+
+| 素材名 | 素材 | 主な用途 |
+|--------|------|----------|
+| **Tarred Planks**（タール板材） | Pinewood Plank + Tar | 上位船・拠点建材 |
+| **Tarred Fabric**（タール布） | Canvas Cloth + Tar | 上位船帆・防水建材 |
+
 ---
 
 ## 採取の優先度（序盤）
