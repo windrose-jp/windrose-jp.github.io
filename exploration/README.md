@@ -2,7 +2,7 @@
 
 > 情報源: [Steam ストアページ](https://store.steampowered.com/app/3041230/Windrose/)
 
-![探索](../images/ss2.jpg)
+![ワールドマップ](../images/map-world.jpg)
 
 Windroseの世界は3つのバイオームにまたがる広大な海洋世界です。約30個の手作り生成島と90以上のハンドクラフトされたPOI（ポイント・オブ・インタレスト）が待っています。
 

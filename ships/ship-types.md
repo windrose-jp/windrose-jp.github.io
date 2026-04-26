@@ -121,6 +121,8 @@ Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検
 
 ## 船の建造
 
+![造船所UI](../images/ship-wharf-build.jpg)
+
 ### 必要施設
 
 | 施設 | 素材 | 設置場所 |

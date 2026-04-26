@@ -22,6 +22,8 @@ Workbench → Stone Tools → Copper Ore 採掘
 ### 作業台（Workbench）
 序盤に最初に建てるべき施設。基本的なアイテムのほぼ全てをここでクラフトする。
 
+![作業台UI](../images/craft-workbench.jpg)
+
 | 項目 | 内容 |
 |------|------|
 | 主な用途 | 道具・武器・包帯・袋などのクラフト |
@@ -77,6 +79,8 @@ Workbench → Stone Tools → Copper Ore 採掘
 
 ### 解体台（Dismantling Bench）
 不要なアイテムを素材に戻す施設。
+
+![解体台UI](../images/equip-salvage.jpg)
 
 | 返却率 | **基本コストのみ100%返却** |
 |-------|--------------------------|

@@ -24,10 +24,14 @@ Wharf（桟橋）の **Customization タブ** から外観を変更できる。
 
 性能の強化は Wharf と Shipwright's Workshop の2か所で行う。
 
+![船大工の工房](../images/ship-workshop.jpg)
+
 | 施設 | 役割 |
 |------|------|
 | **Shipwright's Workshop** | 装備品の製作・アップグレード（Bonfire と屋根が必要） |
 | **Wharf** | 製作した装備を船に装着。水際に設置する必要あり |
+
+![船の積荷と装備](../images/ship-cargo-ui.jpg)
 
 > 船を管理する前に **K キーで船を Wharf に呼び戻す**（召喚）のを忘れずに。
 
