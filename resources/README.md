@@ -4,8 +4,6 @@
 
 ## 素材カテゴリ
 
-![素材インベントリ](../images/resource-inventory.jpg)
-
 | ページ | 内容 |
 |--------|------|
 | [木材・石材](wood-stone.md) | 木材・石材の種類・採集場所・用途 |
@@ -13,8 +11,6 @@
 | [植物・食材](plants-food.md) | ハーブ・食材の採集場所と用途 |
 
 ## 素材収集の基本
-
-![商人・資源交換](../images/merchant-resources.jpg)
 
 - 木材と石材は拠点建設の基本素材
 - 鉱石は製錬炉（Smelting Furnace）でインゴットに加工
