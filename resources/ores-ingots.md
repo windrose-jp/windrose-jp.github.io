@@ -109,8 +109,21 @@
 
 | 項目 | 内容 |
 |------|------|
-| 入手方法 | **Cursed Swamps の Plague tribe 敵**（Plague Hunter / Plague Warrior / Plague Witch）からドロップ |
+| 入手方法 | **Cursed Swamps の Plague tribe 敵**（Plague Thrall / Plague Hunter / Plague Warrior / Plague Witch）からドロップ |
+| 例外 | **Plague Crusher からはドロップしない** |
 | 用途 | Mire Metal Ingot の精錬素材 |
+
+#### 最適ファーミング地
+
+| 場所 | 推奨レベル | 1 周獲得量 / 所要時間 | 特徴 |
+|------|---------|------------------|------|
+| **Ancient Debris**（4 サイト） | **Lv12 装備** | **40〜50 個 / 15〜20 分** | Plague Thrall・Plague Hunter が密集する低リスク農場。EA 現状で最効率 |
+| **Tainted Ruins Of An Ancient Temple** | **Lv15 装備（最大強化推奨）** | より多量だが難度高 | Lv15 Plague が大量。装備が整っていないと事故率が高い |
+| 各島の Ancient Ruins POI のチェスト | — | チェストごとに 7〜10 個 | **初回限定**。Cursed Swamps 進出直後に巡回すると装備強化のブースト元になる |
+
+> 効率重視なら **Ancient Debris の周回**が定番。Tainted Ruins は装備が完全に揃ってから挑む。
+
+> 情報源: [method.gg Quagmire Powder Farming Route](https://www.method.gg/windrose/where-to-find-quagmire-powder-in-windrose-best-farming-route)
 
 ### Mire Metal Ingot（ミレメタルインゴット）
 

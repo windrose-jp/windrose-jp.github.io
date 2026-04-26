@@ -125,8 +125,19 @@ Weevil Ship クエストで遭遇する人型の水死体系の敵。
 |------|------|
 | 出現場所 | **Cursed Swamps** |
 | 危険度 | 高 |
-| ドロップ | **Tear of Sorrow**、**Mysterious Spice**（Discoveries 素材） |
+| ドロップ | **Tear of Sorrow**、**Mysterious Spice**（Discoveries 素材）、**Quagmire Powder** |
 | 備考 | パッチ 0.10.0.3.104 で羽毛シミュレーションのバグが修正された |
+
+### Plague Crusher（疫病の破砕者）
+
+| 項目 | 内容 |
+|------|------|
+| 出現場所 | **Cursed Swamps** |
+| 危険度 | 高 |
+| ドロップ | **Quagmire Powder はドロップしない（Plague tribe 内で唯一の例外）** |
+| 備考 | 重装大型の Plague 個体。Quagmire Powder ファーミング目的では優先度低（Thrall / Hunter を狙う方が効率的） |
+
+> 情報源: [method.gg Quagmire Powder Farming Route](https://www.method.gg/windrose/where-to-find-quagmire-powder-in-windrose-best-farming-route)
 
 ### Plague Crocodile（疫病のワニ）
 

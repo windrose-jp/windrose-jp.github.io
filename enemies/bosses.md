@@ -334,8 +334,12 @@ Cursed Swamps の海上で遭遇する**世界ボス**。
 #### 推奨戦術
 
 - 武器：**Saber または Rapier**（短いコンボ後のパニッシュウィンドウを活用）。Rapier of a Thousand Cuts の出血スタックが特に有効
+- 防具：**Conquistador's Set 4 ピース完全装備**で Bulwark（行動中断不可）が発動 → 攻撃の振り中・ポーション飲み中もよろけない。Ghost Captain の短い反撃窓を活かしつつ被弾リスクを大幅に削減できる（詳細は [防具一覧](../equipment/armor.md#コンキスタドールセットconquistador-set) 参照）
+- 遠距離武器：Musket ビルドも有効。Ghost Captain は距離を取る攻撃モーションが多く、その間は安全に射撃できる
 - 回復アイテムを多めに持参（Healing Food 15〜20 個推奨）
 - ダンジョン入口付近にテントを設置してからエンゲージ
+
+> 情報源: [BoostMatch Ghost Captain 攻略](https://boostmatch.gg/blog/windrose/articles/windrose-ghost-captain-boss-fight-guide) / [BoostMatch 防具セットガイド](https://boostmatch.gg/blog/windrose/articles/windrose-best-armor-sets-builds-guide)
 
 #### ドロップ
 

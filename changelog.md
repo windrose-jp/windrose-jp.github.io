@@ -11,6 +11,10 @@
 - [攻略] Quagmire Powder・Mire Metal Ingot を鉱石・インゴットページに追加（精錬レシピ: Ancient Scraps ×2 + Quagmire Powder ×1）
 - [攻略] Tarred Planks・Tarred Fabric（Cursed Swamps 加工素材）を木材・石材ページに追加
 - [攻略] エンチャントページの Tainted Bile ドロップ元を具体化、Quagmire Powder・Mire Metal Ingot の正確なレシピを追記
+- [攻略] Quagmire Powder の最適ファーミング地（Ancient Debris × 4 サイト = Lv12 / 1 周 40〜50 個 / Tainted Ruins Of An Ancient Temple = Lv15）を追記
+- [攻略] Plague Crusher を一般敵一覧に追加（Plague tribe で唯一 Quagmire Powder を落とさない例外を明記）
+- [攻略] Plague Witch のドロップに Quagmire Powder を追加
+- [攻略] Ghost Captain 戦の推奨装備に Conquistador's Set 4 ピース（Bulwark = 行動中断不可）と Musket ビルドの有効性を追記
 
 ## 2026-04-24
 
