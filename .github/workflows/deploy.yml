@@ -153,6 +153,7 @@ jobs:
               url = url.replace(chr(92), "/")
               if url.endswith(".md"):
                   url = url[:-3] + ".html"
+              url = url.replace("README.html", "index.html")
               return url
 
           url_changed = 0
@@ -192,6 +193,9 @@ jobs:
         run: |
           sed -i 's|</head>|<meta name="robots" content="noindex, nofollow"><meta http-equiv="refresh" content="3;url=/"></head>|' book/404.html
           sed -i 's|<main>|<main><div style="text-align:center;padding:2em;"><p>ページが見つかりませんでした。3秒後にトップページへ移動します。</p><p><a href="/">トップページへ</a></p></div>|' book/404.html
+          # 移動済みページの静的リダイレクト
+          mkdir -p book/story
+          printf '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=/factions.html"><link rel="canonical" href="https://windrose.gameguidejp.com/factions.html"></head><body><a href="/factions.html">勢力・評判</a></body></html>' > book/story/factions.html
 
       - name: Copy static files
         run: |
