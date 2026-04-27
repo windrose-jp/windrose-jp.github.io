@@ -118,25 +118,28 @@ POI（ポイント・オブ・インタレスト）のクリア判定は**全チ
 
 ## ⚠️ Boar Whistle（イノシシ召喚笛）
 
-**Foothills の祭壇に Offering を捧げると入手できる戦闘用武器**。戦闘中にイノシシを召喚してアグロを取らせる。装備枠を消費するが、ボス戦・複数戦で有用。
+**Foothills の祭壇に Offering を捧げると入手できる戦闘用アイテム**。使用すると装甲豚「Truffle」を召喚してアグロを取らせる。ホットバー消費だが、ボス戦・複数戦で有用。
 
-- **入手条件**: Foothills の祭壇（Altar）に特定アイテムを Offering
-- **見落とすと**: 祭壇の存在自体気づかれにくい。Foothills 探索時に祭壇のあるエリアを意識的に探すこと
+- **入手場所**: Foothills の島にある祭壇（Altar）。マップで **Wheat Field アイコン（0/1 の完了マーカー付き）** を探すと見つかる。ワールドごとに位置が変わる（手続き型生成）
+- **必要 Offering**: **Meat ×20 + Relics ×3** を祭壇に捧げると Legendary Boar Whistle を入手
+- **使い方**: Boar Whistle をホットバーに移してクリックで召喚。Truffle が倒れてもクールダウン後に再召喚可能（使用回数無制限）
+- **見落とすと**: 祭壇の存在自体気づかれにくく、Foothills を突破すると優先度が下がりがち
 - **Hotfix 0.10.0.2.54** で取得バグ修正済み
 
-> 情報源: [Sportskeeda Secret Items](https://www.sportskeeda.com/esports/all-secret-items-windrose-how-get)
+> 情報源: [neonlightsmedia Boar Companion Guide](https://www.neonlightsmedia.com/blog/windrose-boar-companion-whistle-guide) / [boostmatch Boar Whistle Guide](https://boostmatch.gg/blog/windrose/articles/windrose-legendary-boar-whistle-truffle-unlock-guide) / [nerdschalk Boar Whistle](https://nerdschalk.com/windrose-how-to-get-the-legendary-boar-whistle-and-summon-truffle-foothills-island-location-altar-offerings-and-truffle-tips/)
 
 ---
 
 ## ⚠️ Truffle（戦闘ペット・装甲豚）
 
-**Ancient Village で儀式を行うと取得できる戦闘ペット**。Israel Hands 戦のアグロ分散用として有名。
+**Boar Whistle（↑参照）を使って召喚できる装甲豚のコンパニオン**。Israel Hands 戦のアグロ分散として特に有名。
 
-- **入手条件**: Ancient Village の儀式（Ritual）を完了
-- **特性**: ヘビーアーマーの豚で、ボスのアグロを取りつつ生存しやすい
-- **強さ**: Israel Hands を Truffle 召喚で大幅に楽にできるとコミュニティで報告
+- **入手方法**: Boar Whistle を先に取得し、ホットバーから召喚（「Truffle」が直接入手できるアイテムではなく Boar Whistle 経由）
+- **特性**: Strength ダメージを与えてポイズ（体幹）を削り敵をスタンさせる。ヘビーアーマーで生存しやすい
+- **Israel Hands 戦での活用**: Truffle がアグロを引いている間に Rapier の Bleed スタックを維持しやすく、出血ダメージで安全に削れる
+- **再召喚**: 戦闘中に Truffle が倒れてもクールダウン後に再使用可能（無制限）
 
-> 情報源: [Method.gg](https://www.method.gg/windrose/) / [allthings.how Israel Hands](https://allthings.how/how-to-beat-israel-hands-in-windrose-every-attack-and-how-to-dodge-it/)
+> 情報源: [neonlightsmedia Boar Companion Guide](https://www.neonlightsmedia.com/blog/windrose-boar-companion-whistle-guide) / [gamerant How to Get Boar Companion](https://gamerant.com/windrose-how-get-boar-companion/)
 
 ---
 
