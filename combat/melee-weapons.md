@@ -65,3 +65,42 @@
 | グレートソード | 高火力・重量 | なし | スタミナ管理必須 |
 
 詳細な数値・攻撃モーション比較は情報収集中です。
+
+---
+
+## 重要ステータス効果（知らないと損する仕様）
+
+> 情報源: [fextralife Status Effects](https://windrose.wiki.fextralife.com/Status_Effects)
+
+| 状態 | 効果 | 主な付与元 |
+|------|------|----------|
+| **Bleed（出血）** | 1 stack で **40 ダメ持続**、kill 時周囲の敵に伝染 | Rapier of a Thousand Cuts（5スタックで伝染特性発動） |
+| **Plague Mark（疫病マーク）** | 1体に最大8スタック。**5以上消費でフルヒール**、8でVulnerability連動の burst window | Rapier of Devastation の軽攻撃 |
+| **Vulnerability（脆弱）** | 被ダメ +X%。Plague Mark コンボの核 | Drake's Double-Barreled Pistol（Epic） |
+| **Ward（防壁）** | 被ダメ -15% | Epic Executioner Halberd 装備パッシブ |
+| **Take Aim!（狙い澄まし）** | 遠距離ダメ +最大9 stack | Cutlass の特定モーション |
+| **Distortion（歪み）** | AoE デバフ | Swamp Creature's Tooth |
+| **Winded（息切れ）** | スタミナ枯渇でスプリント・ダッシュ封印（自損ステータス） | スタミナ赤化 |
+| **Temporal Health（時限HP）** | 失敗パリィで生成。Bleed tick で自動補填（Duelist 専用シナジー） | パリィ失敗 |
+
+### Plague Mark コンボの実用例
+
+Rapier of Devastation で **軽攻撃 8 連 → Drake's Pistol → Heavy Attack** の決定打ループは終盤メタの中核。詳細は [ビルド集](../character/builds.md#plague-mark-コンボs-火力ループ) を参照。
+
+---
+
+## パリィ性能の武器別差
+
+> パリィの基本は「敵の体幹を削り、自分の体幹は消費しない」。ただし**武器によって挙動が大きく異なる**。
+
+| 武器種 | パリィ性能 |
+|--------|-----------|
+| **Saber** | **完全無傷 + 自分のポスチャー保持**（Sturdy 派生で +1 段確保可） |
+| **Rapier** | **シールド半減**（敵の体幹を半分削る） |
+| **Greatsword** | 標準的にパリィ可 |
+| **Club / Mace** | パリィ効果小 |
+| **Halberd（Crude派生）** | **パリィ不可**。弱い攻撃のみ通る、自分の体幹消費 |
+
+**数回パリィすると敵のポスチャーが崩れ、確定 DPS 窓が出る**。Saber が初心者から熟練者まで圧倒的に推されるのはこのパリィ性能による。
+
+> 情報源: [Steam: parry weapon discussion](https://steamcommunity.com/app/3041230/discussions/0/807975542034834328/)

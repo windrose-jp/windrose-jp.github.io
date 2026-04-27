@@ -43,6 +43,42 @@ Marathon Runner → Agile → **Deep Cuts** → Quick Strikes → Perfect Counte
 
 Rapier of a Thousand Cuts を Epic に昇格させると「**キル時に全ブリード状態を最近傍の敵に転移**」が解放される。雑魚の集団戦で特に強力。
 
+### Plague Mark コンボ（S+ 火力ループ）
+
+**Drake's Double-Barreled Pistol**（Epic ピストル、Vulnerability 付与）と組み合わせた決定打コンボ。ボス戦で最大4,000ダメ級のバーストを叩き出せる。
+
+| 手順 | アクション | 効果 |
+|------|----------|------|
+| 1 | Rapier of Devastation の軽攻撃 ×8 | **Plague Mark 8 スタック蓄積** |
+| 2 | Drake's Pistol で射撃 | **Vulnerability** 付与（被ダメ +X%） |
+| 3 | Heavy Attack | **約4,000ダメ**（Plague Mark 5 以上消費でフルヒール効果も） |
+
+#### 推奨スタッツ（決闘者ビルド完成形）
+
+| スタッツ | 値 |
+|---------|---|
+| Precision | **25** |
+| Vitality | **10**（Vitality 20 がソフトキャップ） |
+| Endurance | **10** |
+
+#### 推奨アクセサリ
+
+- **Major Warrior Ring** / **Major Necklace of Precision**
+
+#### 食事・エリクサー
+
+- **Swamp Pie + Coffee**（PRE+20、END+20）
+- **Elixir of Cruelty**（+8% damage）
+
+#### 推奨タレント振り
+
+- **Marathon Runner 3/3**（スタミナ削減）
+- **Deep Impact 3/3**（重撃ダメ）
+- **Stout Frame 2/3**
+- **Just A Flesh Wound 2/3**（致命傷耐性）
+
+> 情報源: [allthings.how Best Builds](https://allthings.how/windrose-best-builds-three-loadouts-that-dominate-combat/) / [neonlightsmedia](https://www.neonlightsmedia.com/blog/windrose-weapons-armor-crafting)
+
 ---
 
 ## 両手重武器ビルド（Crusher系）
@@ -68,6 +104,28 @@ Marathon Runner → **Bonecrusher** → Retribution → Massive → Perfected Fo
 3. HP が下がったら Berserk でダメージを伸ばす
 4. Pikeman 2部位の HP+160 で場持ちを確保（4部位で両手ダメージ+15%も発動）
 
+### Plague Halberd Cleave 派生（自己回復タンクDPS）
+
+**Plague Halberd**（または Soul Eater）+ **Plague Pistol**の構成。Halberd の特殊攻撃で**約35% HP 自己回復**、Plague Pistol は与ダメの **40% を HP 変換**する。
+
+| 推奨スタッツ | 値 |
+|--------------|---|
+| Strength | **20** |
+| Vitality | **15** |
+| Endurance | **10** |
+
+| 推奨タレント | 振り |
+|------------|------|
+| Bonecrusher | 3/3 |
+| Outnumbered | 2/3 |
+| Massive | 1/3 |
+
+- **食事**: Meaty Croc Kebab + Coffee
+- **エリクサー**: Elixir of Firm Hand（+13% melee）
+- **アクセ**: Major Capricorn Ring / Major Necklace of Strength
+
+> 情報源: [allthings.how Best Builds](https://allthings.how/windrose-best-builds-three-loadouts-that-dominate-combat/)
+
 ---
 
 ## 遠距離ビルド（Marksman系）
@@ -92,6 +150,29 @@ Marathon Runner → **Planning Ahead** → Bull's Eye → Firearm Training → E
 2. 雑魚には**銃を使わず近接で処理**し弾薬を温存
 3. ダンジョンボスの体幹破壊後に集中射撃
 4. Sniper's Focus で静止時の精度・ダメージを最大化
+
+### Reliable Musket Marksman（A Tier・Crit特化）
+
+**Reliable Musket（Epic 必須）**: 100 ATK / 600 Pierce / +20% Crit。Quick Hand 3/3 でリロード <2秒まで短縮。
+
+| 推奨スタッツ | 値 |
+|--------------|---|
+| Precision | **35** |
+| Vitality | **10** |
+| Endurance | **0**（遠距離武器は **Stamina 0 消費** のため不要） |
+
+| 推奨タレント | 振り |
+|------------|------|
+| Bull's Eye | 3/3 |
+| Quick Hand | 3/3（リロ <2秒） |
+| Bulletstorm | 3/3 |
+| Sniper's Focus | 2/3 |
+
+- **食事**: Swamp Pie（PRE+20）+ Banana Muffin（PRE+10）
+- **エリクサー**: Elixir of Concentration（+30% Crit Dmg）
+- **アクセ**: Major Cutthroat Ring（+30% Crit Dmg）/ Major Necklace of Precision
+
+> 情報源: [allthings.how Crit Build](https://allthings.how/windrose-crit-build-guide-reliable-musket-marksman-setup/)
 
 ---
 

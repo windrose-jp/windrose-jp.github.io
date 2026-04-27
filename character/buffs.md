@@ -101,15 +101,17 @@ Windroseでは**食事**と**ポーション/エリクサー**を使って一時
 
 ## エリクサー（Elixir）
 
-戦闘能力を一時的に強化するポーション。Alchemy Table で製造。
+戦闘能力を一時的に強化するポーション。Alchemy Table で製造。**食事バフと別枠でスタック可能**なため、ボス戦前に必ず1本飲んでおく。
 
-| エリクサー名 | 効果 |
-|------------|------|
-| **Elixir of Concentration** | クリティカルダメージ強化 |
-| **Elixir of Cruelty** | 全般的なダメージ増加 |
-| **Elixir of Firm Hand** | 近接ダメージ増加 |
-| **Elixir of Pain Relief** | 被ダメージ軽減 |
-| **Elixir of Precision** | 遠距離ダメージ増加 |
+| エリクサー名 | 効果 | 備考 |
+|------------|------|------|
+| **Elixir of Concentration** | **クリティカルダメージ +30%** | Crit ビルド必須（Reliable Musket Marksman 等） |
+| **Elixir of Cruelty** | **全般ダメージ +8%** | 汎用最強。武器種問わず |
+| **Elixir of Firm Hand** | **近接ダメージ +13%** | 近接ビルド向け |
+| **Elixir of Pain Relief** | 被ダメージ軽減 | タンク系・ボス連戦用 |
+| **Elixir of Precision** | 遠距離ダメージ増加 | Marksman 系 |
+
+> 情報源: [allthings.how Best Builds](https://allthings.how/windrose-best-builds-three-loadouts-that-dominate-combat/)
 
 Alchemy Table の解放: **Misty Orchid（霧の蘭）** を素材として使用（Foothills で入手）。
 

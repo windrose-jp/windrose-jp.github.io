@@ -2,7 +2,78 @@
 
 > **注意**: Windrose は 2026年4月14日 Early Access 開始の新作で、リスポーン仕様は**未公式ドキュメント化**の領域が多く、ほぼ全てがコミュニティ検証情報です。本ページの内容は **2026年4月時点** の英語コミュニティ報告に基づきます。今後のパッチで変動する可能性があります。
 
-> 情報源: Steam Community Discussions（複数スレッド）、xmodhub、tposegaming、allthings.how、adventuregamers、boostmatch、thegameswatch、PC Gamer、GameSpot 等の英語ソース
+> 情報源: [allthings.how Tent and Revival](https://allthings.how/windrose-save-points-how-tents-and-revival-work/) / [gamedevourer Death Mechanics](https://gamedevourer.com/windrose-death-mechanics-explained/) / [thegameswiki Bonfire](https://thegameswiki.com/windrose/wiki/bonfire) / [thegameswiki Pirate Camps](https://thegameswiki.com/windrose/wiki/pirate-camps) / [allthings.how Trees](https://allthings.how/do-trees-grow-back-in-windrose-respawn-rules-explained/) / [gamerblurb Ship Respawn](https://gamerblurb.com/articles/windrose-how-to-respawn-on-ship) / [gamebrief Resources](https://www.gamebrief.net/blog/windrose-resources-guide-ore-respawn-crates-farming) / 開発者発言（Steam Community: Officer WHOLF）
+
+---
+
+## 💀 プレイヤー死亡時のリスポーン
+
+### リスポーン地点の優先順位
+
+| 優先 | 地点 | 条件 |
+|------|------|------|
+| **1** | **Tent**（最優先） | クラフト後**相互作用してアクティブ化が必須**（設置だけではダメ） |
+| **2** | **Bonfire** | Tent が無い場合のデフォルト復活点 |
+| **3** | **本拠地** | Tent も Bonfire も未設定の場合 |
+
+> **「ベッド」は独立した復活ポイントとしては存在しない**。Tent が事実上の役割を兼ねる。
+
+- **リスポーン待機**: 約3秒のディレイ後に復活
+- 遠征時は**入口に必ず Tent をアクティブ化**してから突入する
+
+### 死亡ペナルティ
+
+| 項目 | 仕様 |
+|------|------|
+| **装備中の武器・防具** | **保持**（ロストしない） |
+| **クイックバー枠（1〜4）** | **保持** |
+| **バックパック中身（素材等）** | **全ロスト** → 死亡地点に「墓（tombstone）」が生成 |
+| **マップ表示** | 赤い**墓アイコン**で死亡地点が表示 |
+| **ワールド内表示** | **光るバスケット**として可視化 |
+| **XP** | **ロストなし**、キャラ進行は完全保持 |
+| **食事バフ** | **消滅**、再適用が必要 |
+| **敵HP** | **死亡をまたいで回復しない** → 消耗戦（attrition）戦法が成立 |
+
+> **戦術活用**: 雑魚敵は死亡をまたいでHPが維持されるため、**Tent から復活して再突撃で削り切る「死に特攻」が成立する**。ソウルライクだが寛容な仕様。
+
+### Plague（疫病）による即死
+
+**Wood Plague**（汚染木地帯）に長居して Plague ゲージが MAX になると**即死**。通常死と同等の処理（インベントリ→墓、装備保持）で**特殊ペナルティはない**が、再突入時の対策必須。
+
+→ 詳細は [呪われた沼地のPlagueハザード](biomes.md#plague疫病ハザード) を参照
+
+### ボスアリーナ内の特殊ルール
+
+- ボスアリーナは **instanced（独立空間）** 扱い
+- **内部に Tent 設置不可** → 死亡時はアリーナ外まで戻され**全行程やり直し**
+- マルチプレイでは未参加プレイヤー専用に同ボス枠が再ロードされる
+
+---
+
+## ⛵ 船関連のリスポーン
+
+### Ketch（スターター艇）の召喚仕様
+
+| 項目 | 仕様 |
+|------|------|
+| 召喚キー | **K キー**（どこからでも召喚可能） |
+| **Wharf からの完全修理リスポーン** | **Wood 20 を支払うと完全修理状態で Ketch がリスポーン**（Wharf 近接時） |
+| 沈没時 | **Wharf でリカバリー可能** |
+| Cargo の保護 | 沈没時も**Cargo Hold の素材は保持される** |
+
+### 戦闘艦（Brig / Frigate）の沈没後
+
+- **Wharf からのリカバリー必須**（Wood ×20 が基本）
+- リカバリー費用は船サイズ・ティアでスケール
+- 沈没した船は失われない（Wharf 経由で復元）
+
+### 船上では直接リスポーンできない
+
+- 死亡時に**船上でリスポーンする手段は存在しない**
+- 船上で死ぬと最寄りの Tent / Bonfire / 本拠地に戻される
+- **回避策**: 海岸に Tent を設置してから出航
+
+> 情報源: [gamerblurb Ship Respawn](https://gamerblurb.com/articles/windrose-how-to-respawn-on-ship) / [method.gg Wharf](https://www.method.gg/windrose/the-wharf-in-windrose-how-to-build-it-what-it-does)
 
 ---
 
@@ -48,7 +119,18 @@
 
 ### Shrine（青い祠）でのボス再戦
 
-ボスアリーナ内の**右側に青い光を放つ Shrine** があり、ここから再挑戦できる。「一度倒したら終わり」という誤認が多いが、何度でも戦える。報酬ドロップが初回と同等かどうかは未確認【要検証】。
+ボスアリーナ内の**右側に青い光を放つ Shrine** があり、ここから再挑戦できる。「一度倒したら終まり」という誤認が多いが、何度でも戦える。
+
+⚠️ **重要：再戦時は基本ドロップなし**
+
+- **初回撃破時のみユニーク報酬・素材がドロップ**する
+- **2回目以降の再戦はドロップなし**（ロアプレイ・操作練習用）
+- メインクエストボスは初回撃破でストーリー進行する不可逆ポイントを兼ねる
+- マルチプレイでは**未参加プレイヤー専用に同ボス枠が再ロード**される（その場合は通常ドロップあり）
+
+> ⚠️ **「再戦で素材ファームしよう」は通用しない**点に注意。Bosun（ミニボス）は別仕様で周回ファーム可能。
+
+> 情報源: [Steam: Boss Respawn Discussion](https://steamcommunity.com/app/3041230/discussions/0/802345327968535603/)
 
 ---
 
@@ -78,10 +160,19 @@
 ## 木・植物のリスポーン
 
 ### 木（通常の伐採対象）
-- 報告にバラつきあり
-- 「切り株（stump）を残せば再生する」説あり（未検証）
-- 「完全伐採してもリスポーンした」報告もあり
-- 建築地周辺で自然に木が湧くという報告 = リスポーン自体は起きている
+
+| 木の種類 | リスポーン |
+|---------|-----------|
+| **一般的な木**（Pinewood 等） | **基本リスポーンしない** |
+| **Foothills の Divi-Divi 木**（例外） | **リスポーンする** |
+| Palm / Ficus / Banana | 種から植え直し可能 |
+
+> **重要：木は基本「使い捨て資源」**。建築のために大量伐採すると周辺が裸になる。Divi-Divi だけは復活するため、Foothills では Divi-Divi に依存しても回復する。
+
+- 「切り株（stump）を残せば再生する」説もあるが**未検証**
+- 一般的な木の補給手段は **palm / ficus / banana の種を植え直す** こと
+
+> 情報源: [allthings.how Trees Grow Back](https://allthings.how/do-trees-grow-back-in-windrose-respawn-rules-explained/)
 
 ### ヤシの実・バナナ等（揺すって取るタイプ）
 - **木を切らずに取る**（近接プロンプトで落とす方式）
@@ -133,6 +224,22 @@
 ### 豆知識
 - POI chest の loot は「キャラクターID に紐づく」仕様で、**別キャラで同じ POI を訪れると再取得可能** との報告あり
 
+### 海賊キャンプ周期＝**24 in-game 時間サイクル**
+
+**海賊キャンプ（Pirate Camp POI）は 24 in-game 時間（in-game day 1日）でフルリセット**される。
+
+| リセット対象 | 内容 |
+|------------|------|
+| 敵海賊 | 全員復活 |
+| チェスト | 中身が再生成 |
+| Piled crates / barrels | 復活 |
+
+- **キャンプを「全チェスト空・全敵討伐」してから 24 in-game 時間放置** すると次サイクルで完全リセット
+- 周回素材集めの最効率手段
+- **Island 2 のキャンプ群が最も効率的な日次ファームループ**として知られる
+
+> 情報源: [thegameswiki Pirate Camps](https://thegameswiki.com/windrose/wiki/pirate-camps) / 開発者発言（Steam Community: Officer WHOLF | BLACKBEARD）
+
 ---
 
 ## リスポーントリガー
@@ -182,6 +289,35 @@
 
 ---
 
+## 開発者公式リスポーン時間（Steam Community）
+
+開発者（Officer WHOLF | BLACKBEARD）の Steam Community 投稿による公式リスポーン時間：
+
+| 対象 | 公式周期 |
+|------|---------|
+| 鉱石 / バスケット / 俵 | **6時間ごと** |
+| ペッパー / 野菜（植物） | **2時間ごと** |
+| 動物（mob） | **2時間ごと** |
+| 海賊キャンプ・POI | **24 in-game 時間サイクル** |
+
+> ⚠️ **「6時間 / 2時間」が in-game 時間か実時間かは未確定**。コミュニティで議論継続中。Bonfire 半径内では上記周期に関わらず復活しない。
+
+> 情報源: [Steam: Dev Respawn Times](https://steamcommunity.com/app/3041230/discussions/0/802345327968403544/)
+
+---
+
+## パッチ履歴（リスポーン関連）
+
+| バージョン | 日付 | 内容 |
+|----------|------|------|
+| **Hotfix 0.10.0.1.6** | 2026-04-14 | **Resource node respawn rates 調整**（具体数値非公開、上記公式時間はこの調整後） |
+| Hotfix 0.10.0.2.54 | 2026-04-17 | 接続性中心、リスポーン直接変更なし |
+| Patch 0.10.0.3.104 | 2026-04-19 | Connectivity Server 選択・自動セーブバックアップ追加。リスポーン据え置き |
+
+リスポーンメカニクス本体（Tent優先順位、3秒復活、tombstone）は4月パッチで変更なし。
+
+---
+
 ## 未確定・要検証項目
 
 以下は英語コミュニティでも確定していない項目です。プレイ中に判明した場合は情報源として記録推奨：
@@ -190,7 +326,7 @@
 - Bonfire 撤去後、素材リスポーンが即時か次サイクル待ちか
 - Copper 以外の鉱石の正確なリスポーン日数
 - 1 in-game 日 = 実時間何分の厳密値
-- In-game day / real-time どちらが主トリガーか
+- **In-game day / real-time どちらが主トリガーか**（最大の論点）
 - オフライン時もリスポーンタイマーが進むか
 - 魚・fishing node のリスポーン仕様
 - Cotton, Hemp 等繊維植物のリスポーン
@@ -198,7 +334,7 @@
 - Elite Mob の再湧き仕様
 - Clay が完全非リスポーンか条件付きリスポーンか
 - 木の切り株残し再生説の真偽
-- ボス再戦時の報酬ドロップ仕様（初回と同じか）
+- 死亡墓（tombstone）に時間制限があるか
 
 ---
 

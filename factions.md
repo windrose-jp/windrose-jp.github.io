@@ -132,6 +132,26 @@ Foothills 突入前に Rare セットを揃えたい場合は、派閥クエ+Pir
 
 > **「Tortuga で売れない」のはバグではなく仕様**。Buyer を探すときは Tortuga ではなく外部の緑枠エリアを確認すること。
 
+### Trader Contracts（商人契約）— 拠点に商人を呼べる
+
+People of Tortuga 派閥のレピュ報酬として **Trader Contract（商人契約）**が解放される。これを使うと**自分の拠点に商人NPCを呼び出せる**。
+
+| 契約種別 | 取り扱い品目 |
+|---------|------------|
+| **Wood Contract** | 木材系素材 |
+| **Clay Contract** | 粘土・建築素材 |
+| **Food Contract** | 食料・調理素材 |
+| **Seeds Contract** | 種・農業素材 |
+| **Animal Goods Contract** | 動物素材（羽・革・乳製品等） |
+
+#### 運用
+
+- 契約で呼び出した商人は **拠点 Bonfire 周辺に居着く**
+- 戻り値が固定で、**Tortuga まで戻らずに素材調達できる**ため中盤以降の効率が劇的に上がる
+- 契約は時間制（更新が必要）
+
+> 情報源: [Mobalytics Mid-Game Guide](https://mobalytics.gg/news/guides/windrose-how-to-prepare-for-mid-game) / [thegamer factions](https://www.thegamer.com/windrose-complete-guide-to-factions-buccaneers-tortuga-brethren-coast-port-royal-smugglers/)
+
 ---
 
 ## NPC ワーカーシナジー

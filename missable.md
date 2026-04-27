@@ -116,6 +116,64 @@ POI（ポイント・オブ・インタレスト）のクリア判定は**全チ
 
 ---
 
+## ⚠️ Boar Whistle（イノシシ召喚笛）
+
+**Foothills の祭壇に Offering を捧げると入手できる戦闘用武器**。戦闘中にイノシシを召喚してアグロを取らせる。装備枠を消費するが、ボス戦・複数戦で有用。
+
+- **入手条件**: Foothills の祭壇（Altar）に特定アイテムを Offering
+- **見落とすと**: 祭壇の存在自体気づかれにくい。Foothills 探索時に祭壇のあるエリアを意識的に探すこと
+- **Hotfix 0.10.0.2.54** で取得バグ修正済み
+
+> 情報源: [Sportskeeda Secret Items](https://www.sportskeeda.com/esports/all-secret-items-windrose-how-get)
+
+---
+
+## ⚠️ Truffle（戦闘ペット・装甲豚）
+
+**Ancient Village で儀式を行うと取得できる戦闘ペット**。Israel Hands 戦のアグロ分散用として有名。
+
+- **入手条件**: Ancient Village の儀式（Ritual）を完了
+- **特性**: ヘビーアーマーの豚で、ボスのアグロを取りつつ生存しやすい
+- **強さ**: Israel Hands を Truffle 召喚で大幅に楽にできるとコミュニティで報告
+
+> 情報源: [Method.gg](https://www.method.gg/windrose/) / [allthings.how Israel Hands](https://allthings.how/how-to-beat-israel-hands-in-windrose-every-attack-and-how-to-dodge-it/)
+
+---
+
+## ⚠️ Letter to a Good Friend（密輸業者解放の起点）
+
+密輸業者派閥（Smugglers of Port Royal）を解放する**「Underground Network」クエストの起点アイテム**。
+
+- **拾う場所**: 密輸業者のキャンプ（Smugglers Camp）
+- **見落とすと**: クエスト発生せず、密輸業者へのアクセスが封じられたまま終盤を迎える
+- **影響**: 密輸品・贅沢品・古代遺物が**売却先を失い倉庫の死蔵品となる**
+
+→ 詳細は [勢力・評判](factions.md#smugglers-of-port-royal密輸業者-事実上のブラックマーケット) を参照
+
+---
+
+## ⚠️ Co-op でのフラグ事故
+
+複数プレイヤーで進行する場合、以下のパターンでクエストが取り逃される。
+
+| 事故例 | 対処 |
+|--------|------|
+| **ホストだけが先に重要場所を訪問**してフラグを立ててしまう | ゲストもホスト同伴で再訪問させる |
+| **コントローラーで会話を B/O 離脱** → フラグが立たない | マウスカーソルで会話メニューを選ぶ |
+| **ゲストが単独で敵キャンプを掃討** → 進行カウントなし | ホストの近くで戦闘する |
+
+→ [マルチプレイ](multiplayer.md#-co-op-クエストの同期問題) を参照
+
+---
+
+## ⚠️ 難易度は基本的にゲーム中変更不可（World Properties EDIT 経由のみ可）
+
+ゲーム中のポーズメニューからは難易度変更不可。**ワールド選択画面の「EDIT」**ボタンからのみ調整可能。間違った難易度で進めると後から修正が手間。
+
+→ [ゲームが教えてくれない仕様](hidden-mechanics.md#ワールド選択画面のeditで難易度を後から変更できる) を参照
+
+---
+
 ## 関連ページ
 
 - [初心者Tips](tips.md)
