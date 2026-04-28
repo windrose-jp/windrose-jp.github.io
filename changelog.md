@@ -8,6 +8,8 @@
 - [攻略] **【重要】SSD書込み問題の専用ページ「トラブルシューティング」を新設**：通常プレイ中に毎時20〜60GBの異常書込み（実セーブは約30MB）、autosaveが約1秒ごとに発生、SSD温度83℃到達例、TBW消費が保証期間超過する計算。開発者Cubert [WR]がDiscordで公式認知し次回パッチ修正予告。回避策としてJunction Linkでセーブを別ドライブに移動する手順、Steam Cloud無効化を併記。トップページとSUMMARYに警告を掲示
 - [攻略] **コラムコーナー新設**：「実は」シリーズ第1〜3回を公開。「実はTortugaでは何も買えない」「実はCrewは航海に同行しない」「実はボス再戦には報酬が無い」。海外コミュニティで頻出した誤解・小ネタを読み物として再構成
 - [攻略] トラブルシューティングのSSD回避策に**Junction解除手順**を追記：rmdirで安全に解除、del/sやrmdir/sは絶対禁止、エクスプローラー削除事故の警告を明記
+- [wiki] **用語集ページ「glossary.md」を新設**：Steam JP・Pocketpair公式の日本語ローカライズに準拠した訳語対応表。Reputation→「名声」、Faction→「勢力」など公式確認済み訳語と、要検証フラグ付きの暫定訳を整理
+- [wiki] **「評判」表記を「名声」に統一**：Steam JP公式が「名声システム」表記のため、wiki全体（38箇所、15ファイル）で一括置換。一般用法の「前評判」は保護
 
 ## 2026-04-27
 
@@ -22,7 +24,7 @@
 - [攻略] Kraken Vanguard 戦の具体的Tip（Frigate推奨、Inkプール回避、触手パリィ、帆半畳みで嵐ダメ-30%）と Maelstrom 外縁 Kraken（別エンカウント）を追記
 - [攻略] Chick Chan（Plague Crusher）をボス一覧に追加、Stargazer Tower 3基クリア後 Warlord's Death Site で発生
 - [攻略] Stargazer Tower パズル解法を強化（カメラ上向き＋星座パターン、第1塔 Observatory Stele 起点、Chick Chan討伐で完了）
-- [攻略] 勢力・評判に Trader Contracts（People of Tortuga レピュ報酬で拠点に商人を呼べる契約：Wood/Clay/Food/Seeds/Animal Goods）を追加
+- [攻略] 勢力・名声に Trader Contracts（People of Tortuga レピュ報酬で拠点に商人を呼べる契約：Wood/Clay/Food/Seeds/Animal Goods）を追加
 - [攻略] リスポーン仕様を大幅補強：プレイヤー死亡時の復活地点優先順位（Tent最優先・要アクティブ化、3秒待機）、墓（tombstone）仕様、装備保持/バックパック全ロスト、ボスアリーナ内Tent不可、Plague即死、船関連リスポーン（Wharf からの Wood ×20 で Ketch 完全修理復活、船上ではリスポーン不可）、ボス再戦は基本ドロップなし、木は基本リスポーンしないが Foothills の Divi-Divi は例外で復活、海賊キャンプは24in-game時間サイクル、開発者公式リスポーン時間（鉱石6h・植物2h・動物2h・キャンプ24in-game時間）、Hotfix 0.10.0.1.6 の resource node respawn rates 調整を記載
 
 ## 2026-04-26

@@ -151,7 +151,7 @@ POI（ポイント・オブ・インタレスト）のクリア判定は**全チ
 - **見落とすと**: クエスト発生せず、密輸業者へのアクセスが封じられたまま終盤を迎える
 - **影響**: 密輸品・贅沢品・古代遺物が**売却先を失い倉庫の死蔵品となる**
 
-→ 詳細は [勢力・評判](factions.md#smugglers-of-port-royal密輸業者-事実上のブラックマーケット) を参照
+→ 詳細は [勢力・名声](factions.md#smugglers-of-port-royal密輸業者-事実上のブラックマーケット) を参照
 
 ---
 
@@ -182,6 +182,6 @@ POI（ポイント・オブ・インタレスト）のクリア判定は**全チ
 - [初心者Tips](tips.md)
 - [ゲームが教えてくれない仕様](hidden-mechanics.md)
 - [ストーリー概要](story/README.md)
-- [勢力・評判](factions.md)
+- [勢力・名声](factions.md)
 - [ユニーク装備](equipment/uniques.md)
 - [ダンジョン・POI](exploration/dungeons.md)

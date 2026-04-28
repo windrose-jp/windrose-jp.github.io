@@ -90,10 +90,10 @@ Wharf（桟橋）で建造する本格的な海戦用の船。破壊された場
 | 船 | 解放条件 | 価格 |
 |----|---------|------|
 | Ketch | "I Need a Bigger Boat" クエストで取得 | — |
-| **Brigantine** | **Brethren of the Coast 評判 Lv2** → Tortuga で設計図購入 | 1,000 Piastre |
-| **Frigate** | **Brethren of the Coast 評判 Lv4** → Tortuga で設計図購入 | **3,000 Piastre** |
+| **Brigantine** | **Brethren of the Coast 名声 Lv2** → Tortuga で設計図購入 | 1,000 Piastre |
+| **Frigate** | **Brethren of the Coast 名声 Lv4** → Tortuga で設計図購入 | **3,000 Piastre** |
 
-Blackbeard バリエーションは Blackbeard 派閥の評判が必要（要検証）。
+Blackbeard バリエーションは Blackbeard 派閥の名声が必要（要検証）。
 
 ## 大砲の種類
 

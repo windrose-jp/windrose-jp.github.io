@@ -14,6 +14,7 @@
 * [ゲームが教えてくれない仕様](hidden-mechanics.md)
 * [取り逃し注意集](missable.md)
 * [キーバインド完全版](keybindings.md)
+* [用語集（日本語訳対応表）](glossary.md)
 
 ## 戦闘
 
@@ -79,9 +80,9 @@
   * [リスポーン仕様](exploration/respawn.md)
   * [天候・時間帯システム](exploration/weather.md)
 
-## 勢力・評判
+## 勢力・名声
 
-* [勢力・評判](factions.md)
+* [勢力・名声](factions.md)
 
 ## ストーリー・クエスト
 
