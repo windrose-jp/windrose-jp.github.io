@@ -13,6 +13,19 @@
 - [wiki] **実機UI確認の公式訳語を用語集に大量反映**：ステータス（生命力/持久力/筋力/敏捷性/精密性）、レアリティ（アンコモン/レア/エピック/レジェンダリー）、UI（インベントリ/キュリオス/タレント/クエスト/ジャーナル等）、クエスト名（干し草の中の針/もっと大きな船が必要だ等）、アイテム（包帯/シャベル/つるはし/治癒ポーション等）。Blunderbussは実機UI準拠で「ラッパ銃」採用（5ファイル更新）。「敏捷→敏捷性」「精密→精密性」を実機UI表記に合わせて修正
 - [攻略] 武器種別の素の英語表記をバイリンガル併記（日本語）化（10ファイル）：Saber→サーベル、Rapier→レイピア、Cutlass→カトラス、Halberd→ハルバード、Greatsword→グレートソード、Musket→マスケット銃、Pistol→ピストル、Blunderbuss→ラッパ銃。ユニーク武器名（Rapier of a Thousand Cuts等）は固有名として原語維持
 - [訂正] **重量（Encumbrance）ペナルティの記述を削除**：複数の英語攻略サイト（mobalytics/xmodhub/neonlightsmedia）が掲載していた「重量超過でスタミナ消費増・移動速度半減」等の記述はAI生成と推定される誤情報と判明。Steam公式コミュニティで「重量システムは存在しない、スロット制限のみ」が一次情報として確認され、character/stats.mdから該当セクションを削除し、誤情報への注意喚起を追記
+- [訂正] **AI生成サイト由来の誤情報を一斉訂正**（並行検証エージェント3本で発覚）：
+  - **Vitality 20 ソフトキャップ説**: 誤り。Steam実プレイヤー検証では「30まで +13/pt 一定、31以降逓減」が一次情報。stats.md・builds.md を訂正
+  - **Conquistador 4部位効果**: 誤り。実際は「2P=被ダメ-15%、4P=Bulwark のみ」。AI生成記事が2P・4P効果を合体させた典型ハルシネーション。bosses.md を訂正
+  - **Tracker セット効果**: 誤り。実際は「2P=被ダメ-10%、4P=回復+45%」。本wikiは「2P=回復+35%」と誤掲載。armor.md を訂正
+  - **Marksman 2P**: 「Sprint/Jump/Dash -30%」のJumpは誤追加、実際は「Sprint/Dash」のみ。armor.md を訂正
+  - **Plague Mark コンボ約4,000ダメージ**: 複数サイトで同一文言、実機検証なし。具体数値表記を緩和
+  - **Plague Halberd 35% / Plague Pistol 40% lifesteal**: 同上、複数サイト同一文言で実機検証なし。表記緩和
+  - **Officer WHOLF が「開発者公式」**: 誤り。WHOLFはコミュニティモデレーター（ボランティア）であり開発スタジオ（Kraken Express）従業員ではない。respawn.md の出典記述を訂正
+  - **Hotfix 0.10.0.1.6 で Resource node respawn rates 調整**: 公式パッチノートに該当項目なし（実際は localization/Nitrado リンク/Server Info hidden のみ）。respawn.md を訂正
+  - **Foothills の Divi-Divi 木だけ生え戻る**: 誤り。実際は「Bonfire 半径外なら木は再生、半径内は再生しない」というBonfire距離ベース仕様。respawn.md の樹種別例外説を削除
+  - **海賊キャンプ 24 in-game 時間サイクル**: WHOLF原投稿に記載なし、二次情報のみ。respawn.md 記述を緩和
+  - **ボス再戦ドロップなし説**: 一次情報未確認。column/jitsuwa-boss-rematch.md および respawn.md を「コミュニティ通説」トーンに修正
+  - **Cubert [WR] 開発者発言**: 個別ハンドルが Kraken Express 従業員かは未確認。troubleshooting.md の表記を緩和
 
 ## 2026-04-27
 
