@@ -98,9 +98,7 @@
 
 ## 📖 コラム
 
-* [トルトゥーガでは何も買えない](column/tortuga-buyer.md)
-* [Crew（乗組員）は航海に同行しない](column/crew-on-ship.md)
-* [ボス再戦には報酬がない（と言われている）](column/boss-rematch.md)
+* [コラム](column/README.md)
 
 ## その他
 
