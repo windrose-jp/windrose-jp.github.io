@@ -95,6 +95,13 @@
   * [一般エネミー](enemies/common-enemies.md)
   * [ボス攻略](enemies/bosses.md)
 
+## 📖 コラム
+
+* [コラム一覧](column/README.md)
+  * [実は Tortuga では何も買えない](column/jitsuwa-tortuga.md)
+  * [実は Crew は航海に同行しない](column/jitsuwa-crew.md)
+  * [実は ボス再戦には報酬が無い](column/jitsuwa-boss-rematch.md)
+
 ## その他
 
 * [マルチプレイ](multiplayer.md)
