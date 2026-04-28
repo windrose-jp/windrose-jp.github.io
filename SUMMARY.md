@@ -2,6 +2,10 @@
 
 * [トップページ](README.md)
 
+## ⚠️ 重要なお知らせ
+
+* [トラブルシューティング（SSD書込み問題）](troubleshooting.md)
+
 ## 基本情報
 
 * [ゲーム概要](game-overview.md)

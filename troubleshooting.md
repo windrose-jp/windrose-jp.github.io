@@ -1,0 +1,132 @@
+# トラブルシューティング
+
+> 本ページは Windrose の Early Access 期に発生している既知の重大な不具合と、コミュニティで確立された回避策をまとめたものです。**修正パッチが配信され次第、内容を更新します**。
+
+---
+
+## ⚠️ 【最重要】SSD への過剰書き込み問題
+
+**Windrose は通常プレイ中に異常な量のディスク書き込みを発生させます**。SSD の寿命（TBW）を急速に消費するため、**修正パッチが配信されるまでは下記の回避策を強く推奨します**。
+
+### 問題の規模
+
+| 項目 | 数値 |
+|------|------|
+| 書き込みレート | 通常 6.5〜24 MB/s、ピーク 100 MB/s |
+| 1時間あたり書き込み量 | **20 GB〜50〜60 GB** |
+| 実セーブデータの実体 | わずか **約 30 MB** |
+| autosave 頻度 | **約1秒ごと**（設計外の高頻度） |
+| SSD 温度報告 | システムドライブで **83℃** 到達例あり（SSD の上限 70℃ を超過） |
+
+### TBW（Total Bytes Written）への影響
+
+- 50GB/時 × 3時間/日 = **150GB/日 ≈ 4.5TB/月**
+- 一般的な 500GB クラス SSD の保証 TBW は 150〜600TB
+- → **保証期間（5年）より先に保証 TBW を使い切る計算**になる
+- 温度 83℃ も SSD 寿命を大きく削る領域
+
+### 原因（技術的）
+
+- **RocksDB**（埋込みデータベース）の WAL（Write-Ahead Log）/ SST ファイルが過剰にフラッシュされている
+- UE5 の D3DSCache（DirectX 12 シェーダーキャッシュ、約 1GB 上限で常時上書き）も寄与
+- 他の UE5 タイトルで同様の挙動は出ておらず、**Windrose 固有の実装問題**
+
+### 開発者の公式認知
+
+開発者 **Cubert [WR]** が公式 Discord で問題を認知し、以下を発言：
+
+> "We're aiming to deliver the fix in one of the nearest updates (most likely in the next one)."
+> （次回アップデートでの修正を目指している）
+
+ただし**修正パッチの正確な日付は未告知**（2026年4月時点）。0.10.0.3.104 までのホットフィックスでは未修正。
+
+---
+
+## 回避策
+
+### 推奨：Junction Link でセーブを HDD/別ドライブに移動
+
+セーブフォルダを別ドライブに物理移動し、Windows の Junction Link で元の場所からリダイレクトする方法。**書き込み先を SSD から外せるため、寿命消費を完全に回避できる**。
+
+#### 手順
+
+1. **Windrose を終了**
+2. 以下のフォルダを別ドライブに**移動**（コピーではなく移動）
+   ```
+   C:\Users\[ユーザー名]\AppData\Local\R5\Saved\SaveProfiles
+   ```
+   移動先例: `D:\Windrose Saves\SaveProfiles`
+3. **コマンドプロンプトを「管理者として実行」**で起動
+4. 以下のコマンドを実行（パスは自分の環境に合わせて修正）：
+   ```cmd
+   mklink /J "C:\Users\[ユーザー名]\AppData\Local\R5\Saved\SaveProfiles" "D:\Windrose Saves\SaveProfiles"
+   ```
+5. junction が作成されたか確認：
+   ```cmd
+   dir /AL "C:\Users\[ユーザー名]\AppData\Local\R5\Saved"
+   ```
+   出力に `<JUNCTION>` 表示があれば成功
+
+#### 注意点
+
+- **移動先ドライブの種類**: HDD は I/O 速度が遅いため、可能なら**別の SATA SSD** を推奨。NVMe → HDD は読込速度が大きく落ちる可能性あり
+- **GitHub にコミュニティ製の自動化ツール**があるが、利用前に必ず VirusTotal で検査すること
+- **コマンドプロンプト操作に不慣れな場合**は、無理せず公式パッチを待つのも合理的な選択
+
+#### セーブパスの表記揺れについて【要検証】
+
+英語コミュニティでは以下2系統のパスが報告されている：
+
+- `C:\Users\[ユーザー名]\AppData\Local\R5\Saved\SaveProfiles\`（`R5` は開発コードネームの可能性）
+- `C:\Users\[ユーザー名]\AppData\Local\Windrose\Saved\SaveGames\`
+
+**自分の環境で実際にどちらが存在するか確認してから操作してください**。両方ある場合は両方を junction 化するのが安全。
+
+### 補助：Steam Cloud Saves 無効化
+
+書き込み量自体の削減には直結しないが、**セーブファイル破損による Fatal Error クラッシュを回避**できる別件の対処として有効。
+
+1. Steam ライブラリで Windrose を右クリック → **プロパティ**
+2. **一般** タブの「Steam Cloud」項目のチェックを外す
+
+---
+
+## その他の既知問題
+
+### Fatal Error / ローディング画面停止
+
+- 主因: Steam Cloud Saves との同期競合によるセーブ破損
+- 回避策: 上記の Steam Cloud 無効化
+- Demo 版で発生時: `RocksDB` フォルダ削除で復旧
+
+### Co-op 接続不可（ISP ブロック）
+
+- 主因: 専用サーバーがモスクワ IP に解決され、一部 ISP がブロック
+- 修正済み: Hotfix 0.10.0.2.54 で **Direct IP 接続オプション**追加
+- メニューから手動でサーバーを選択可能
+
+### Co-op の Shared Quest 同期不全
+
+- 症状: Gunpowder 納品クエストが片方だけ完了、ボス戦死亡者が報酬除外 等
+- 現状: パッチ待ち。詳細は [マルチプレイ](multiplayer.md) を参照
+
+---
+
+## 関連ページ
+
+- [マルチプレイ](multiplayer.md) — Co-op 同期問題の詳細
+- [パッチノート](patch-notes.md) — 修正状況の追跡
+- [更新履歴](changelog.md)
+
+---
+
+> **免責**: 本ページの回避策はコミュニティ検証情報に基づきます。Junction Link 操作はファイルシステムを変更します。**実行は読者の責任で行ってください**。心配な場合は公式パッチを待つ選択も合理的です。
+
+---
+
+**情報源**:
+- [Save files spam destroys SSD - Steam Community](https://steamcommunity.com/app/3041230/discussions/0/802345591601392353/)
+- [Excessive SSD write load caused by RocksDB - Steam Community](https://steamcommunity.com/app/3041230/discussions/0/807975352045546490/)
+- [Excessive SSD Data Writing - Steam Community](https://steamcommunity.com/app/3041230/discussions/0/807975542034793658/)
+- [SDD Issue FIX (Junction Link 手順) - Steam Community](https://steamcommunity.com/app/3041230/discussions/0/807975352045439259/)
+- 開発者発言: Cubert [WR] @ 公式 Discord
