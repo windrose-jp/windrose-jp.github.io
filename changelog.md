@@ -28,6 +28,7 @@
   - **Cubert [WR] 開発者発言**: 個別ハンドルが Kraken Express 従業員かは未確認。troubleshooting.md の表記を緩和
 - [wiki] **情報源を3階層に分類した編集方針を明文化**：sources.md を全面改訂、Tier 1（Steam Community/Reddit/Fextralife wiki等の一次情報）/ Tier 2（method.gg/boostmatch等の照合必須）/ Tier 3（mobalytics/xmodhub/neonlightsmedia/bisecthosting等の引用禁止）の3階層を整理。AI生成記事の見分け方も記載。about.mdの開発元を「Five Dimensions Studio」から「Kraken Express」に訂正。.claude/research-policy.md を新設し将来の調査エージェント向けにポリシーをテンプレ化
 - [wiki] **コラム記事を整理**：「実は」シリーズ第N回方式を廃止し、各記事が独立して読めるタイトルに変更。jitsuwa-tortuga→tortuga-buyer、jitsuwa-crew→crew-on-ship、jitsuwa-boss-rematch→boss-rematch にリネーム。トルトゥーガ記事は本文の「Tortuga」表記をすべて「トルトゥーガ」に統一（Steam JP公式訳に準拠）。Tier 3引用（PlayerAuctions/NeonLightsMedia）も削除
+- [wiki] コラム index ページ（column/README.md）を削除：左サイドバー（SUMMARY.md）で既にナビゲーションできるため重複。SUMMARY側もフラット構造に変更
 
 ## 2026-04-27
 
