@@ -14,7 +14,6 @@
 * [ゲームが教えてくれない仕様](hidden-mechanics.md)
 * [取り逃し注意集](missable.md)
 * [キーバインド完全版](keybindings.md)
-* [用語集（日本語訳対応表）](glossary.md)
 
 ## 戦闘
 
