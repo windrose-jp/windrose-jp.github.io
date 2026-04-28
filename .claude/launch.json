@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "windrose-preview",
+      "runtimeExecutable": "C:\\Users\\black\\.local\\bin\\mdbook.exe",
+      "runtimeArgs": ["serve", "--port", "3000", "D:\\Code\\game-wiki\\windrose-jp"],
+      "port": 3000
+    }
+  ]
+}

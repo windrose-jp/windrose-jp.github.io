@@ -99,9 +99,9 @@
 ## 📖 コラム
 
 * [コラム一覧](column/README.md)
-  * [実は Tortuga では何も買えない](column/jitsuwa-tortuga.md)
-  * [実は Crew は航海に同行しない](column/jitsuwa-crew.md)
-  * [実は ボス再戦には報酬が無い](column/jitsuwa-boss-rematch.md)
+  * [トルトゥーガでは何も買えない](column/tortuga-buyer.md)
+  * [Crew（乗組員）は航海に同行しない](column/crew-on-ship.md)
+  * [ボス再戦には報酬がない（と言われている）](column/boss-rematch.md)
 
 ## その他
 
