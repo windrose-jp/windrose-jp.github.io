@@ -10,10 +10,10 @@
 
 | 系統 | 振るべきステータス | 武器例 |
 |------|-----------------|-------|
-| **Fencer**（片手近接） | 精密性（Precision） | Rapier / Pistol / Musket |
-| **Fencer**（片手近接） | 敏捷性（Agility） | Saber / Blunderbuss |
-| **Crusher**（両手重武器） | 筋力（Strength） | Halberd / Club / Great Club |
-| **Crusher**（両手重武器） | 敏捷性（Agility） | Greatsword |
+| **Fencer**（片手近接） | 精密性（Precision） | レイピア / ピストル / マスケット銃 |
+| **Fencer**（片手近接） | 敏捷性（Agility） | サーベル / ラッパ銃 |
+| **Crusher**（両手重武器） | 筋力（Strength） | ハルバード / クラブ / グレートクラブ |
+| **Crusher**（両手重武器） | 敏捷性（Agility） | グレートソード |
 
 > 「複数系統に薄く振る」は非効率。ダメージスケールは1種類に集中して上げる。
 

@@ -41,7 +41,7 @@
 | **4部位** | **片手武器ダメージ +15%** |
 
 **推奨ビルド**: Fencer（片手近接）、ブリードビルド（レイピア）
-**特に相性の良い武器**: Rapier of a Thousand Cuts、Dueling Saber、Cutlass
+**特に相性の良い武器**: Rapier of a Thousand Cuts、Dueling Saber、カトラス（Cutlass）
 
 ---
 
@@ -55,7 +55,7 @@
 | **2部位** | **Sprint/Jump/Dash スタミナ消費 -30%** |
 | **4部位** | **遠距離ダメージ +15%** |
 **推奨ビルド**: Marksman、遠距離補助ビルド
-**特に相性の良い武器**: Buccaneer's Friend、Reliable Musket、Pistol系
+**特に相性の良い武器**: Buccaneer's Friend、Reliable Musket、ピストル（Pistol）系
 
 ---
 

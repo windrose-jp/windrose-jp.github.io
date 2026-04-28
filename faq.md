@@ -89,7 +89,7 @@ Doctor Galen に **Healing Herbs を渡す**と薬を調合してくれる。定
 **与えない**。**帆・マスト専用**。船体を削りたいなら通常弾・Grape Shot。詳細は[海戦ガイド](ships/naval-combat.md)。
 
 ### パリィは全武器で使える？
-**武器種で適性が大きく異なる**。Saber / Greatsword / Rapier は有効、Halberd はほぼ機能しない（代わりに体幹を消費する）。詳細は[ゲームが教えてくれない仕様](hidden-mechanics.md)。
+**武器種で適性が大きく異なる**。サーベル（Saber）・グレートソード（Greatsword）・レイピア（Rapier）は有効、ハルバード（Halberd）はほぼ機能しない（代わりに体幹を消費する）。詳細は[ゲームが教えてくれない仕様](hidden-mechanics.md)。
 
 ### Comfort は設置した家具の「量」で増える？
 **種類数**で増える（Trophy のみ例外で +12 まで）。同じ椅子を10個置いても意味がない。詳細は[建築概要](building/README.md)。

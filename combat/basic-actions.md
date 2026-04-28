@@ -48,13 +48,13 @@
 
 | 武器 | パリィ性能 |
 |------|----------|
-| **Saber（特にSturdy Saber）** | **最適**。シールド消費なし、+1ポスチャーボーナス |
-| **Razor（Rapier の Ascend）** | **ほぼ連続で成功**可能。Ascendでウィンドウ拡大 |
-| Rapier（通常） | 可能だがシールド半分消費 |
-| Greatsword | 高Stabilityで chip damage 減少 |
-| **Club / Halberd / Crude系** | **パリィ不可 or 最低性能** |
+| **サーベル（Saber、特にSturdy Saber）** | **最適**。シールド消費なし、+1ポスチャーボーナス |
+| **Razor（レイピアの Ascend）** | **ほぼ連続で成功**可能。Ascendでウィンドウ拡大 |
+| レイピア（Rapier、通常） | 可能だがシールド半分消費 |
+| グレートソード（Greatsword） | 高Stabilityで chip damage 減少 |
+| **クラブ（Club） / ハルバード（Halberd） / Crude系** | **パリィ不可 or 最低性能** |
 
-Strength 系（重武器）は基本的にパリィに向かない。パリィ運用したいなら **Saber / Razor** を主軸にする。
+筋力（Strength）系（重武器）は基本的にパリィに向かない。パリィ運用したいなら **サーベル / Razor** を主軸にする。
 
 ## 回避（ドッジ）
 

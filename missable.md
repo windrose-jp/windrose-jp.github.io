@@ -56,7 +56,7 @@ Galen は勝手に別の島・別の Bonfire へ移動することがある。**
 
 ## ⚠️ Soul Eater（レア・グレートソード）
 
-「Needle in a Haystack」クエストの神殿内に**隠しチェスト**がある。ここに **Rare レアリティの Greatsword「Soul Eater」**が入っている。クエスト完了後も神殿に戻れるが、初回探索時に見落としやすい。
+「Needle in a Haystack」クエストの神殿内に**隠しチェスト**がある。ここに **Rare レアリティのグレートソード「Soul Eater」**が入っている。クエスト完了後も神殿に戻れるが、初回探索時に見落としやすい。
 
 - 神殿内の隠し通路・扉を確認しながら進むこと
 - 宝箱を全て開けるまでは神殿を出ないこと（POIクリア条件とも一致する）
@@ -136,7 +136,7 @@ POI（ポイント・オブ・インタレスト）のクリア判定は**全チ
 
 - **入手方法**: Boar Whistle を先に取得し、ホットバーから召喚（「Truffle」が直接入手できるアイテムではなく Boar Whistle 経由）
 - **特性**: Strength ダメージを与えてポイズ（体幹）を削り敵をスタンさせる。ヘビーアーマーで生存しやすい
-- **Israel Hands 戦での活用**: Truffle がアグロを引いている間に Rapier の Bleed スタックを維持しやすく、出血ダメージで安全に削れる
+- **Israel Hands 戦での活用**: Truffle がアグロを引いている間にレイピアの Bleed スタックを維持しやすく、出血ダメージで安全に削れる
 - **再召喚**: 戦闘中に Truffle が倒れてもクールダウン後に再使用可能（無制限）
 
 > 情報源: [neonlightsmedia Boar Companion Guide](https://www.neonlightsmedia.com/blog/windrose-boar-companion-whistle-guide) / [gamerant How to Get Boar Companion](https://gamerant.com/windrose-how-get-boar-companion/)

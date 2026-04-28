@@ -78,7 +78,7 @@
 | **Plague Mark（疫病マーク）** | 1体に最大8スタック。**5以上消費でフルヒール**、8でVulnerability連動の burst window | Rapier of Devastation の軽攻撃 |
 | **Vulnerability（脆弱）** | 被ダメ +X%。Plague Mark コンボの核 | Drake's Double-Barreled Pistol（Epic） |
 | **Ward（防壁）** | 被ダメ -15% | Epic Executioner Halberd 装備パッシブ |
-| **Take Aim!（狙い澄まし）** | 遠距離ダメ +最大9 stack | Cutlass の特定モーション |
+| **Take Aim!（狙い澄まし）** | 遠距離ダメ +最大9 stack | カトラスの特定モーション |
 | **Distortion（歪み）** | AoE デバフ | Swamp Creature's Tooth |
 | **Winded（息切れ）** | スタミナ枯渇でスプリント・ダッシュ封印（自損ステータス） | スタミナ赤化 |
 | **Temporal Health（時限HP）** | 失敗パリィで生成。Bleed tick で自動補填（Duelist 専用シナジー） | パリィ失敗 |
@@ -95,12 +95,12 @@ Rapier of Devastation で **軽攻撃 8 連 → Drake's Pistol → Heavy Attack*
 
 | 武器種 | パリィ性能 |
 |--------|-----------|
-| **Saber** | **完全無傷 + 自分のポスチャー保持**（Sturdy 派生で +1 段確保可） |
-| **Rapier** | **シールド半減**（敵の体幹を半分削る） |
-| **Greatsword** | 標準的にパリィ可 |
-| **Club / Mace** | パリィ効果小 |
-| **Halberd（Crude派生）** | **パリィ不可**。弱い攻撃のみ通る、自分の体幹消費 |
+| **サーベル（Saber）** | **完全無傷 + 自分のポスチャー保持**（Sturdy 派生で +1 段確保可） |
+| **レイピア（Rapier）** | **シールド半減**（敵の体幹を半分削る） |
+| **グレートソード（Greatsword）** | 標準的にパリィ可 |
+| **クラブ（Club） / メイス（Mace）** | パリィ効果小 |
+| **ハルバード（Halberd・Crude派生）** | **パリィ不可**。弱い攻撃のみ通る、自分の体幹消費 |
 
-**数回パリィすると敵のポスチャーが崩れ、確定 DPS 窓が出る**。Saber が初心者から熟練者まで圧倒的に推されるのはこのパリィ性能による。
+**数回パリィすると敵のポスチャーが崩れ、確定 DPS 窓が出る**。サーベルが初心者から熟練者まで圧倒的に推されるのはこのパリィ性能による。
 
 > 情報源: [Steam: parry weapon discussion](https://steamcommunity.com/app/3041230/discussions/0/807975542034834328/)
