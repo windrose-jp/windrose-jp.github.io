@@ -26,6 +26,7 @@
   - **海賊キャンプ 24 in-game 時間サイクル**: WHOLF原投稿に記載なし、二次情報のみ。respawn.md 記述を緩和
   - **ボス再戦ドロップなし説**: 一次情報未確認。column/jitsuwa-boss-rematch.md および respawn.md を「コミュニティ通説」トーンに修正
   - **Cubert [WR] 開発者発言**: 個別ハンドルが Kraken Express 従業員かは未確認。troubleshooting.md の表記を緩和
+- [wiki] **情報源を3階層に分類した編集方針を明文化**：sources.md を全面改訂、Tier 1（Steam Community/Reddit/Fextralife wiki等の一次情報）/ Tier 2（method.gg/boostmatch等の照合必須）/ Tier 3（mobalytics/xmodhub/neonlightsmedia/bisecthosting等の引用禁止）の3階層を整理。AI生成記事の見分け方も記載。about.mdの開発元を「Five Dimensions Studio」から「Kraken Express」に訂正。.claude/research-policy.md を新設し将来の調査エージェント向けにポリシーをテンプレ化
 
 ## 2026-04-27
 
