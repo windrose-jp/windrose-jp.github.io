@@ -3,16 +3,9 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
-## 2026-04-28
+## 2026-04-29
 
-- [攻略] **【重要】SSD書込み問題の専用ページ「トラブルシューティング」を新設**：通常プレイ中に毎時20〜60GBの異常書込み（実セーブは約30MB）、autosaveが約1秒ごとに発生、SSD温度83℃到達例、TBW消費が保証期間超過する計算。開発者Cubert [WR]がDiscordで公式認知し次回パッチ修正予告。回避策としてJunction Linkでセーブを別ドライブに移動する手順、Steam Cloud無効化を併記。トップページとSUMMARYに警告を掲示
-- [攻略] **コラムコーナー新設**：「実は」シリーズ第1〜3回を公開。「実はTortugaでは何も買えない」「実はCrewは航海に同行しない」「実はボス再戦には報酬が無い」。海外コミュニティで頻出した誤解・小ネタを読み物として再構成
-- [攻略] トラブルシューティングのSSD回避策に**Junction解除手順**を追記：rmdirで安全に解除、del/sやrmdir/sは絶対禁止、エクスプローラー削除事故の警告を明記
-- [wiki] **用語集ページ「glossary.md」を新設**：Steam JP・Pocketpair公式の日本語ローカライズに準拠した訳語対応表。Reputation→「名声」、Faction→「勢力」など公式確認済み訳語と、要検証フラグ付きの暫定訳を整理
-- [wiki] **「評判」表記を「名声」に統一**：Steam JP公式が「名声システム」表記のため、wiki全体（38箇所、15ファイル）で一括置換。一般用法の「前評判」は保護
-- [wiki] **実機UI確認の公式訳語を用語集に大量反映**：ステータス（生命力/持久力/筋力/敏捷性/精密性）、レアリティ（アンコモン/レア/エピック/レジェンダリー）、UI（インベントリ/キュリオス/タレント/クエスト/ジャーナル等）、クエスト名（干し草の中の針/もっと大きな船が必要だ等）、アイテム（包帯/シャベル/つるはし/治癒ポーション等）。Blunderbussは実機UI準拠で「ラッパ銃」採用（5ファイル更新）。「敏捷→敏捷性」「精密→精密性」を実機UI表記に合わせて修正
-- [攻略] 武器種別の素の英語表記をバイリンガル併記（日本語）化（10ファイル）：Saber→サーベル、Rapier→レイピア、Cutlass→カトラス、Halberd→ハルバード、Greatsword→グレートソード、Musket→マスケット銃、Pistol→ピストル、Blunderbuss→ラッパ銃。ユニーク武器名（Rapier of a Thousand Cuts等）は固有名として原語維持
-- [訂正] **重量（Encumbrance）ペナルティの記述を削除**：複数の英語攻略サイト（mobalytics/xmodhub/neonlightsmedia）が掲載していた「重量超過でスタミナ消費増・移動速度半減」等の記述はAI生成と推定される誤情報と判明。Steam公式コミュニティで「重量システムは存在しない、スロット制限のみ」が一次情報として確認され、character/stats.mdから該当セクションを削除し、誤情報への注意喚起を追記
+- [訂正] **重量（Encumbrance）ペナルティの記述を削除**：複数の英語攻略サイトが掲載していた「重量超過でスタミナ消費増・移動速度半減」等の記述はAI生成と推定される誤情報と判明。Steam公式コミュニティで「重量システムは存在しない、スロット制限のみ」が一次情報として確認され、character/stats.mdから該当セクションを削除し、誤情報への注意喚起を追記
 - [訂正] **AI生成サイト由来の誤情報を一斉訂正**（並行検証エージェント3本で発覚）：
   - **Vitality 20 ソフトキャップ説**: 誤り。Steam実プレイヤー検証では「30まで +13/pt 一定、31以降逓減」が一次情報。stats.md・builds.md を訂正
   - **Conquistador 4部位効果**: 誤り。実際は「2P=被ダメ-15%、4P=Bulwark のみ」。AI生成記事が2P・4P効果を合体させた典型ハルシネーション。bosses.md を訂正
@@ -24,13 +17,15 @@
   - **Hotfix 0.10.0.1.6 で Resource node respawn rates 調整**: 公式パッチノートに該当項目なし（実際は localization/Nitrado リンク/Server Info hidden のみ）。respawn.md を訂正
   - **Foothills の Divi-Divi 木だけ生え戻る**: 誤り。実際は「Bonfire 半径外なら木は再生、半径内は再生しない」というBonfire距離ベース仕様。respawn.md の樹種別例外説を削除
   - **海賊キャンプ 24 in-game 時間サイクル**: WHOLF原投稿に記載なし、二次情報のみ。respawn.md 記述を緩和
-  - **ボス再戦ドロップなし説**: 一次情報未確認。column/jitsuwa-boss-rematch.md および respawn.md を「コミュニティ通説」トーンに修正
+  - **ボス再戦ドロップなし説**: 一次情報未確認。column/boss-rematch.md および respawn.md を「コミュニティ通説」トーンに修正
   - **Cubert [WR] 開発者発言**: 個別ハンドルが Kraken Express 従業員かは未確認。troubleshooting.md の表記を緩和
-- [wiki] **情報源を3階層に分類した編集方針を明文化**：sources.md を全面改訂、Tier 1（Steam Community/Reddit/Fextralife wiki等の一次情報）/ Tier 2（method.gg/boostmatch等の照合必須）/ Tier 3（mobalytics/xmodhub/neonlightsmedia/bisecthosting等の引用禁止）の3階層を整理。AI生成記事の見分け方も記載。about.mdの開発元を「Five Dimensions Studio」から「Kraken Express」に訂正。.claude/research-policy.md を新設し将来の調査エージェント向けにポリシーをテンプレ化
-- [wiki] **コラム記事を整理**：「実は」シリーズ第N回方式を廃止し、各記事が独立して読めるタイトルに変更。jitsuwa-tortuga→tortuga-buyer、jitsuwa-crew→crew-on-ship、jitsuwa-boss-rematch→boss-rematch にリネーム。トルトゥーガ記事は本文の「Tortuga」表記をすべて「トルトゥーガ」に統一（Steam JP公式訳に準拠）。Tier 3引用（PlayerAuctions/NeonLightsMedia）も削除
-- [wiki] コラム index ページ（column/README.md）を削除：左サイドバー（SUMMARY.md）で既にナビゲーションできるため重複。SUMMARY側もフラット構造に変更
-- [wiki] コラム index を復活＋サイドバー1行化：将来コラム追加でサイドバー肥大化を避けるため、SUMMARYは「コラム」1リンクのみ表示、index ページで記事リストを管理する構造に変更
-- [wiki] 用語集を公開ページから内部リファレンスに移動（glossary.md → .claude/glossary.md）：Windroseは公式日本語ローカライズがあるため読者向け対応表は不要。記事執筆時の翻訳指標として内部使用に限定
+- [訂正] 開発元名を「Five Dimensions Studio」→「Kraken Express」（旧 Windrose Crew、ウズベキスタン拠点）に訂正：about.md の運営者情報セクションを修正
+
+## 2026-04-28
+
+- [攻略] **【重要】SSD書込み問題の専用ページ「トラブルシューティング」を新設**：通常プレイ中に毎時20〜60GBの異常書込み（実セーブは約30MB）、autosaveが約1秒ごとに発生、SSD温度83℃到達例、TBW消費が保証期間超過する計算。回避策としてJunction Linkでセーブを別ドライブに移動する手順、Steam Cloud無効化を併記。トップページとSUMMARYに警告を掲示
+- [攻略] **コラムコーナー新設**：3記事を公開。「トルトゥーガでは何も買えない」「Crew（乗組員）は航海に同行しない」「ボス再戦には報酬がない（と言われている）」。海外コミュニティで頻出した誤解・小ネタを読み物として再構成
+- [攻略] トラブルシューティングのSSD回避策に**Junction解除手順**を追記：rmdirで安全に解除、del/sやrmdir/sは絶対禁止、エクスプローラー削除事故の警告を明記
 
 ## 2026-04-27
 
