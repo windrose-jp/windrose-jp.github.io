@@ -53,7 +53,7 @@ Early Access時点で **77種類** の武器が実装されています（近接
 | 武器名 | ダメージ | 値 | グレード | スケーリング | 備考 |
 |--------|---------|----|---------|------------|------|
 | レイピア（Rapier） | 刺突 | — | — | Precision | 標準突き剣 |
-| 千斬のレイピア（Rapier of a Thousand Cuts） | 刺突 | — | — | Precision | **出血スタック最大5、序盤最強候補** |
+| 千切りのレイピア（Rapier of a Thousand Cuts） | 刺突 | — | — | Precision | **出血スタック最大5、序盤最強候補** |
 | 壊滅のレイピア（Rapier of Devastation） | 刺突 | — | — | Precision | 重撃型 |
 | 頑丈レイピア（Sturdy Rapier） | 刺突 | — | — | Precision | 耐久強化型 |
 

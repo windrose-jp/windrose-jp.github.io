@@ -79,8 +79,9 @@
 | 英語 | 日本語訳 | 出典 |
 |------|---------|------|
 | Coastal Jungle | 海岸のジャングル | 実機 UI（ミニマップ表示） |
-| Foothills | 山麓 | 実機 UI（クエスト本文） |
-| Cursed Swamp(s) | 呪われた沼地【要検証】 | コミュニティ wiki |
+| Foothills | 山麓 | 実機 UI（クエスト本文・発見タブ） |
+| Cursed Swamps | 呪われた沼地 | 実機 UI（発見タブ） |
+| Ashlands | 灰の地 | 実機 UI（発見タブ・ロック中表示） |
 | Tortuga | トルトゥーガ | Steam JP |
 | Caribbean | カリブ海 | Steam JP |
 
@@ -90,6 +91,8 @@
 |------|---------|------|
 | Blackbeard | 黒ひげ | Steam JP / Pocketpair JP / 実機 UI |
 | Israel Hands | イスラエル・ハンズ | 実機 UI（クエスト本文） |
+| Doctor Galen | ドクター・ガレン | 実機 UI（NPC 名表示） |
+| Henry Bouché | ヘンリー・ブーシェ | 実機 UI（クエスト発注主表示） |
 
 ## 勢力名
 
@@ -112,11 +115,13 @@
 | 英語 | 日本語訳 | 出典 |
 |------|---------|------|
 | Needle in a Haystack | 干し草の中の針 | 実機 UI |
-| We're Gonna Need a Bigger Boat | もっと大きな船が必要だ | 実機 UI |
+| I Need a Bigger Boat | もっと大きな船が必要だ | 実機 UI |
 | Revenge is Best Served Cold | 復讐は冷めてから | 実機 UI |
+| The Bitter Pill | 苦い薬 | 実機 UI |
 | Crew's Escape（推定） | クルーの脱出 | 実機 UI |
 | Sacrificial Lamb（推定） | 生贄の羊 | 実機 UI |
 | Fifteen Men on a Dead Man's Chest | 死人のチェストに15人 | 実機 UI |
+| Buccaneer | バッカニア | 実機 UI（週間クエスト名） |
 
 ## アイテム・道具（実機 UI 確認済み）
 
@@ -134,14 +139,14 @@
 | Privateer's Tricorn | 私掠船員の三角帽子 | 実機 UI |
 | Boatswain's Backpack | 甲板長のバックパック | 実機 UI |
 
-## 戦闘用語（要検証）
+## 戦闘用語
 
 | 英語 | 日本語訳 | 出典 |
 |------|---------|------|
 | Parry | パリィ【要検証】 | — |
 | Dodge | 回避【要検証】 | — |
 | Critical | クリティカル【要検証】 | — |
-| Bleed | 流血【要検証】 | — |
+| Bleed | 出血 | 実機 UI（千切りのレイピアの効果説明） |
 
 ## 拠点・建築（要検証）
 
@@ -163,7 +168,7 @@
 | Tumbaga Ingot | タンバガ・インゴット【要検証】 | — |
 | Quagmire Powder | クァグマイヤー粉末【要検証】 | — |
 | Mire Metal Ingot | ミュア・メタル・インゴット【要検証】 | — |
-| Tainted Bile | 汚染胆汁【要検証】 | — |
+| Tainted Bile | 汚染された胆汁【要検証】 | — |
 
 ## ユニーク武器・固有名
 
@@ -172,7 +177,7 @@
 | 英語 | 日本語訳 | 出典 |
 |------|---------|------|
 | Reliable Blunderbuss | 信頼できるラッパ銃 | 実機 UI |
-| Rapier of a Thousand Cuts | 千斬のレイピア / 千切りのレイピア【要検証】 | コミュニティで両表記あり |
+| Rapier of a Thousand Cuts | 千切りのレイピア | 実機 UI（インベントリ装備中表示） |
 | Drake's Pistol | ドレイクのピストル【要検証】 | — |
 | Soul Eater | ソウルイーター【要検証】 | — |
 | Buccaneer's Friend | バッカニアの友 | 既存ページで採用 |
