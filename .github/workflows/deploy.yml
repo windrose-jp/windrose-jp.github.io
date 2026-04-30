@@ -193,9 +193,28 @@ jobs:
         run: |
           sed -i 's|</head>|<meta name="robots" content="noindex, nofollow"><meta http-equiv="refresh" content="3;url=/"></head>|' book/404.html
           sed -i 's|<main>|<main><div style="text-align:center;padding:2em;"><p>ページが見つかりませんでした。3秒後にトップページへ移動します。</p><p><a href="/">トップページへ</a></p></div>|' book/404.html
-          # 移動済みページの静的リダイレクト
-          mkdir -p book/story
-          printf '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=/factions.html"><link rel="canonical" href="https://windrose.gameguidejp.com/factions.html"></head><body><a href="/factions.html">勢力・評判</a></body></html>' > book/story/factions.html
+
+          # 移動済みページの静的リダイレクト生成
+          # $1: 出力先パス（book/配下相対）, $2: リダイレクト先パス（先頭/含む絶対パス）, $3: リンクテキスト
+          make_redirect() {
+            local dst="book/$1"
+            local target="$2"
+            local label="$3"
+            mkdir -p "$(dirname "$dst")"
+            printf '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=%s"><link rel="canonical" href="https://windrose.gameguidejp.com%s"></head><body><a href="%s">%s</a></body></html>' \
+              "$target" "$target" "$target" "$label" > "$dst"
+          }
+
+          # story/factions.html → /factions.html（「評判」→「名声」改名前のSEO履歴対応）
+          make_redirect "story/factions.html" "/factions.html" "勢力・名声"
+
+          # コラム記事の旧URL（jitsuwa-* → 改名後のシンプルなパス）
+          make_redirect "column/jitsuwa-tortuga.html"      "/column/tortuga-buyer.html" "トルトゥーガでは何も買えない"
+          make_redirect "column/jitsuwa-boss-rematch.html" "/column/boss-rematch.html"  "ボス再戦には報酬がない（と言われている）"
+          make_redirect "column/jitsuwa-crew.html"         "/column/crew-on-ship.html"  "Crew（乗組員）は航海に同行しない"
+
+          # 用語集（公開ページ→内部リファレンスに移動。検索流入はトップへ）
+          make_redirect "glossary.html" "/" "Windrose 日本語攻略まとめ"
 
       - name: Copy static files
         run: |
