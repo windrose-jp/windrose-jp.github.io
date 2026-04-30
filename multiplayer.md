@@ -71,6 +71,7 @@ Steam ディスカッションで「Co-op時のクエスト挙動が破綻気味
 
 | 対処 | 内容 |
 |------|------|
+| **Force Relay Connection** | **設定→Network から有効化（2026-04-30 パッチで追加）**。P2P接続がブロックされるISP環境で有効。pingが少し上がる代わりに接続が安定 |
 | **Connectivity Server を手動選択** | 設定→Network から地域指定 |
 | **Direct IP 接続** | 招待コードで接続できない場合の最終手段 |
 | **両者がポート開放** | Nitrado 経由なら不要 |
@@ -78,6 +79,11 @@ Steam ディスカッションで「Co-op時のクエスト挙動が破綻気味
 | **VPN OFF** | VPN経由で接続失敗のケース多数 |
 
 → 詳細: [Steam: Server Join Problems](https://steamcommunity.com/app/3041230/discussions/0/807974232125550477/)
+
+> 📌 **2026-04-30 パッチ（0.10.0.4.268）の接続改善**：
+> - Force Relay Connection 設定追加（上記）
+> - **非英語Windowsユーザー名（Ä・Ö・Ü 等の特殊文字を含むユーザー名）でのクラッシュ**を修正
+> - サーバーホスト時の船舶パフォーマンスを改善
 
 ---
 
