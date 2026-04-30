@@ -26,7 +26,11 @@
 ### レイピア（Rapier）
 突き特化の細身の剣。**出血（Bleed）状態異常**を得意とする武器です。
 
-ユニーク装備「千の刃のレイピア（Rapier of a Thousand Cuts）」はブリード（出血）を最大5スタックまで積み重ねる強力な一本です。
+![インベントリ「千切りのレイピア」装備中（Rare）](../images/inventory-rapier-equipped.jpg)
+
+> インベントリでアイテムにカーソルを合わせると詳細パネルが開く。スクショは Coastal Jungle で入手可能な **千切りのレイピア（Rapier of a Thousand Cuts）** の Rare 個体。**敏捷性スケーリング C**、ベース攻撃 280、Plague Mark / Bleed 系コンボのスターター武器として序盤から終盤まで使える。
+
+ユニーク装備「千切りのレイピア（Rapier of a Thousand Cuts）」はブリード（出血）を最大5スタックまで積み重ねる強力な一本です。
 
 詳細ステータス・入手方法: 情報収集中
 
