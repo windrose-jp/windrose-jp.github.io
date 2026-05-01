@@ -12,6 +12,7 @@ Early Access開始後の「ハウスキーピング」パッチ（開発元 Krak
 - **Force Relay Connection** 設定を追加（P2P接続がブロックされる環境向け。pingが少し上がる代わりに接続安定）
 - **非英語Windowsユーザー名（Ä・Ö・Ü 等）でのクラッシュ**を修正
 - インベントリスロットID無効化によるクラッシュを修正
+- **Drowned（溺死兵）の大砲発射時のクラッシュ**を修正
 
 **パフォーマンス改善:**
 - **アイドル時のCPU使用量を削減**（サーバー・クライアント両方）
@@ -30,6 +31,10 @@ Early Access開始後の「ハウスキーピング」パッチ（開発元 Krak
 - Decorative Canopies（装飾天蓋）が屋根として計算されるように
 - 樹木下の土が宙吊りになる問題を修正
 - シャベルの平坦化ツールを修正
+- **Crocodile sculpture（クロコダイル彫像）が宙吊りになるバグ**を修正
+- **Signal Fire の衝突判定を修正**（上を歩けるように）
+- **苗木の植え付け密度判定**を修正
+- 26度階段のクリッピング、45度手すりの配置バグを修正
 
 **ドロップ率・バランス:**
 - **Hardwood（硬木）ドロップ率を約20%増加**
@@ -53,6 +58,18 @@ Early Access開始後の「ハウスキーピング」パッチ（開発元 Krak
 **UI・操作:**
 - キーリマップでアクセント文字（Ä・Ö・Ü 等）対応を拡張
 - ワイドスクリーン対応設定を追加
+- **矢印キーでカメラが回転してしまうバグ**を修正
+- **マウス反転設定を船舶操作にも適用**
+- **感度設定を遠距離武器の照準にも適用**
+- リマップ対応を拡張: secondary interactions / インベントリ管理 / HUD トグル / 両手持ち火器
+
+**クエスト・NPC修正:**
+- **Jim Godart の重複スポーンバグ**を修正
+- 「**Unsinkable**」クエストの乗船判定を緩和
+- F-カメラ使用中もクルー（船員）の台詞が聞こえるように
+
+**その他:**
+- 船の解体時にインベントリの空き容量チェックを追加（バックパック等を取りこぼさないため）
 
 > 情報源: [Steam ニュースRSS](https://store.steampowered.com/feeds/news/app/3041230/) / [pcgamesn パッチ報告](https://www.pcgamesn.com/windrose/update-patch-notes-missing-building-pieces) / [mein-mmo.de](https://mein-mmo.de/en/windrose-takes-care-of-lags-and-bugs-with-a-new-patch-sneaks-a-new-feature-into-the-game,1565239/)
 
@@ -158,13 +175,13 @@ Early Access期間中に以下の機能追加が予定されています:
 - **DLSS / FSR サポート**の追加
 
 **コンテンツ**
-- **Ashlands（アッシュランズ）** バイオームの追加（確認済み追加予定の新エリア）
+- **Ashlands（公式日本語訳: 灰の地）** バイオームの追加（次の大型コンテンツアップデート）。Kraken Express は「**少なくとも6ヶ月の開発期間**を要する」と公表しており、最速でも2026年10月後半以降を予定。詳細仕様（level range・新ボス・メカニクス）は1〜2ヶ月以内に追加情報が出る見込み
 - バイオーム・島・ボス・敵の追加
 - 武器・防具の拡充
 - 船・海洋進行システムの深化
 - キャンペーン続編
 
-> 情報源: [InGameNews 2026年開発者発言](https://www.ingamenews.com/2026/03/windrose-2026-update-developer-outlines.html) / [allthings.how ロードマップ記事](https://allthings.how/windrose-roadmap-status-for-early-access-april-2026/)
+> 情報源: [InGameNews 2026年開発者発言](https://www.ingamenews.com/2026/03/windrose-2026-update-developer-outlines.html) / [allthings.how ロードマップ記事](https://allthings.how/windrose-roadmap-status-for-early-access-april-2026/) / [insider-gaming.com 6ヶ月見込み](https://insider-gaming.com/windrose-roadmap-release-announced-next-major-update-ashlands-will-take-six-months/) / [massivelyop.com](https://massivelyop.com/2026/04/29/windrose-expects-its-next-major-content-update-will-take-at-least-six-months-to-deliver/)
 
 正式リリースまでの開発期間は約1.5〜2.5年が見込まれています（2027年末〜2028年末が目安）。
 
