@@ -93,6 +93,9 @@
 | Israel Hands | イスラエル・ハンズ | 実機 UI（クエスト本文） |
 | Doctor Galen | ドクター・ガレン | 実機 UI（NPC 名表示） |
 | Henry Bouché | ヘンリー・ブーシェ | 実機 UI（クエスト発注主表示） |
+| Thomas Richards | トマス・リチャーズ【要検証】 | jpngamerswiki（コミュニティ訳） |
+| Rosalinda Mercer | ロザリンダ・マーサー【要検証】 | jpngamerswiki（コミュニティ訳） |
+| Jim Godart | （未確認） | — |
 
 ## 勢力名
 

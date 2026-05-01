@@ -71,7 +71,7 @@ Early Access開始後の「ハウスキーピング」パッチ（開発元 Krak
 **その他:**
 - 船の解体時にインベントリの空き容量チェックを追加（バックパック等を取りこぼさないため）
 
-> 情報源: [Steam ニュースRSS](https://store.steampowered.com/feeds/news/app/3041230/) / [pcgamesn パッチ報告](https://www.pcgamesn.com/windrose/update-patch-notes-missing-building-pieces) / [mein-mmo.de](https://mein-mmo.de/en/windrose-takes-care-of-lags-and-bugs-with-a-new-patch-sneaks-a-new-feature-into-the-game,1565239/)
+> 情報源: [Steam ニュースRSS](https://store.steampowered.com/feeds/news/app/3041230/) / [pcgamesn パッチ報告](https://www.pcgamesn.com/windrose/update-patch-notes-missing-building-pieces) / [mein-mmo.de](https://mein-mmo.de/en/windrose-takes-care-of-lags-and-bugs-with-a-new-patch-sneaks-a-new-feature-into-the-game,1565239/) / [noisypixel.net 詳細パッチノート](https://noisypixel.net/windrose-1-5-million-sales-update-patch-notes/)
 
 ---
 
