@@ -4,6 +4,8 @@
 
 ## タレントシステムの概要
 
+![タレントツリー全体俯瞰（Fencer / Crusher / Marksman / Toughguy の4系統が同心円状に配置）](../images/talent-tree-overview.jpg)
+
 ![タレントツリー UI（Fencer 系統「俊敏」を表示）](../images/talent-agility-tree.jpg)
 
 レベルアップするとタレントポイントを獲得し、4つのタレントツリーに投資してキャラクターを強化します。

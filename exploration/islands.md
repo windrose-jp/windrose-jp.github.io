@@ -2,7 +2,7 @@
 
 > 情報源: [Steam コミュニティ ビギナーズガイド](https://steamcommunity.com/app/3041230/discussions/0/757304565299215807/)
 
-![島の街](../images/ss4.jpg)
+![Tortuga 港町（昼）— 屋台が並ぶ石畳の通り](../images/town-port-day.jpg)
 
 ## 島の概要
 

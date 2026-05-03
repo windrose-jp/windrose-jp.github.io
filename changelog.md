@@ -3,6 +3,21 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
+## 2026-05-04
+
+- [攻略] **クルー雇用システムの専用ページ新設**（ships/crew-hiring.md）：Tortuga および各派閥拠点で雇用できる NPC（Black Axel / Rosalinda Mercer / Jasper Crowe / Mortar Joe / Doctor Galen / John Doe）の雇用画面 UI、ボーナス効果、雇用費（500P/職種）、Settle 運用、Ship Crew 系統を体系化。実機画面付き
+- [攻略] **派閥商人 NPC のスクショを各勢力セクションに反映**（factions.md）：沿岸の同胞・ポートロイヤルの密輸業者・トルトゥーガの民・はぐれバッカニアの「調達係（Vendor）」と「賞金首の買い手（Bounty Buyer）」を画像付きで紹介。Insignia 引換 UI も明示
+- [攻略] **はぐれバッカニア（Rogue Buccaneers）専用セクションを新設**（factions.md）：Buccaneer's Friend 解放条件・レア大砲設計図入手元として独立解説。Glorious Hunters クエスト関与も併記
+- [攻略] **Tortuga 街NPCの紹介セクションを新設**（factions.md）：ロック・ベン（酒場バーテンダー）、ジャスパー・クロウ（仕立屋・クルー雇用可）、フランツワ・アルノ（街中NPC）を画像付きで追加
+- [攻略] **クラフトステーションを大幅補強**（crafting/stations.md）：「防具と衣服の工房（Armor & Tailor Workshop）」「宝飾台（Jewelry Table）」を新セクションとして追加。武器鍛冶台・錬金テーブル・料理台・作業台に実機 UI 画像を併記。アイテムレベルスライダー（1/6/11）の挙動も解説
+- [攻略] **タレントツリー全体俯瞰画像を追加**（character/talents.md）：Fencer / Crusher / Marksman / Toughguy の4系統が同心円状に配置されている全体ビューを冒頭に配置。系統選択の見通しが改善
+- [攻略] **Israel Hands 戦のアリーナ・本体画像を追加**（enemies/bosses.md）：戦闘前のアリーナ構造と中盤フェーズ本体の見た目を実機画像で補強
+- [攻略] **建築パネル UI を更新**（building/README.md）：「製作とユーティリティ」カテゴリ全体表示と、作業台選択時の必要素材表示を実機画像で明示。カテゴリ構造（10種）を解説
+- [攻略] **素材ページに「商人から購入する」セクション追加**（resources/README.md）：食料・種・果実類の購入価格目安と Trader Contracts への導線
+- [攻略] **海戦ガイドに派閥領海の航行画像追加**（ships/naval-combat.md）：「黒ひげの海域」入域時の地域名表示挙動を画像付きで補足。「クルーの雇用」セクションは新規 crew-hiring.md にリンクして要点に圧縮
+- [攻略] **Tortuga 港町の街並み画像を更新**（exploration/islands.md）：屋台が並ぶ昼の港町の様子を実機画像で差し替え
+- [wiki] _screenshots/ から 24 枚を採用、メニュー系 UI のプレイヤー名は右上を `#1c1d21` 矩形でマスク済み（scripts/mask_player_name.py + .claude/skills/windrose-mask-screenshots/）。フィールド・NPC・ボス戦・舵輪画面はマスク不要で原画から jpg 変換のみ。Discord オーバーレイのみが映り込んだ無効画像 7 枚は不採用
+
 ## 2026-04-29
 
 - [訂正] **重量（Encumbrance）ペナルティの記述を削除**：複数の英語攻略サイトが掲載していた「重量超過でスタミナ消費増・移動速度半減」等の記述は裏付けの取れていない誤情報と判明。Steam公式コミュニティで「重量システムは存在しない、スロット制限のみ」が一次情報として確認され、character/stats.mdから該当セクションを削除し、誤情報への注意喚起を追記
@@ -66,6 +81,7 @@
 - [攻略] FAQ にメインクエスト消失バグ・Ship Boarding バグを追記
 <!-- FULL_CHANGELOG_END -->
 
+- 2026-05-04: クルー雇用ページ新設・派閥商人 NPC 反映・クラフト施設に防具/宝飾追加・スクショ24枚を主要ページに反映
 - 2026-05-01: 公式日本語訳を反映（千切りのレイピア・ドクター・ガレン・干し草の中の針 等）と重量ペナルティ記述の取り残しを削除
 - 2026-04-29: 誤情報を一斉訂正（重量システム・Vitalityソフトキャップ・防具セット効果・開発元名等）
 - 2026-04-28: SSD書き込み問題ページ新設・コラムコーナー新設（3記事）

@@ -48,6 +48,7 @@
   * [船の種類](ships/ship-types.md)
   * [海戦ガイド](ships/naval-combat.md)
   * [船カスタマイズ](ships/customization.md)
+  * [クルー雇用](ships/crew-hiring.md)
 
 ## 建築
 

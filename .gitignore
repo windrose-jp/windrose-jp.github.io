@@ -1,3 +1,9 @@
 book/
 _preview/
 _screenshots/
+
+# 画像縮小hookが生成するキャッシュ（採用時は別名で images/ に保存するため不要）
+*_resized2k.png
+*_resized2k.jpg
+*_resized2k.jpeg
+*_resized2k.webp

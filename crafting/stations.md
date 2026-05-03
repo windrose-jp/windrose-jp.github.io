@@ -24,6 +24,8 @@ Workbench → Stone Tools → Copper Ore 採掘
 
 ![作業台UI](../images/craft-workbench.jpg)
 
+![作業台のクラフト画面（軽い布・ロープ等の基本素材）](../images/craft-workbench-recipes.jpg)
+
 | 項目 | 内容 |
 |------|------|
 | 主な用途 | 道具・武器・包帯・袋などのクラフト |
@@ -62,11 +64,26 @@ Workbench → Stone Tools → Copper Ore 採掘
 ### 武器鍛冶台（Weaponsmith Workshop）
 武器のクラフト・アップグレード・Ascension（Epic昇格）を行う。
 
+![武器職人の工房 Lv3（ボーンブレイカー詳細：近接武器Rare、攻撃力300、アイテムレベル11）](../images/craft-weapon-bonebreaker.jpg)
+
 | 主な用途 | 武器クラフト / Lv強化 / Epic昇格 |
 |---------|--------------------------------|
 | Ascension素材 | **Tumbaga Ingot**（Rare Lv8 → Epic に昇格） |
 | Tier 2 要件 | Anvil（鍛冶台） |
 | Tier 3 要件 | Anvil + Bellows（鞴） |
+
+---
+
+### 防具と衣服の工房（Armor & Tailor Workshop）
+防具をクラフトする施設。「追跡者」「サバイバー」シリーズなどタイプ別の防具レシピが並ぶ。アイテムレベル（1/6/11）でレシピ難度が変動する。
+
+![防具と衣服の工房（追跡者シリーズの防具レシピ一覧）](../images/craft-armor-tracker.jpg)
+
+| 項目 | 内容 |
+|------|------|
+| 主な用途 | 帽子・手袋・ジャケット・ズボン・ブーツなど装備全般のクラフト |
+| 主な系統 | 追跡者シリーズ（Tracker）/ サバイバーシリーズ（Survivor）など |
+| アイテムレベルスライダー | 1 / 6 / 11 から選択（高Lvほど素材要求も増加） |
 
 ---
 
@@ -111,6 +128,8 @@ Workbench → Stone Tools → Copper Ore 採掘
 ### 料理台（Cooking Fire）
 食事バフアイテムをクラフトする施設。
 
+![調理用の火（タコス・フリッター・トルティーヤ等のレシピ）](../images/craft-cooking-tacos.jpg)
+
 | 特徴 | **マップのどこにでも設置可能** |
 |------|------------------------------|
 | 上位施設 | Millstone（Phase 2、※現在無効化中）/ Culinary Station / Food Dryer（Phase 3） |
@@ -124,9 +143,23 @@ Workbench → Stone Tools → Copper Ore 採掘
 ### 錬金テーブル（Alchemy Table）
 ポーション・エリクサーを調合する施設。
 
+![錬金テーブル（粘土の瓶・ポーション系・修理材レシピ）](../images/craft-alchemy-station.jpg)
+
 | 解放素材 | **Misty Orchid（霧の蘭）** — Foothills で入手 |
 |---------|---------------------------------------------|
 | Lv2 解放 | Stove and Pot（Stone ×5 / Clay ×5 / Copper Pot ×1）を隣接設置 |
+
+---
+
+### 宝飾台（Jewelry Table）
+ネックレスや指輪などのアクセサリーをクラフトする施設。耐久・スタミナ等の小バフを付与する装飾品を製造する。
+
+![宝飾台（小さな耐久のネックレス等）](../images/craft-jewel-necklaces.jpg)
+
+| 屋根 | **不要**（屋外設置専用） |
+|------|---------|
+| 主要クラフト品 | 耐久のネックレス / 視野(?)のネックレス / 各種指輪 |
+| 用途 | 戦闘・探索向けの小バフ付与アクセサリー |
 
 → 詳細・レシピは[錬金術](alchemy.md)を参照
 
