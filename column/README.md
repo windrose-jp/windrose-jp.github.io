@@ -5,6 +5,8 @@
 - [トルトゥーガでは何も買えない](tortuga-buyer.md)
 - [Crew（乗組員）は航海に同行しない](crew-on-ship.md)
 - [ボス再戦には報酬がない（と言われている）](boss-rematch.md)
+- [「アイテム耐久度がない」というサバイバルジャンルの異端](no-item-durability.md)
+- [「Windrose の subreddit」を探すと辿り着けない理由](subreddit-name-confusion.md)
 
 ---
 

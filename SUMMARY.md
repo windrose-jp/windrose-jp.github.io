@@ -102,6 +102,8 @@
   * [トルトゥーガでは何も買えない](column/tortuga-buyer.md)
   * [Crew（乗組員）は航海に同行しない](column/crew-on-ship.md)
   * [ボス再戦には報酬がない（と言われている）](column/boss-rematch.md)
+  * [アイテム耐久度がないというサバイバルの異端](column/no-item-durability.md)
+  * [Windroseのsubredditを探すと辿り着けない理由](column/subreddit-name-confusion.md)
 
 ## その他
 
