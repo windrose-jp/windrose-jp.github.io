@@ -154,6 +154,9 @@ jobs:
               if url.endswith(".md"):
                   url = url[:-3] + ".html"
               url = url.replace("README.html", "index.html")
+              # 末尾の index.html を除去（/ や /character/ などのクリーンURLに統一）
+              if url.endswith("/index.html"):
+                  url = url[:-10]
               return url
 
           url_changed = 0
@@ -185,7 +188,9 @@ jobs:
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> book/sitemap.xml
           find book -name '*.html' ! -name 'print.html' ! -name '404.html' ! -name 'toc.html' | sort | while read f; do
             path="${f#book/}"
-            echo "  <url><loc>${SITE_URL}/${path}</loc></url>" >> book/sitemap.xml
+            # 末尾の index.html を除去（canonical と統一）
+            url_path="${path%index.html}"
+            echo "  <url><loc>${SITE_URL}/${url_path}</loc></url>" >> book/sitemap.xml
           done
           echo '</urlset>' >> book/sitemap.xml
 
