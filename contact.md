@@ -22,5 +22,5 @@ Windrose 日本語攻略まとめへのお問い合わせは、運営元 GameGui
 
 ## 注意事項
 
-- ゲーム本体の不具合・サポートについては開発元 [Five Dimensions Studio](https://store.steampowered.com/app/3001280/Windrose/) または Steam サポートへお問い合わせください
+- ゲーム本体の不具合・サポートについては、開発元 [Kraken Express](https://store.steampowered.com/app/3041230/Windrose/)（旧 Windrose Crew）の公式バグ報告・要望窓口 [windrose.support](https://windrose.support/)（2026年4月開設・英語のみ）または Steam サポートへお問い合わせください
 - 情報提供をいただいた場合、出典として記載させていただく場合があります（匿名希望の方はその旨お書きください）
