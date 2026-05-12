@@ -224,6 +224,7 @@ jobs:
       - name: Copy static files
         run: |
           cp robots.txt book/robots.txt
+          cp ads.txt book/ads.txt 2>/dev/null || true
           cp google*.html book/ 2>/dev/null || true
 
       - name: Upload artifact
