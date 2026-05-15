@@ -3,6 +3,10 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
+## 2026-05-15
+
+- [攻略] **2026-05-14 開発者アナウンス（200万本達成）を patch-notes.md に反映**：Kraken Express 公式投稿から、頻出問題対応の小パッチを近日中に公開予定であること、その後 Ashlands 本格制作（"full production"）に入ること、スコープは社内検討中で詳細は後日共有予定であることを「今後の予定」セクション冒頭に追記。出典は Steam ニュース公式投稿
+
 ## 2026-05-09
 
 - [訂正] **contact.md の開発元表記を訂正**：「Five Dimensions Studio」（誤）→「Kraken Express（旧 Windrose Crew）」に修正。Steam ストアリンクの app id 誤り（3001280 → 3041230）も併せて修正。公式バグ報告・要望窓口 [windrose.support](https://windrose.support/) への導線も追記（2026-04-28 ベータ公開、英語のみ）
@@ -96,6 +100,7 @@
 - [攻略] FAQ にメインクエスト消失バグ・Ship Boarding バグを追記
 <!-- FULL_CHANGELOG_END -->
 
+- 2026-05-15: 200万本達成にあわせた開発者方針アナウンス（頻出問題対応の小パッチ近日中・その後 Ashlands 本格制作開始）を patch-notes.md に反映
 - 2026-05-09: contact.md の開発元名取り残し訂正（Five Dimensions Studio→Kraken Express）と公式バグ報告窓口（windrose.support）への導線追記
 - 2026-05-04: クルー雇用ページ新設・派閥商人 NPC 反映・クラフト施設に防具/宝飾追加・スクショ24枚を主要ページに反映・5/3 起動不具合注意喚起・敵スケーリング/Insignia 振替不可を補強・コラム2本新設
 - 2026-05-01: 公式日本語訳を反映（千切りのレイピア・ドクター・ガレン・干し草の中の針 等）と重量ペナルティ記述の取り残しを削除

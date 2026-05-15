@@ -180,6 +180,18 @@ Windrose Early Access 初回リリース。リリース日に合わせてスタ�
 
 ## 今後の予定（開発者公表ロードマップ）
 
+### 最新の開発者方針（2026-05-14 Steam News）
+
+Early Access 開始から1ヶ月で **200万本販売**を達成した直後の開発者投稿で、当面の方針が示されました。
+
+- **頻出問題対応の小パッチを近日中に公開予定**（"another patch soon to address several common issues reported by the community"）
+- **その後、次の大型アップデート（Ashlands）の本格制作（"full production"）に入る**
+- スコープは社内検討中で、詳細は後日共有
+
+> 情報源: [Steam ニュース「2,000,000 copies sold」](https://store.steampowered.com/news/app/3041230/view/666113645632029125)
+
+---
+
 Early Access期間中に以下の機能追加が予定されています:
 
 **マルチプレイ・QoL**
