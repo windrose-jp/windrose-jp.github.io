@@ -34,11 +34,12 @@
 |------|---------|------|
 | Saber | サーベル | Steam JP / Pocketpair JP |
 | Rapier | レイピア | Steam JP / Pocketpair JP |
-| Cutlass | カトラス【要検証】 | — |
+| Cutlass | カトラス | jpngamerswiki（コミュニティ訳） |
 | Halberd | ハルバード | Steam JP / Pocketpair JP |
 | Greatsword | グレートソード | Steam JP / Pocketpair JP |
 | Pistol | ピストル | Steam JP / Pocketpair JP |
 | Musket | マスケット銃 | Steam JP / Pocketpair JP |
+| Mace | メイス | jpngamerswiki（コミュニティ訳） |
 | **Blunderbuss** | **ラッパ銃** | 実機 UI（特定武器名で「ラッパ銃」採用、Steam JPは「ブランダーバス」表記） |
 
 > ⚠️ Blunderbuss は Steam JP ストアでは「ブランダーバス」だが、**実機 UI の特定武器名（例: Reliable Blunderbuss → 信頼できるラッパ銃）では「ラッパ銃」が採用**されている。本 wiki では実機 UI 準拠で「ラッパ銃」を使用。
@@ -159,6 +160,9 @@
 | Tent | テント【要検証】 | — |
 | Wharf | 波止場【要検証】 | — |
 | Shrine | 祠【要検証】 | — |
+| Enchanting Table / Station | 付呪台 | jpngamerswiki（コミュニティ訳） |
+| Painting Set | 絵画セット | jpngamerswiki（コミュニティ訳・装飾建築） |
+| Ornate Fireplace | 豪華な暖炉 | jpngamerswiki（コミュニティ訳・装飾建築） |
 
 ## 素材
 
@@ -172,6 +176,8 @@
 | Quagmire Powder | クァグマイヤー粉末【要検証】 | — |
 | Mire Metal Ingot | ミュア・メタル・インゴット【要検証】 | — |
 | Tainted Bile | 汚染された胆汁【要検証】 | — |
+| Pearl | 真珠 | jpngamerswiki（コミュニティ訳）/ tips.md で既使用 |
+| Stone Bullet | 石の弾丸 | jpngamerswiki（コミュニティ訳） |
 
 ## ユニーク武器・固有名
 
@@ -185,6 +191,9 @@
 | Soul Eater | ソウルイーター【要検証】 | — |
 | Buccaneer's Friend | バッカニアの友 | 既存ページで採用 |
 | Dueling Saber | 決闘セイバー | 既存ページで採用 |
+| Sturdy Saber | 頑丈なサーベル | jpngamerswiki（コミュニティ訳）/ tips.md で既使用 |
+| Sturdy Mace | 頑丈なメイス | jpngamerswiki（コミュニティ訳） |
+| Lesser Champion's Ring | 下級のチャンピオンの指輪 | jpngamerswiki（コミュニティ訳） |
 
 ---
 
