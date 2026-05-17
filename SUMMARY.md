@@ -20,6 +20,7 @@
 * [戦闘概要](combat/README.md)
   * [基本アクション](combat/basic-actions.md)
   * [近接武器](combat/melee-weapons.md)
+  * [遠距離武器](combat/ranged-weapons.md)
   * [体幹・スタミナ](combat/poise-stamina.md)
 
 ## キャラクター
@@ -52,6 +53,7 @@
 ## 建築
 
 * [建築概要](building/README.md)
+  * [建築スタイル](building/styles.md)
   * [建造物一覧](building/structures.md)
 
 ## クラフト

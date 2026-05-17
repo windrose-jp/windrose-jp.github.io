@@ -35,7 +35,7 @@ Windrose は現在、**通常プレイ中に SSD へ毎時 20〜60GB の異常�
 - [初心者Tips](tips.md)
 
 ### 戦闘
-- [戦闘概要](combat/index.html) — [基本アクション](combat/basic-actions.md) / [近接武器](combat/melee-weapons.md) / [体幹・スタミナ](combat/poise-stamina.md)
+- [戦闘概要](combat/index.html) — [基本アクション](combat/basic-actions.md) / [近接武器](combat/melee-weapons.md) / [遠距離武器](combat/ranged-weapons.md) / [体幹・スタミナ](combat/poise-stamina.md)
 
 ### キャラクター
 - [キャラクター概要](character/index.html) — [ステータス](character/stats.md) / [タレント](character/talents.md) / [ビルド集](character/builds.md) / [食事・ポーション](character/buffs.md)
@@ -47,7 +47,7 @@ Windrose は現在、**通常プレイ中に SSD へ毎時 20〜60GB の異常�
 - [船概要](ships/index.html) — [船の種類](ships/ship-types.md) / [海戦ガイド](ships/naval-combat.md) / [船カスタマイズ](ships/customization.md)
 
 ### 建築
-- [建築概要](building/index.html) — [建造物一覧](building/structures.md)
+- [建築概要](building/index.html) — [建築スタイル](building/styles.md) / [建造物一覧](building/structures.md)
 
 ### クラフト
 - [クラフト概要](crafting/index.html) — [クラフトステーション](crafting/stations.md) / [料理](crafting/cooking.md) / [錬金術](crafting/alchemy.md)
