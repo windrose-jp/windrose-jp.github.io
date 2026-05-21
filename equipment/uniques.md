@@ -175,6 +175,19 @@ Epic 武器の多くは**特定カテゴリのチェスト**から排出され�
 
 ---
 
+## ユニーク武器の隠し性能（コミュニティ検証）
+
+タンクビルドガイドで検証されている、表記されない / Tooltip で読み切れない隠し効果。Tier 1 は同ガイド単体のため数値は今後の補正余地あり。
+
+- **Soul Eater（両手剣）**: Special Ability が **Vitality スケール / 360°範囲 / 与ダメージ 100% を回復**。**クールダウン 3 分**と長めだが、生存力が独立して完結する
+- **Dueling Greatsword（両手剣）**: **Perfect Block 成立時に近接ダメージ +10%、最大 3 スタック**。**無被弾の限りスタックが持続**するため、Perfect Block を継続できる戦闘で火力が伸びる
+- **Plague Rapier（細剣）**: 軽攻撃でスタックを蓄積 → 重攻撃で放出する仕様。**5 スタック以上で最大 HP の 40% を回復**
+- 上記は Perfect Block / Perfect Dodge と組み合わせる前提で評価される性能。武器制限は [combat/poise-stamina.md](../combat/poise-stamina.md) を参照
+
+> 📌 出典: [Steam Guide - A tank's guide to Windrose](https://steamcommunity.com/sharedfiles/filedetails/?id=3720663868)
+
+---
+
 ## コミュニティ評価（Tier）
 
 | Tier | 武器 | 理由 |

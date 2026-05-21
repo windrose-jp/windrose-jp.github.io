@@ -192,6 +192,11 @@ Coastal Jungle の第1メインボス。「ソロ不可能」という声が多�
 - **アリーナ直前にファストトラベル地点**あり → 補給・Bonfire 再バフ可能
 - ボス部屋は開けた空間で回避しやすい
 
+#### 仕様メモ
+
+- **Israel Hands には Perfect Block が成立しない**との検証報告あり。Saber / Rapier / Greatsword を持っていても Perfect Block タイミングで防御値が一致しない。**Perfect Dodge 軸で組み立てる**のが安全。詳細は [combat/poise-stamina.md](../combat/poise-stamina.md)
+- 出典: [Steam Guide - A tank's guide to Windrose](https://steamcommunity.com/sharedfiles/filedetails/?id=3720663868)
+
 ![Israel Hands アリーナ（戦闘前）](../images/boss-israel-hands-arena.jpg)
 
 #### 攻撃パターン（5種）

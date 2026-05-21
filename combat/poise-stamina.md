@@ -77,6 +77,18 @@ Bonfire 付近で取得する**スタミナ回復速度と最大量を大幅に�
 3. **自分のシールドが削られないよう被弾を最小限に**
 4. ボス戦は特にシールド管理が勝敗を決める
 
+### Perfect Block と Perfect Dodge の武器制限
+
+コミュニティのタンクビルドガイドで検証されている、Perfect 系防御の武器対応:
+
+- **Perfect Block** は **Saber / Rapier / Greatsword の 3 種類でのみ成立**。それ以外の武器（短剣・両手槍・両手斧・盾なしの片手武器など）では Perfect Block タイミングがあっても発動しない
+- **Perfect Dodge** は**全武器対応**だが、回避にスタミナを消費する
+- ボス戦で Perfect Block 系の戦術を使う場合は、Saber / Rapier / Greatsword のいずれかを必ず持ち替えること
+
+特定のボス（[Israel Hands](../enemies/bosses.md) 等）は **Perfect Block が成立しない**仕様のため、Perfect Dodge 軸で組み立てる。
+
+> 📌 出典: [Steam Guide - A tank's guide to Windrose](https://steamcommunity.com/sharedfiles/filedetails/?id=3720663868)
+
 ## 関連ページ
 
 - [基本アクション](basic-actions.md)

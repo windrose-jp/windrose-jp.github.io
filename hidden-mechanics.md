@@ -119,6 +119,30 @@ Armor Workbench は「完全密閉の建物」でなく、**頭上に屋根が�
 
 > 情報源: [Kotaku 15 Tips](https://kotaku.com/15-tips-to-before-starting-windrose-that-new-pirate-game-on-steam-everyone-is-playing-2000689110)
 
+### Bonfire 範囲内では満腹度低下が実質無視できる
+
+**拠点（Bonfire 範囲内）にいる間は満腹度の低下が極めて緩やか**で、実質無視できる。出発前に料理バフだけ食べてから空腹を放置 → 出発時はそのままバフ状態で旅立てる、という運用が成立する。
+
+> 📌 出典: [Steam Guide - What I wanted to know BEFORE I started playing Windrose](https://steamcommunity.com/sharedfiles/filedetails/?id=3711655571)
+
+### 釣りの正しい当て方
+
+- 浮き（bobber）が**少し沈む = bite（噛みつき）**。沈むたびリールするのは**間違い**
+- **大きな水柱が噴出 = plunge（ヒット確定）**。このタイミングでリールするのが正解
+- **釣竿のクラフトには Workbench Lv2 が必要**で、Iron Foothills 進行と同時に解放される
+- **水のある場所ならどこでも釣り可能**（沼の水たまり・自分で掘った穴も OK）。天候・昼夜は釣果に影響しない
+
+> 📌 出典: [Steam Discussion - Fishing Tips](https://steamcommunity.com/app/3041230/discussions/0/837249163025521067/) / [Fishing Observations](https://steamcommunity.com/app/3041230/discussions/0/837249796380151898/)
+
+### 農場の収穫遅延で増量、バナナ等は E で種ごと回収
+
+- **プランターの作物は収穫可能になってからさらに放置すると収穫量が増える**（リアル農業寄りの仕様）
+- **バナナ・shrub・ficus・palm**は第1バイオームで素のまま植えられる
+- **野菜（pepper / citrus / tomato 等）は第 2 バイオームの seedbed が必要**
+- バナナ等の**木は E（Interact）で「破壊と同時にバナナ＋種子を回収」**できる。斧で伐採すると種が手に入らないので注意
+
+> 📌 出典: [Steam Discussion - Early Game Farming](https://steamcommunity.com/app/3041230/discussions/0/807975131067528903/) / [how to plant seeds?](https://steamcommunity.com/app/3041230/discussions/0/802344996812399430/)
+
 ---
 
 ## 船・海戦の隠し仕様

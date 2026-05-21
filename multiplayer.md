@@ -9,8 +9,21 @@ Windroseは**オンラインCo-op（協力プレイ）**に対応しています
 | 方式 | 説明 |
 |------|------|
 | **ホスト型セッション** | プレイヤーが自分のゲームをホスト → 招待コードで友人を招待 |
-| **専用サーバー（Dedicated）** | **Nitrado 経由**で常時稼働サーバーを構築可能。ホスト不在でも継続稼働 |
+| **専用サーバー（Dedicated）** | **Nitrado 経由**で常時稼働サーバーを構築可能。ホスト不在でも継続稼働。**セルフホスト**は SteamCMD でも可能（要件は下記） |
 | **ダイレクトIP接続** | サーバーIPを直接入力して接続（Patch 0.10.0.3.104 で追加） |
+
+### セルフホスト（SteamCMD）の要件
+
+WHOLF 公式の Dedicated Server Guide で公開されている、自宅サーバー等での運用要件。
+
+| 項目 | 要件 |
+|------|------|
+| **サーバー App ID** | **4129620** |
+| **CPU 命令セット** | **AVX 命令セット必須**（古い Xeon・低世代 Atom 等では起動しない） |
+| **必要ポート** | **UDP 7777**（game）／**UDP 7778**（query） |
+| **更新コマンド例** | `app_update 4129620 validate` |
+
+> 📌 出典: [Steam Guide - Windrose Dedicated Server Guide (WHOLF)](https://steamcommunity.com/sharedfiles/filedetails/?id=3706337486) / [Steam Discussion - Dedicated Server pinned thread](https://steamcommunity.com/app/3041230/discussions/0/807974232125489967/)
 
 ### 招待コードの仕様
 

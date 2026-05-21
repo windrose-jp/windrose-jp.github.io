@@ -3,6 +3,24 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
+## 2026-05-21（パッチノート補完）
+
+- [攻略] **patch-notes.md の Patch 0.10.0.6 に反映漏れの修正項目を補完**：アクションパネルがボタン「離し」→「押下」で実行されるよう変更、苗床への植物スナップ修正と苗床上アイテムすり抜け消失修正、マルチで別々のボス同時討伐時の実績誤付与修正、艦砲操作中の Unstuck コマンド不具合修正、船からのアイテム取り外し時のクラッシュ修正、武器装備後のアニメ遷移微調整、Stargazer 廃墟の撃破カウント誤差修正、複数サーバーインスタンス同時起動の無効化、専用サーバーでの WorldDescription.json 設定変更対応。出典は Steam News 0.10.0.6
+
+## 2026-05-21（深堀り追加更新）
+
+- [攻略] **hidden-mechanics.md に釣り・農場・Bonfire 範囲飢餓無視の隠し仕様を追加**：浮きが「ちょい沈み = bite / 大きな水柱 = plunge」、釣竿は Workbench Lv2 必須、水場ならどこでも釣り可能。プランターは収穫遅延で増量、バナナ等は E で種ごと回収、第2バイオームで seedbed 必須。Bonfire 範囲内では満腹度低下が実質無視できる。出典は Steam Discussion 複数本
+- [攻略] **combat/poise-stamina.md に Perfect Block の武器制限を追加**：Saber / Rapier / Greatsword の 3 種類でのみ Perfect Block が成立、Perfect Dodge は全武器対応だがスタミナ消費。出典は Steam Guide「A tank's guide to Windrose」
+- [攻略] **equipment/uniques.md にユニーク武器の隠し性能を追加**：Soul Eater Special が Vitality スケール / 360° / 与ダメ 100% 回復 / CD 3 分、Dueling Greatsword は Perfect Block 成功でメレー +10% 最大 3 スタック（無被弾持続）、Plague Rapier は重攻撃放出 5 スタック以上で最大 HP 40% 回復
+- [攻略] **enemies/bosses.md の Israel Hands に「Perfect Block 不可」の仕様メモを追記**：Saber / Rapier / Greatsword を持っていても Perfect Block が成立しない。Perfect Dodge 軸推奨
+- [攻略] **multiplayer.md にセルフホスト要件を追加**：サーバー App ID 4129620、AVX 命令セット必須、UDP 7777/7778、`app_update 4129620 validate`。出典は WHOLF 公式 Dedicated Server Guide
+- [攻略] **faq.md の墓標バグ節に右クリック削除手順を追記**：マップを開き墓標アイコンを右クリックで個別削除可能（再ログインより確実）。コントローラーでは不安定の注意付き
+- [攻略] **patch-notes.md の Patch 0.10.0.6 出典に Steam News 直接リンクを追加**
+
+## 2026-05-21
+
+- [攻略] **Patch 0.10.0.6（2026-05-17〜18 配信）を patch-notes.md に追記**：200万本達成投稿で予告されていた頻出問題対応の小パッチ。確認できた変更点はディスク書き込み再最適化（SSD 問題への追加対処）、ボーディング時パフォーマンス改善、艦砲使用時パフォーマンス改善の3点。出典は Steam Community news hub と patchbot.io
+
 ## 2026-05-15
 
 - [攻略] **2026-05-14 開発者アナウンス（200万本達成）を patch-notes.md に反映**：Kraken Express 公式投稿から、頻出問題対応の小パッチを近日中に公開予定であること、その後 Ashlands 本格制作（"full production"）に入ること、スコープは社内検討中で詳細は後日共有予定であることを「今後の予定」セクション冒頭に追記。出典は Steam ニュース公式投稿
