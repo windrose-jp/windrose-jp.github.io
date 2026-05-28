@@ -3,6 +3,10 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
+## 2026-05-28
+
+- [攻略] **troubleshooting.md に「Tortuga ファストトラベル時のフリーズ・クラッシュ」セクションを新設**：Patch 0.10.0.6（5/17〜18 配信）後も継続している既知の症状を反映。Ketch によるファストトラベルでの発生率が高い／Bell（鐘）の方が安定／シェーダー品質を High に設定すると改善する報告／別キャラ経由でのワールド再入場で一時解消といった、複数の Tier 1 Steam Community スレッドで一致している回避策をまとめて記載。出典は Steam Community discussions（Fast Travel Crash Bug ? / Game crash when teleporting to Tortuga / Game sometimes freezes when fast traveling to Tortuga / Fast Travel to Tortuga Freeze）
+
 ## 2026-05-21（パッチノート補完）
 
 - [攻略] **patch-notes.md の Patch 0.10.0.6 に反映漏れの修正項目を補完**：アクションパネルがボタン「離し」→「押下」で実行されるよう変更、苗床への植物スナップ修正と苗床上アイテムすり抜け消失修正、マルチで別々のボス同時討伐時の実績誤付与修正、艦砲操作中の Unstuck コマンド不具合修正、船からのアイテム取り外し時のクラッシュ修正、武器装備後のアニメ遷移微調整、Stargazer 廃墟の撃破カウント誤差修正、複数サーバーインスタンス同時起動の無効化、専用サーバーでの WorldDescription.json 設定変更対応。出典は Steam News 0.10.0.6
