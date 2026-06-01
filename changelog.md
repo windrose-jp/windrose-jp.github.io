@@ -3,6 +3,11 @@
 ## 全更新履歴
 
 <!-- FULL_CHANGELOG_START -->
+## 2026-06-02
+
+- [訂正] **faq.md の「Wipe（データリセット）はある？」を訂正**：「未アナウンス」と記載していたが、Kraken Express プロデューサー Yar_master（Phil Molodkovets）が 2026-04-28 に「NO WIPES are planned! We do our best on tech side to allow all the future updates to keep your progress intact all the way to 1.0 release.」と公式コメント（Discord 原文を Steam Community 公式アナウンススレッドに転載）。Ashlands を含む 1.0 までの全アップデートでキャラ・ワールド進捗を維持する方針を明示。開発側の「不測の事態は起こり得る」前置きも併記。出典は Steam Community 公式回答スレッドおよび PC Gamer 報道
+- [攻略] **troubleshooting.md「Tortuga ファストトラベル」セクションの公式対応状況日付を更新**：2026-06-02 時点でも Patch 0.10.0.6（2026-05-17〜18）以降の新規パッチが配信されておらず、本症状の公式修正もまだ無いことを明示
+
 ## 2026-05-28
 
 - [攻略] **troubleshooting.md に「Tortuga ファストトラベル時のフリーズ・クラッシュ」セクションを新設**：Patch 0.10.0.6（5/17〜18 配信）後も継続している既知の症状を反映。Ketch によるファストトラベルでの発生率が高い／Bell（鐘）の方が安定／シェーダー品質を High に設定すると改善する報告／別キャラ経由でのワールド再入場で一時解消といった、複数の Tier 1 Steam Community スレッドで一致している回避策をまとめて記載。出典は Steam Community discussions（Fast Travel Crash Bug ? / Game crash when teleporting to Tortuga / Game sometimes freezes when fast traveling to Tortuga / Fast Travel to Tortuga Freeze）

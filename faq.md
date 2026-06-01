@@ -126,7 +126,11 @@ Doctor Galen に **Healing Herbs を渡す**と薬を調合してくれる。定
 **倒れる木は建築物にダメージを与える仕様**。拠点周辺で伐採するときは倒れる方向に注意。
 
 ### Wipe（データリセット）はある？
-Early Access 中の wipe 予定は現時点で未アナウンス。
+**Early Access から 1.0 リリースまで wipe（進捗リセット）は予定されていない**と Kraken Express プロデューサー Yar_master が公式コメント（2026-04-28、Discord 原文を Steam Community に転載）で明言している。「NO WIPES are planned! We do our best on tech side to allow all the future updates to keep your progress intact all the way to 1.0 release.」が原文。次の大型アップデート Ashlands 適用時もキャラ・ワールド進捗は引き継がれる方針。
+
+> ただし開発側自身が「もちろん不測の事態は起こり得る（of course shit happens）」と前置きしており、想定外の互換性破壊が発生した場合の保証はない。重要な拠点・キャラのセーブは自前バックアップ推奨。
+
+> 情報源: [Steam Community: New Windrose Information（公式回答転載スレッド）](https://steamcommunity.com/app/3041230/discussions/0/807975542034974459/) / [PC Gamer 報道](https://www.pcgamer.com/games/survival-crafting/windrose-devs-dont-have-any-progress-wipes-planned-for-early-access-but-of-course-s-t-happens/)
 
 ---
 
